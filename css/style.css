@@ -7,7 +7,7 @@
   --spring:cubic-bezier(.34,1.56,.64,1); --ease:cubic-bezier(.2,.8,.2,1);
 }
 *{box-sizing:border-box}
-html{scroll-behavior:smooth}
+html{scroll-behavior:smooth;color-scheme:only light}
 body{margin:0;font-family:Inter,system-ui,sans-serif;color:#fff;background:var(--pink);-webkit-font-smoothing:antialiased;overflow-x:hidden}
 a{color:#fff}
 img{display:block;max-width:100%}

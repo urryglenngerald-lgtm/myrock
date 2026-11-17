@@ -1,5 +1,5 @@
 // myRock service worker: keeps the app shell available offline.
-const CACHE = "myrock-v1";
+const CACHE = "myrock-v2";
 const SHELL = ["./", "index.html", "css/style.css", "js/config.js", "js/app.js", "manifest.webmanifest", "icons/icon-192.png"];
 
 self.addEventListener("install", (e) => {
