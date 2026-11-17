@@ -1,0 +1,9 @@
+[
+  { "id": "sample-1", "title": "Sample event", "category": "Rooftop party", "dayOffset": 0, "time": "21:00", "venue": "Venue", "town": "Town", "image": "images/rooftop.jpg", "link": "#", "featured": true, "price": "From €10" },
+  { "id": "sample-2", "title": "Sample event", "category": "Garden party", "dayOffset": 0, "time": "20:00", "venue": "Venue", "town": "Town", "image": "images/garden.jpg", "link": "#" },
+  { "id": "sample-3", "title": "Sample event", "category": "Open air cinema", "dayOffset": 1, "time": "19:30", "venue": "Venue", "town": "Town", "image": "images/opencinema.jpg", "link": "#" },
+  { "id": "sample-4", "title": "Sample event", "category": "Casino night", "dayOffset": 2, "time": "22:00", "venue": "Venue", "town": "Town", "image": "images/roulette.jpg", "link": "#" },
+  { "id": "sample-5", "title": "Sample event", "category": "Poker night", "dayOffset": 3, "time": "21:00", "venue": "Venue", "town": "Town", "image": "images/poker.jpg", "link": "#" },
+  { "id": "sample-6", "title": "Sample event", "category": "Cinema", "dayOffset": 4, "time": "20:30", "venue": "Venue", "town": "Town", "image": "images/cinema.jpg", "link": "#" },
+  { "id": "sample-7", "title": "Sample event", "category": "Live music", "dayOffset": 5, "time": "21:30", "venue": "Venue", "town": "Town", "image": "images/garden.jpg", "link": "#" }
+]

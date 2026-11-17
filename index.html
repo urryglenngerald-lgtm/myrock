@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>myRock: what's on in Malta and Gozo</title>
+  <meta name="description" content="What's on in Malta and Gozo this week: events, Sunday pharmacies, ferries, buses and island essentials.">
+  <meta name="theme-color" content="#C8036F">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <meta property="og:title" content="myRock: Let's Rock it!">
+  <meta property="og:description" content="What's on in Malta and Gozo this week.">
+  <meta property="og:image" content="icons/icon-512.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="top" class="page">
+
+  <header class="topbar mr-in">
+    <a href="#top" class="brand" aria-label="myRock home">
+      <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="1.6" aria-hidden="true"><polygon points="12,12 7,1.5 12,4.5 17,1.5"/><polygon points="12,12 7,1.5 12,4.5 17,1.5" transform="rotate(90 12 12)"/><polygon points="12,12 7,1.5 12,4.5 17,1.5" transform="rotate(180 12 12)"/><polygon points="12,12 7,1.5 12,4.5 17,1.5" transform="rotate(270 12 12)"/></svg>
+      <span class="brand-name">myRock</span>
+    </a>
+    <p class="slogan neon-text">Let's Rock it!</p>
+  </header>
+
+  <div class="wrap mr-in" style="animation-delay:60ms">
+    <div class="news glass" aria-label="Latest from myRock">
+      <span class="news-label"><span class="dot"></span>NEWS</span>
+      <span class="news-track fade-x"><span class="ticker" id="ticker"></span></span>
+    </div>
+  </div>
+
+  <div id="sampleBanner" class="wrap sample-banner" hidden>Sample preview: these are not real events.</div>
+
+  <!-- DISCOVER VIEW -->
+  <main id="view-discover" class="wrap main">
+
+    <a id="adSlot" class="ad glass press mr-in" style="animation-delay:120ms" href="#">
+      <span class="ad-logo" aria-hidden="true"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"><line x1="12" y1="6" x2="12" y2="18"/><line x1="6" y1="12" x2="18" y2="12"/></svg></span>
+      <span class="ad-text">
+        <span class="kicker-sm">Sponsored</span>
+        <span class="ad-title">Your ad here</span>
+        <span class="ad-sub">Promote your venue, brand or event on myRock</span>
+      </span>
+      <span class="btn-white">Advertise</span>
+    </a>
+
+    <div class="when-row mr-in" style="animation-delay:150ms">
+      <div class="seg glass" role="group" aria-label="When">
+        <span class="seg-ind" id="whenInd" aria-hidden="true"></span>
+        <button type="button" class="seg-btn press" data-when="tonight" aria-pressed="true">Tonight</button>
+        <button type="button" class="seg-btn press" data-when="tomorrow" aria-pressed="false">Tomorrow</button>
+        <button type="button" class="seg-btn press" data-when="weekend" aria-pressed="false">Weekend</button>
+      </div>
+      <label class="cal-btn glass press" aria-label="Pick a date">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><line x1="3" y1="10" x2="21" y2="10"/><line x1="8" y1="3" x2="8" y2="7"/><line x1="16" y1="3" x2="16" y2="7"/></svg>
+        <input type="date" id="datePick" class="sr-only">
+      </label>
+    </div>
+    <p id="whenLabel" class="when-label" aria-live="polite"></p>
+
+    <div id="featured" class="mr-in" style="animation-delay:180ms"></div>
+
+    <section class="section mr-in" style="animation-delay:240ms" aria-labelledby="thisWeekTitle">
+      <div class="sec-head">
+        <div>
+          <span class="kicker">On the rock</span>
+          <h2 id="thisWeekTitle" class="h2 neon-text">This week</h2>
+        </div>
+      </div>
+      <div id="eventRow" class="row-outer"></div>
+    </section>
+
+    <section id="useful" class="section mr-in" style="animation-delay:300ms" aria-labelledby="essTitle">
+      <div class="sec-head">
+        <div>
+          <span class="kicker">Sorted</span>
+          <h2 id="essTitle" class="h2 neon-text">Island essentials</h2>
+        </div>
+        <div class="weather glass-dark" id="weather" role="group" aria-label="Malta weather now">
+          <span id="wIcon" class="w-icon"></span>
+          <span id="wTemp" class="w-temp">--°</span>
+          <span class="w-text">
+            <span id="wDesc" class="w-desc">Loading…</span>
+            <span id="wSub" class="w-sub">Malta</span>
+          </span>
+        </div>
+      </div>
+      <div class="tiles">
+        <a class="tile card press" href="https://www.publictransport.com.mt/tallinja-app/" target="_blank" rel="noopener noreferrer" aria-label="Transport: Tallinja buses">
+          <img src="images/bus.jpg" alt="" style="object-position:55% 60%" loading="lazy"><span class="pill">Transport</span></a>
+        <a class="tile card press" href="https://www.gozochannel.com" target="_blank" rel="noopener noreferrer" aria-label="Ferries between Malta and Gozo">
+          <img src="images/ferry.jpg" alt="" loading="lazy"><span class="pill">Ferries</span></a>
+        <a class="tile card press" href="https://medicinesauthority.gov.mt/pharmacyroster" target="_blank" rel="noopener noreferrer" aria-label="Pharmacies open on Sundays and holidays">
+          <img src="images/pharm.jpg" alt="" loading="lazy"><span class="pill">Pharmacies</span></a>
+        <a class="tile card press" href="#knock" id="knockTile" aria-label="Local food on Knock">
+          <img src="images/knock2.jpg" alt="" loading="lazy"><span class="pill">Food</span></a>
+        <div class="socials" id="socials">
+          <span class="h2 neon-text socials-title">Our Socials</span>
+          <div class="socials-row" id="socialLinks"></div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span class="foot-domain">myrockmalta.com</span>
+      <span>Gerald's Media House</span>
+      <span class="foot-small">Listings are for information. Always check details with the organiser.<br>Weather data by <a href="https://open-meteo.com/" target="_blank" rel="noopener noreferrer">Open-Meteo</a> (CC BY 4.0).</span>
+    </footer>
+  </main>
+
+  <!-- SAVED VIEW -->
+  <main id="view-saved" class="wrap main" hidden>
+    <section class="section">
+      <div class="sec-head"><div><span class="kicker">Your picks</span><h2 class="h2 neon-text">Saved</h2></div></div>
+      <div id="savedList" class="saved-list"></div>
+    </section>
+  </main>
+
+  <nav class="tabbar glass" aria-label="Main">
+    <span class="tab-ind" id="tabInd" aria-hidden="true"></span>
+    <button type="button" class="tab press" data-tab="discover" aria-current="page">
+      <span class="tab-ico"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><polygon points="15.5 8.5 13.5 13.5 8.5 15.5 10.5 10.5"/></svg></span>Discover</button>
+    <button type="button" class="tab press" data-tab="saved">
+      <span class="tab-ico"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"/></svg></span>Saved</button>
+    <button type="button" class="tab press" data-tab="useful">
+      <span class="tab-ico"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg></span>Useful</button>
+  </nav>
+</div>
+
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+<script src="js/config.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
