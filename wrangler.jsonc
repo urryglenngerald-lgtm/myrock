@@ -2,6 +2,8 @@
   // Cloudflare settings: serve this folder as a static website.
   "name": "myrock",
   "compatibility_date": "2026-11-01",
+  "workers_dev": true,
+  "preview_urls": true,
   "assets": {
     "directory": "./",
     "not_found_handling": "single-page-application"
