@@ -222,3 +222,8 @@ button{font:inherit}
 .seg-btn[aria-pressed="true"],.tab[aria-current="page"]{color:#fff}
 .news-label .dot{background:#FF7AF6;box-shadow:0 0 8px #FF3CF0}
 .save-btn[aria-pressed="true"]{color:#FF7AF6}
+
+/* News ticker: yellow headlines, purple dots */
+.ticker{color:var(--yellow);text-shadow:0 0 8px rgba(255,228,92,.45),0 1px 2px rgba(40,4,60,.55)}
+.ticker a{color:var(--yellow)}
+.ticker .sep{color:#3A0761;text-shadow:0 0 6px rgba(176,38,255,.8);font-size:14px}
