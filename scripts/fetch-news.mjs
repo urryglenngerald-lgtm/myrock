@@ -11,7 +11,11 @@ const PER_SOURCE = 4;
 const OUT = "data/news.json";
 
 // Keep it light: no politics, no war, no crime, no deaths.
-const BLOCK = /\b(trump|biden|harris|vance|obama|election|elect|congress|senate|senator|republican|democrat|gop|white house|president|politic\w*|vote|voting|campaign|government|minister|israel|gaza|palestin\w*|ukraine|russia|putin|war|military|ice raid|immigra\w*|deport\w*|shooting|shot|killed|kill|murder|dies|died|dead|death|obituary|rip|funeral|suicide|abuse|assault|rape|sexual|arrest\w*|charged|trial|lawsuit|sued|sues|court|prison|jail|overdose|cancer)\b/i;
+const BLOCK = /\b(trump|biden|harris|vance|obama|election|elect|congress|senate|senator|republican|democrat|gop|white house|president|politic\w*|vote|voting|campaign|government|minister|israel|gaza|palestin\w*|ukraine|russia|putin|war|military|ice raid|immigra\w*|deport\w*|shooting|shot|killed|kill|murder|dies|died|dead|death|obituary|rip|funeral|suicide|abuse|assault|rape|sex\w*|middle east|peace|arrest\w*|charged|trial|lawsuit|sued|sues|court|prison|jail|overdose|cancer)\b/i;
+
+// Skip industry and business stories too: Gen Z wants stars, songs and shows, not studio mergers.
+const DULL = /\b(ceo|executive|exec|merger|acquire\w*|acquisition|layoffs?|stock|shares|earnings|revenue|deal|studios?|streaming royalt\w*|guest column|ratings|upfronts?)\b/i;
+const DULL_LINK = /\/(pro|business|biz)\//i;
 
 const decode = (s) => s
   .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1")
@@ -51,7 +55,7 @@ async function main() {
   const weekAgo = Date.now() - 7 * 864e5;
   const lists = await Promise.all(SOURCES.map(async (src) => {
     const items = (await fetchSource(src))
-      .filter((i) => !BLOCK.test(i.title) && (!i.date || i.date > weekAgo) && i.title.length <= 140)
+      .filter((i) => !BLOCK.test(i.title) && !DULL.test(i.title) && !DULL_LINK.test(i.link) && (!i.date || i.date > weekAgo) && i.title.length <= 110)
       .slice(0, PER_SOURCE);
     console.log(`${src.name}: ${items.length} headlines kept`);
     return items.map((i) => ({ text: `${i.title} (${src.name})`, link: i.link, source: src.name }));
