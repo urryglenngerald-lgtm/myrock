@@ -213,3 +213,14 @@ button{font:inherit}
 @keyframes ldDot{0%,60%,100%{opacity:.15}30%{opacity:1}}
 @keyframes ldShine{from{background-position:200% 0}to{background-position:-200% 0}}
 @keyframes ldBreath{0%,100%{opacity:.7;transform:translate(-50%,-50%) scale(.95)}50%{opacity:1;transform:translate(-50%,-50%) scale(1.05)}}
+
+/* ===== Deep purple metallic pills (replaces the white ones) ===== */
+:root{
+  --metal:linear-gradient(160deg,#6A2196 0%,#3B0A5C 28%,#1E0333 52%,#4E1475 74%,#250440 100%);
+  --metal-edge:inset 0 1px 0 rgba(255,255,255,.45),inset 0 -1px 0 rgba(0,0,0,.45),0 0 0 1px rgba(255,122,246,.55),0 0 16px rgba(255,60,240,.55);
+}
+.btn-white,.news-label,.seg-ind,.cal-btn.active,.day,.save-btn[aria-pressed="true"],.tab-ind,.toast{
+  background:var(--metal);color:#fff;box-shadow:var(--metal-edge)}
+.seg-btn[aria-pressed="true"],.tab[aria-current="page"]{color:#fff}
+.news-label .dot{background:#FF7AF6;box-shadow:0 0 8px #FF3CF0}
+.save-btn[aria-pressed="true"]{color:#FF7AF6}
