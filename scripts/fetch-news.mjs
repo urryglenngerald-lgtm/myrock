@@ -4,8 +4,8 @@ import { readFile, writeFile } from "node:fs/promises";
 
 const SOURCES = [
   { name: "Billboard", urls: ["https://www.billboard.com/feed/"] },
-  { name: "Variety", urls: ["https://variety.com/c/film/feed/", "https://variety.com/feed/"] },
-  { name: "Rolling Stone", urls: ["https://www.rollingstone.com/music/feed/", "https://www.rollingstone.com/feed/"] }
+  { name: "E! News", urls: ["https://www.eonline.com/syndication/feeds/rssfeeds/topstories.xml", "https://www.eonline.com/news.rss"] },
+  { name: "Teen Vogue", urls: ["https://www.teenvogue.com/feed/culture/rss", "https://www.teenvogue.com/feed/rss"] }
 ];
 const PER_SOURCE = 4;
 const OUT = "data/news.json";
