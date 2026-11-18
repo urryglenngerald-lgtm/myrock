@@ -14,7 +14,7 @@ const OUT = "data/news.json";
 const BLOCK = /\b(trump|biden|harris|vance|obama|election|elect|congress|senate|senator|republican|democrat|gop|white house|president|politic\w*|vote|voting|campaign|government|minister|israel|gaza|palestin\w*|ukraine|russia|putin|war|military|ice raid|immigra\w*|deport\w*|shooting|shot|killed|kill|murder|dies|died|dead|death|obituary|rip|funeral|suicide|abuse|assault|rape|sex\w*|middle east|peace|arrest\w*|charged|trial|lawsuit|sued|sues|court|prison|jail|overdose|cancer)\b/i;
 
 // Skip industry and business stories too: Gen Z wants stars, songs and shows, not studio mergers.
-const DULL = /\b(ceo|executive|exec|merger|acquire\w*|acquisition|layoffs?|stock|shares|earnings|revenue|deal|studios?|streaming royalt\w*|guest column|ratings|upfronts?)\b/i;
+const DULL = /\b(ceo|executive|exec|merger|acquire\w*|acquisition|layoffs?|stock|shares|earnings|revenue|deal|studios?|streaming royalt\w*|guest column|ratings|upfronts?|shareholders?|invest\w*|incentives?|tax\w*|polic\w*|tariffs?)\b/i;
 const DULL_LINK = /\/(pro|business|biz)\//i;
 
 const decode = (s) => s
