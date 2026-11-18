@@ -254,6 +254,9 @@
       return '<span class="item">' + inner + '</span><span class="sep" aria-hidden="true">●</span>';
     }).join("");
     $("ticker").innerHTML = '<span style="display:flex;align-items:center">' + one + '</span><span style="display:flex;align-items:center" aria-hidden="true">' + one + "</span>";
+    // Same reading speed however many headlines there are.
+    var chars = items.reduce(function (n, i) { return n + String(i.text || "").length; }, 0);
+    $("ticker").style.animationDuration = Math.max(30, Math.round(chars * 0.16)) + "s";
   }
 
   /* ---------- weather ---------- */

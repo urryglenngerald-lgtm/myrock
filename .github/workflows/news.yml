@@ -1,0 +1,27 @@
+name: Update news ticker
+on:
+  schedule:
+    - cron: "0 5,17 * * *"   # about 6am and 6pm Malta time
+  workflow_dispatch: {}       # lets you run it by hand from the Actions tab
+permissions:
+  contents: write
+jobs:
+  news:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node scripts/fetch-news.mjs
+      - name: Save new headlines
+        run: |
+          if [ -n "$(git status --porcelain data/news.json)" ]; then
+            git config user.name "myRock news bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add data/news.json
+            git commit -m "News ticker: fresh showbiz headlines"
+            git push
+          else
+            echo "Nothing new"
+          fi
