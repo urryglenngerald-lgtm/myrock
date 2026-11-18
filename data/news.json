@@ -1,5 +1,62 @@
 [
-  { "text": "Welcome to myRock: what's on in Malta and Gozo" },
-  { "text": "Sunday pharmacies, buses and ferries, all in one place" },
-  { "text": "Promoters and venues: get your event featured" }
+  {
+    "text": "Your Favorite Coffee Shop Is Probably Streaming Music Illegally. It’s the Music Industry’s Fault, Too (Guest Column) (Billboard)",
+    "link": "https://www.billboard.com/pro/us-businesses-stream-music-illegally-industry-fix/",
+    "source": "Billboard"
+  },
+  {
+    "text": "Gordon Ramsay Turns Up the Heat: Why He’s ‘Allergic’ to Air Fryers, Hates the Word ‘Famous’ and Thinks Paris Is the Most Overrated Food City (Variety)",
+    "link": "https://variety.com/2026/tv/news/gordon-ramsay-interview-air-fryers-paris-1236952081/",
+    "source": "Variety"
+  },
+  {
+    "text": "Bruce Dickinson Already Has a New Solo Album and Tour Dates on Deck for Iron Maiden’s Break (Rolling Stone)",
+    "link": "https://www.rollingstone.com/music/music-news/bruce-dickinson-psychogod-speaking-in-tongues-1235660358/",
+    "source": "Rolling Stone"
+  },
+  {
+    "text": "Grimes & Elon Musk Feud Over AI ‘Sex Slave,’ Singer Urges Ex to ‘Step Up’ and Be ‘the King He Used to Be’ (Billboard)",
+    "link": "https://www.billboard.com/music/music-news/elon-musk-grimes-feud-ai-sex-slave-he-should-be-king-1236384843/",
+    "source": "Billboard"
+  },
+  {
+    "text": "Skydance to Fold Paramount TV Studios Into Warner Bros. TV Under Channing Dungey and Matt Thunell (Variety)",
+    "link": "https://variety.com/2026/tv/news/skydance-paramount-tv-studios-warner-bros-channing-dungey-1236952011/",
+    "source": "Variety"
+  },
+  {
+    "text": "Mike Mills Spills R.E.M. Secrets, Sort of: Shirtless Recording and Much More (Rolling Stone)",
+    "link": "https://www.rollingstone.com/music/music-features/rem-interview-mike-mills-reveal-reunion-1235659871/",
+    "source": "Rolling Stone"
+  },
+  {
+    "text": "‘I Love Rock ‘n Roll’ Turns 45: An Oral History From Joan Jett, Kenny Laguna & More (Billboard)",
+    "link": "https://www.billboard.com/music/rock/i-love-rock-n-roll-joan-jett-song-history-1236384876/",
+    "source": "Billboard"
+  },
+  {
+    "text": "Macklemore Drops ‘Where Is Our Love’ Song and Video, a Plea for Peace in the Middle East and Other Troubled Areas, Including the U.S. (Variety)",
+    "link": "https://variety.com/2026/music/news/macklemore-where-is-our-love-peace-1236952107/",
+    "source": "Variety"
+  },
+  {
+    "text": "Bruce Springsteen’s Historic 1988 East Berlin Concert Chronicled in New Documentary (Rolling Stone)",
+    "link": "https://www.rollingstone.com/music/music-news/bruce-springsteen-east-berlin-concert-documentary-1235660332/",
+    "source": "Rolling Stone"
+  },
+  {
+    "text": "Offset Says He Has ‘No Hard Feelings’ for Stefon Diggs After Athlete’s Cardi B Romance (Billboard)",
+    "link": "https://www.billboard.com/music/rb-hip-hop/offset-cardi-b-stefon-diggs-no-hard-feelings-1236384858/",
+    "source": "Billboard"
+  },
+  {
+    "text": "A U.S. Film Incentive Would Help These Three States Most of All (Variety)",
+    "link": "https://variety.com/2026/film/news/u-s-film-incentive-new-york-new-jersey-georgia-1236950957/",
+    "source": "Variety"
+  },
+  {
+    "text": "Watch Jesse Welles Cover Black Sabbath for ‘Austin City Limits’ (Rolling Stone)",
+    "link": "https://www.rollingstone.com/music/music-news/jesse-welles-austin-city-limits-masks-off-sabbath-war-pigs-1235660306/",
+    "source": "Rolling Stone"
+  }
 ]
