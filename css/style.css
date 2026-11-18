@@ -228,3 +228,10 @@ button{font:inherit}
 .ticker a{color:var(--yellow)}
 .ticker .sep{color:#3A0761;text-shadow:0 0 6px rgba(176,38,255,.8);font-size:14px}
 .news-label .dot{background:#B026FF;box-shadow:0 0 6px #B026FF,0 0 12px rgba(176,38,255,.8)}
+
+/* News bar: frosted, semi-transparent glass */
+.news.glass{
+  background:linear-gradient(180deg,rgba(255,255,255,.26) 0%,rgba(255,255,255,.12) 55%,rgba(255,255,255,.18) 100%);
+  -webkit-backdrop-filter:blur(26px) saturate(160%);backdrop-filter:blur(26px) saturate(160%);
+  border:1px solid rgba(255,255,255,.42);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.55),inset 0 -1px 0 rgba(255,255,255,.12),0 10px 28px rgba(40,0,50,.28)}
