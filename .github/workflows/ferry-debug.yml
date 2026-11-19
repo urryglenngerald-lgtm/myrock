@@ -7,21 +7,14 @@ jobs:
     steps:
       - run: |
           UA="Mozilla/5.0 (Linux; Android 14) myRock"
-          curl -sSL -m 25 -A "$UA" -o m.js "https://www.gozochannel.com/wp-content/themes/gozochannel/dist/scripts/main_0d42ae1f.js"
+          for d in 2026/11/19 2026/11/22 2026/12/25; do echo "GCJSON $d"; curl -sSL -m 25 -A "$UA" "https://static.gozochannel.com/schedules/$d/passenger.json" | head -c 2500; echo; done
           curl -sSL -m 25 -A "$UA" -o b.js "https://gozohighspeed.com/assets/index-DwzXZidQ.js"
           python3 - <<'PY'
           import re
-          t=open('m.js',encoding='utf-8',errors='ignore').read()
-          for m in re.finditer(r'getScheduleJsonUrl\s*[=(:]', t):
-              print('GC FN >>', t[m.start()-100:m.start()+900].replace('\n',' ')); print()
           b=open('b.js',encoding='utf-8',errors='ignore').read()
-          i=b.find('cte=[{d:"05:45"')
-          j=b.find('}]', b.find('sn2=') if False else i)
-          chunk=b[i-200:i+9000]
-          print('HS ARRAYS >>', chunk)
-          for name in ['cte','ste','ote']:
-              for m in re.finditer(r'[^A-Za-z0-9_$]'+name+r'[^A-Za-z0-9_$=]', b):
-                  if abs(m.start()-i)>9000:
-                      print('USE',name,'>>', b[m.start()-500:m.start()+300]); print()
-                      break
+          for m in re.finditer(r'vi,\{title:"([^"]*)",columns:(\[.*?\]),accessibleDescription:"([^"]*)"', b):
+              print('VI >>', m.group(1),'|', m.group(2),'|', m.group(3))
+          names=re.findall(r'[,;\s](\w{2,4})=\[\{d:"', b)
+          print('ARRAYS', names)
+          i=b.find('id:"schedule-note-1"'); print('NOTES >>', b[i-60:i+900])
           PY
