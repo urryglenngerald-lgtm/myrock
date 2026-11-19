@@ -1,0 +1,16 @@
+name: Fetch pharmacy roster files (debug)
+on:
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          mkdir out && cd out
+          for f in 8351 8431; do curl -sSL -A "Mozilla/5.0 myRock" -o file-$f.pdf "https://medicinesauthority.gov.mt/file.aspx?f=$f"; done
+          git init -q -b roster-raw
+          git config user.name "myRock bot"; git config user.email "actions@users.noreply.github.com"
+          git add -A && git commit -qm "Raw roster files"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" roster-raw
