@@ -15,7 +15,7 @@ TOWNS = ["Swatar", "Fleur De Lys", "St Paul's Bay", "Ta' Xbiex", "San Gwann", "S
          "Birżebbuġa", "Ghaxaq", "Marsaxlokk", "Zurrieq", "Mqabba", "Kirkop", "Qrendi", "Gudja", "Safi", "Msida",
          "Rabat", "Mtarfa", "Siġġiewi", "Dingli", "Baħrjia", "Marsalforn", "Kercem", "Gharb", "Għajnsielem",
          "Xagħra", "Nadur", "Sannat", "Qala", "Xewkija"]
-NICE = {"Hamrun": "Ħamrun", "Zebbug": "Żebbuġ", "Gzira": "Gżira", "San Gwann": "San Ġwann", "St Julian": "St Julian's",
+NICE = {"Fontana": "Fontana (Gozo)", "Fontanta": "Fontana (Gozo)", "Hamrun": "Ħamrun", "Zebbug": "Żebbuġ", "Gzira": "Gżira", "San Gwann": "San Ġwann", "St Julian": "St Julian's",
         "Gharghur": "Għargħur", "Mgarr": "Mġarr", "Mellieha": "Mellieħa", "St Lucija": "Santa Luċija",
         "Zabbar": "Żabbar", "Xaghjra": "Xgħajra", "Zejtun": "Żejtun", "Ghaxaq": "Għaxaq", "Zurrieq": "Żurrieq",
         "Pieta'": "Pietà", "Baħrjia": "Baħrija", "Kercem": "Kerċem (Gozo)", "Gharb": "Għarb (Gozo)",
@@ -64,29 +64,35 @@ def parse_areas(path):
     return areas
 
 
+def header_date(h, year):
+    """Header cells are rotated text; pdfplumber returns them garbled or reversed. Keep the digits."""
+    digits = re.sub(r"[^0-9]", "", h or "")
+    for seq in (digits, digits[::-1]):
+        for k in range(0, max(0, len(seq) - 7)):  # a page number can sneak into the cell
+            c = seq[k:k + 8]
+            if c[4:] == str(year) and 1 <= int(c[2:4]) <= 12 and 1 <= int(c[:2]) <= 31:
+                return f"{c[4:]}-{c[2:4]}-{c[:2]}"
+    return None
+
+
 def parse_roster(path, year):
     dates_by_area = {}
     with pdfplumber.open(path) as pdf:
         for page in pdf.pages:
             for table in page.extract_tables():
-                header = table[0]
-                rows = table[1:]
-                offset = 2 if (rows[0][0] or "").startswith("Area") else 0
-                dates = []
-                for h in header[offset:]:
-                    s = (h or "").replace("\n", "")
-                    d = re.search(r"(\d\d)/(\d\d)/(\d{4})", s)
-                    if not d:
-                        r = re.search(r"\d{4}/\d\d/\d\d", s)  # rotated header text comes out reversed
-                        d = r and re.fullmatch(r"(\d\d)/(\d\d)/(\d{4})", r.group(0)[::-1])
-                    if not d:
-                        raise ValueError(f"Bad date header {h!r}")
-                    dates.append(f"{d.group(3)}-{d.group(2)}-{d.group(1)}")
-                for i, row in enumerate(rows, start=1):
-                    for date, cell in zip(dates, row[offset:]):
-                        cell = (cell or "").strip()
-                        if cell:
+                header, rows = table[0], table[1:]
+                if len(rows) != 19:
+                    raise ValueError(f"Expected 19 area rows, got {len(rows)}")
+                for col, h in enumerate(header):
+                    date = header_date(h, year)
+                    if not date:
+                        continue  # 'Area' / 'Localities' columns
+                    for i, row in enumerate(rows, start=1):
+                        cell = (row[col] or "").strip() if col < len(row) else ""
+                        if cell.isdigit():
                             dates_by_area.setdefault(date, {})[i] = int(cell)
+                        else:
+                            print(f"  check: {date} area {i}: unreadable cell {cell!r}, left out")
     return dates_by_area
 
 

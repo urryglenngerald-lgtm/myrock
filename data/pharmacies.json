@@ -7618,6 +7618,7735 @@
      "town": "Nadur (Gozo)"
     }
    ]
+  },
+  {
+   "date": "2027-01-01",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Floriana Dispensary",
+     "town": "Floriana"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Vivien Pharmacy",
+     "town": "Marsa"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Brown's Pinto Pharmacy",
+     "town": "Qormi"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Pharmaplus Pharmacy",
+     "town": "Birkirkara"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "D'Argens Pharmacy",
+     "town": "Gżira"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Brown's Pharmacy",
+     "town": "St Julian's"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "The Economical Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "St Michael Pharmacy",
+     "town": "Lija"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Brown's Grognet Pharmacy",
+     "town": "Mosta"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "St Mary Pharmacy",
+     "town": "Mġarr"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Maddalena Pharmacy",
+     "town": "Santa Luċija"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Pillhouse Pharmacy",
+     "town": "Fgura"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "Polymer St Peter Pharmacy",
+     "town": "Żabbar"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Blossoms Pharmacy",
+     "town": "Birżebbuġa"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Milia's Pharmacy",
+     "town": "Żurrieq"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "St Anthony Pharmacy",
+     "town": "Pietà"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Coora Nigret Pharmacy",
+     "town": "Rabat"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Palm Pharmacy",
+     "town": "Victoria (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Gozo Chemist",
+     "town": "Xewkija (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-01-03",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Honest Pharmacy",
+     "town": "Valletta"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "St. Gaetan Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Santa Marija Pharmacy",
+     "town": "Żebbuġ"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Brown's St.Anne Pharmacy",
+     "town": "Birkirkara"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "Spizerija Kappara",
+     "town": "San Ġwann"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Pembroke Health Hub Pharmacy",
+     "town": "Pembroke"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Mrabat Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Reeds",
+     "town": "Naxxar"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Rotunda Pharmacy",
+     "town": "Mosta"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "El Medina Pharmacy",
+     "town": "St Paul's Bay"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "St Monica Pharmacy",
+     "town": "Paola"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Milia's Pharmacy",
+     "town": "Birgu"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "Milia's Pharmacy",
+     "town": "Marsaskala"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Beta Pharmacy",
+     "town": "Għaxaq"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Remedies Pharmacy",
+     "town": "Mqabba"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Lantern Pharmacy",
+     "town": "Santa Venera"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Menelo Pharmacy",
+     "town": "Siġġiewi"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Tac-Cawla Pharmacy",
+     "town": "Victoria (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Qala Pharmacy",
+     "town": "Qala (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-01-10",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Regent Pharmacy",
+     "town": "Valletta"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "The Cross Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "St George's Pharmacy",
+     "town": "Qormi"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Mackies Pharmacy",
+     "town": "Birkirkara"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "Remedies Pharmacy",
+     "town": "Ta' Xbiex"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Balluta Pharmacy",
+     "town": "St Julian's"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Chemimart Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Honest Pharmacy",
+     "town": "Għargħur"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Brown's St. Mary Pharmacy",
+     "town": "Attard"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "Brown's Village",
+     "town": "Mellieħa"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Theresa Jo Pharmacy",
+     "town": "Tarxien"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Honest Pharmacy",
+     "town": "Smart City"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "Anici Pharmacy",
+     "town": "Marsaskala"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Green Cross Pharmacy",
+     "town": "Żejtun"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Kristianne Pharmacy",
+     "town": "Żurrieq"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Remedies Pharmacy",
+     "town": "Msida"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Spizerija Carmen",
+     "town": "Dingli"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Sokkors Pharmacy",
+     "town": "Kerċem (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Ghajnsielem Pharmacy",
+     "town": "Għajnsielem (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-01-17",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Vilhena Pharmacy",
+     "town": "Floriana"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Chemimart International Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Tal Grazzja Pharmacy",
+     "town": "Żebbuġ"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "St Bartolomew Pharmacy",
+     "town": "Fleur-de-Lys"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "Brown's Medical Plaza Pharmacy",
+     "town": "San Ġwann"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Brown's Pharmacy, Swieqi",
+     "town": "Swieqi"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Brown's Pharmacy Tigne",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Brown's Naxxar Centre Pharmacy",
+     "town": "Naxxar"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Medica Pharmacy",
+     "town": "Balzan"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "Qawra Pharmacy",
+     "town": "St Paul's Bay"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Brown's Paola Square Pharmacy",
+     "town": "Paola"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Whites Pharmacy",
+     "town": "Smart City"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "Felice Dispensary",
+     "town": "Żabbar"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Honest Pharmacy",
+     "town": "Birżebbuġa"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Kirkop Pharmacy",
+     "town": "Kirkop"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Collis Williams Pharmacy",
+     "town": "Santa Venera"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Nova Pharmacy",
+     "town": "Rabat"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Batu Pharmacy",
+     "town": "Victoria (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Joyce Pharmacy",
+     "town": "Xagħra (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-01-24",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "New British Pharmacy",
+     "town": "Valletta"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Brown's Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Honest Pharmacy",
+     "town": "Qormi"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Rational Pharmacy",
+     "town": "Birkirkara"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "O'hea Pharmacy",
+     "town": "Gżira"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Melita Pharmacy",
+     "town": "St Julian's"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Drugstore Pharmacy, Springs",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Brown's Pharmacy",
+     "town": "Iklin"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Santa Margherita Pharmacy",
+     "town": "Mosta"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "Promenade Pharmacy",
+     "town": "St Paul's Bay"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Sonren by Milia's Pharmacy",
+     "town": "Tarxien"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Fgura Pharmacy",
+     "town": "Fgura"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "St Anne Pharmacy",
+     "town": "Marsaskala"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Pompei Pharmacy",
+     "town": "Marsaxlokk"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Qrendi Pharmacy",
+     "town": "Qrendi"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Brown's Pharmacy",
+     "town": "Pietà"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Mtarfa Pharmacy",
+     "town": "Mtarfa"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Azzopardi Pharmacy",
+     "town": "Victoria (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Nadur Pharmacy",
+     "town": "Nadur (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-01-31",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Collis Williams Pharmacy",
+     "town": "Valletta"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Fra Diego Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Tal Hlas Pharmacy",
+     "town": "Qormi"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "The Local Dispensary",
+     "town": "Birkirkara"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "Lourdes Pharmacy",
+     "town": "San Ġwann"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Coora San Giorgio Pharmacy",
+     "town": "Pembroke"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Norman's Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Pillbox Pharmacy",
+     "town": "Naxxar"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Sghajtar Pharmacy",
+     "town": "Mosta"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "Mgarr Pharmacy",
+     "town": "Mġarr"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Central Pharmacy",
+     "town": "Luqa"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Milia's Pharmacy",
+     "town": "Isla"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "Delta Pharmacy",
+     "town": "Żabbar"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Health Junction Pharmacy",
+     "town": "Żejtun"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Bronja Pharmacy",
+     "town": "Żurrieq"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Fatima Pharmacy",
+     "town": "Santa Venera"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Central Pharmacy",
+     "town": "Rabat"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Ta' Pinu Pharmacy",
+     "town": "Għarb (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Pisani Pharmacy",
+     "town": "Sannat (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-02-07",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Chemimart Pharmacy",
+     "town": "Floriana"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Trinity Pharmacy",
+     "town": "Marsa"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Brown's San Bastjan Pharmacy",
+     "town": "Qormi"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Honest Pharmacy",
+     "town": "Birkirkara"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "St Matthew Pharmacy",
+     "town": "Gżira"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Pennylane Pharmacy",
+     "town": "Swieqi"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Brown's Victor's Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "St Joseph Pharmacy",
+     "town": "Lija"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "M4 Pharmacy",
+     "town": "Attard"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "St. Simon Pharmacy",
+     "town": "St Paul's Bay"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Smiths Paola Hub",
+     "town": "Paola"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Hompesch Pharmacy",
+     "town": "Fgura"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "St Elias Pharmacy",
+     "town": "Xgħajra"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Health Point Pharmacy",
+     "town": "Birżebbuġa"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Safi Pharmacy",
+     "town": "Safi"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Brown's Pharmacy",
+     "town": "Msida"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Remedies Pharmacy",
+     "town": "Siġġiewi"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Fontana Pharmacy",
+     "town": "Fontana (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "St Joseph Pharmacy",
+     "town": "Qala (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-02-10",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Chemimart Citygate Pharmacy",
+     "town": "Valletta"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "San Raffael Pharmacy",
+     "town": "Marsa"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Whites Pharmacy - Ħal Mula",
+     "town": "Żebbuġ"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Coora Pharmacy",
+     "town": "Fleur-de-Lys"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "San Gwann Pharmacy",
+     "town": "San Ġwann"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "St Julian's Pharmacy",
+     "town": "St Julian's"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Edwards Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Brown's Chemists",
+     "town": "Naxxar"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Smith's PAMA Pharmacy",
+     "town": "Mosta"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "Remedies Pharmacy",
+     "town": "Mellieħa"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Santa Lucija Pharmacy",
+     "town": "Santa Luċija"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "White Cross Pharmacy",
+     "town": "Bormla"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "Mediatrix Plus Pharmacy",
+     "town": "Żabbar"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "St Philip Pharmacy",
+     "town": "Għaxaq"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Medicaid Pharmacy",
+     "town": "Gudja"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "St Luke's Pharmacy",
+     "town": "Pietà"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "White's Pharmacy",
+     "town": "Mtarfa"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Highland Pharmacy",
+     "town": "Żebbuġ"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "St John's Pharmacy",
+     "town": "Xewkija (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-02-14",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Empire Pharmacy",
+     "town": "Valletta"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Darwin Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Brown's Pharmacy",
+     "town": "Qormi"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Remedies Pharmacy",
+     "town": "Birkirkara"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "Tony's Pharmacy",
+     "town": "Gżira"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Krypton Pharmacy",
+     "town": "Swieqi"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Harley Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Smith's St Albert Pharmacy",
+     "town": "Għargħur"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "St. Catherine Pharmacy",
+     "town": "Attard"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "Brown's Pharmacy",
+     "town": "St Paul's Bay"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Distinction Pharmacy",
+     "town": "Paola"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "MC Pharmacy",
+     "town": "Fgura"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "St Gwakkin Pharmacy",
+     "town": "Marsaskala"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "St Catherine Pharmacy",
+     "town": "Żejtun"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Salus Pharmacy",
+     "town": "Żurrieq"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Regal Pharmacy",
+     "town": "Msida"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Santa Marija Pharmacy",
+     "town": "Dingli"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Emeral Pharmacy",
+     "town": "Fontana (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Lauretana Pharmacy",
+     "town": "Għajnsielem (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-02-21",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "St Publius Pharmacy",
+     "town": "Floriana"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Thomas Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Brown's Pharmacy",
+     "town": "Żebbuġ"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Herba Pharmacy",
+     "town": "Birkirkara"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "Brown's Pharmacy (Mensija)",
+     "town": "San Ġwann"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Potter Chemist",
+     "town": "St Julian's"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Wales Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Whites Pharmacy",
+     "town": "Naxxar"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Brown's St. Louis Pharmacy",
+     "town": "Mosta"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "Brown's Pharmacy",
+     "town": "Mellieħa"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Tarxien Pharmacy",
+     "town": "Tarxien"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Vittoriosa Pharmacy",
+     "town": "Birgu"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "Polymer Żabbar Pharmacy",
+     "town": "Żabbar"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Martin's Pharmacy",
+     "town": "Birżebbuġa"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Kristianne Pharmacy",
+     "town": "Mqabba"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Charing Pharmacy",
+     "town": "Pietà"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Ideal Pharmacy",
+     "town": "Rabat"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Abela's Pharmacy",
+     "town": "Victoria (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Xagħra Pharmacy",
+     "town": "Xagħra (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-02-28",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Chemimart Republic Street Pharmacy",
+     "town": "Valletta"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Remedies Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Drugshop Pharmacy",
+     "town": "Qormi"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Brown's Quad Pharmacy",
+     "town": "Mrieħel"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "William's Pharmacy",
+     "town": "Swatar"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "JV's Pharmacy",
+     "town": "Swieqi"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Remedies Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Il-Mehriez Pharmacy",
+     "town": "Iklin"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "St. Mary Pharmacy",
+     "town": "Mosta"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "Frontline Pharmacy",
+     "town": "Burmarrad"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Brown's Pharmacy",
+     "town": "Paola"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Brown's Pharmacy",
+     "town": "Kalkara"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "Medicor Pharmacy",
+     "town": "Xgħajra"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Fisherman's Cove Pharmacy",
+     "town": "Marsaxlokk"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Prestige Pharmacy",
+     "town": "Kirkop"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Regional Pharmacy",
+     "town": "Msida"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "The Bypass Pharmacy",
+     "town": "Siġġiewi"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Castle Pharmacy",
+     "town": "Victoria (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Vella Pharmacy",
+     "town": "Nadur (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-03-07",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Empire branch Pharmacy",
+     "town": "Valletta"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Vivien Pharmacy",
+     "town": "Marsa"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "De Rohan Pharmacy",
+     "town": "Żebbuġ"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Brown's Pharmacy",
+     "town": "Fleur-de-Lys"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "D'Argens Pharmacy",
+     "town": "Gżira"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Brown's Pharmacy",
+     "town": "St Julian's"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Honest Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "St Michael Pharmacy",
+     "town": "Lija"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Tat-Tarġa Pharmacy",
+     "town": "Mosta"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "Parkes Pharmacy",
+     "town": "St Paul's Bay"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "St Andrew's Pharmacy",
+     "town": "Luqa"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Alpha Pharmacy",
+     "town": "Fgura"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "St James Pharmacy",
+     "town": "Żabbar"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Our Lady of Mercy Pharmacy",
+     "town": "Żejtun"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Chrysanthemum Pharmacy",
+     "town": "Qrendi"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "St Anthony Pharmacy",
+     "town": "Pietà"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "St Anthony Pharmacy",
+     "town": "Rabat"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Tony's Pharmacy",
+     "town": "Marsalforn (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Gozo Chemist",
+     "town": "Xewkija (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-03-14",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Floriana Dispensary",
+     "town": "Floriana"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "St. Gaetan Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Evans Pharmacy",
+     "town": "Qormi"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Pharmaplus Pharmacy",
+     "town": "Birkirkara"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "Spizerija Kappara",
+     "town": "San Ġwann"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Pembroke Health Hub Pharmacy",
+     "town": "Pembroke"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "The Economical Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Reeds",
+     "town": "Naxxar"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Brown's Grognet Pharmacy",
+     "town": "Mosta"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "St Paul's Bay Pharmacy",
+     "town": "St Paul's Bay"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Fleming Pharmacy",
+     "town": "Paola"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Victory Pharmacy",
+     "town": "Isla"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "Bellavista Pharmacy",
+     "town": "Marsaskala"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Gerada Pharmacy",
+     "town": "Żejtun"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Gudja Pharmacy",
+     "town": "Gudja"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Lantern Pharmacy",
+     "town": "Santa Venera"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Baħrjia Pharmacy",
+     "town": "Baħrija"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Palm Pharmacy",
+     "town": "Victoria (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Qala Pharmacy",
+     "town": "Qala (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-03-19",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Honest Pharmacy",
+     "town": "Valletta"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "The Cross Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Plaza Pharmacy",
+     "town": "Żebbuġ"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Brown's St.Anne Pharmacy",
+     "town": "Birkirkara"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "Remedies Pharmacy",
+     "town": "Ta' Xbiex"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Balluta Pharmacy",
+     "town": "St Julian's"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Mrabat Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Honest Pharmacy",
+     "town": "Għargħur"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Rotunda Pharmacy",
+     "town": "Mosta"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "St Mary Pharmacy",
+     "town": "Mġarr"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Maddalena Pharmacy",
+     "town": "Santa Luċija"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Verdala Pharmacy",
+     "town": "Bormla"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "Polymer St Peter Pharmacy",
+     "town": "Żabbar"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Blossoms Pharmacy",
+     "town": "Birżebbuġa"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Pasteur Pharmacy",
+     "town": "Safi"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Remedies Pharmacy",
+     "town": "Msida"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Coora Nigret Pharmacy",
+     "town": "Rabat"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Tac-Cawla Pharmacy",
+     "town": "Victoria (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Ghajnsielem Pharmacy",
+     "town": "Għajnsielem (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-03-21",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Regent Pharmacy",
+     "town": "Valletta"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Chemimart International Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Brown's Pinto Pharmacy",
+     "town": "Qormi"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Mackies Pharmacy",
+     "town": "Birkirkara"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "Brown's Medical Plaza Pharmacy",
+     "town": "San Ġwann"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Brown's Pharmacy, Swieqi",
+     "town": "Swieqi"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Chemimart Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Brown's Naxxar Centre Pharmacy",
+     "town": "Naxxar"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Brown's St. Mary Pharmacy",
+     "town": "Attard"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "El Medina Pharmacy",
+     "town": "St Paul's Bay"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "St Monica Pharmacy",
+     "town": "Paola"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Pillhouse Pharmacy",
+     "town": "Fgura"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "Milia's Pharmacy",
+     "town": "Marsaskala"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Beta Pharmacy",
+     "town": "Għaxaq"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Milia's Pharmacy",
+     "town": "Żurrieq"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Collis Williams Pharmacy",
+     "town": "Santa Venera"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Menelo Pharmacy",
+     "town": "Siġġiewi"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Sokkors Pharmacy",
+     "town": "Kerċem (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Joyce Pharmacy",
+     "town": "Xagħra (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-03-26",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Vilhena Pharmacy",
+     "town": "Floriana"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Brown's Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Santa Marija Pharmacy",
+     "town": "Żebbuġ"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "St Bartolomew Pharmacy",
+     "town": "Fleur-de-Lys"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "O'hea Pharmacy",
+     "town": "Gżira"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Melita Pharmacy",
+     "town": "St Julian's"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Brown's Pharmacy Tigne",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Brown's Pharmacy",
+     "town": "Iklin"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Medica Pharmacy",
+     "town": "Balzan"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "Brown's Village",
+     "town": "Mellieħa"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Theresa Jo Pharmacy",
+     "town": "Tarxien"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Milia's Pharmacy",
+     "town": "Birgu"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "Anici Pharmacy",
+     "town": "Marsaskala"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Green Cross Pharmacy",
+     "town": "Żejtun"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Remedies Pharmacy",
+     "town": "Mqabba"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Brown's Pharmacy",
+     "town": "Pietà"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Spizerija Carmen",
+     "town": "Dingli"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Batu Pharmacy",
+     "town": "Victoria (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Nadur Pharmacy",
+     "town": "Nadur (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-03-28",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "New British Pharmacy",
+     "town": "Valletta"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Fra Diego Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "St George's Pharmacy",
+     "town": "Qormi"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Rational Pharmacy",
+     "town": "Birkirkara"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "Lourdes Pharmacy",
+     "town": "San Ġwann"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Coora San Giorgio Pharmacy",
+     "town": "Pembroke"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Drugstore Pharmacy, Springs",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Pillbox Pharmacy",
+     "town": "Naxxar"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Santa Margherita Pharmacy",
+     "town": "Mosta"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "Qawra Pharmacy",
+     "town": "St Paul's Bay"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Brown's Paola Square Pharmacy",
+     "town": "Paola"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Honest Pharmacy",
+     "town": "Smart City"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "Felice Dispensary",
+     "town": "Żabbar"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Honest Pharmacy",
+     "town": "Birżebbuġa"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Kristianne Pharmacy",
+     "town": "Żurrieq"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Fatima Pharmacy",
+     "town": "Santa Venera"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Nova Pharmacy",
+     "town": "Rabat"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Azzopardi Pharmacy",
+     "town": "Victoria (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Pisani Pharmacy",
+     "town": "Sannat (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-03-31",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Collis Williams Pharmacy",
+     "town": "Valletta"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Trinity Pharmacy",
+     "town": "Marsa"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Tal Grazzja Pharmacy",
+     "town": "Żebbuġ"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "The Local Dispensary",
+     "town": "Birkirkara"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "St Matthew Pharmacy",
+     "town": "Gżira"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Pennylane Pharmacy",
+     "town": "Swieqi"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Norman's Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "St Joseph Pharmacy",
+     "town": "Lija"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Sghajtar Pharmacy",
+     "town": "Mosta"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "Promenade Pharmacy",
+     "town": "St Paul's Bay"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Sonren by Milia's Pharmacy",
+     "town": "Tarxien"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Whites Pharmacy",
+     "town": "Smart City"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "St Anne Pharmacy",
+     "town": "Marsaskala"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Pompei Pharmacy",
+     "town": "Marsaxlokk"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Kirkop Pharmacy",
+     "town": "Kirkop"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Brown's Pharmacy",
+     "town": "Msida"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Mtarfa Pharmacy",
+     "town": "Mtarfa"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Ta' Pinu Pharmacy",
+     "town": "Għarb (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "St Joseph Pharmacy",
+     "town": "Qala (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-04-04",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Chemimart Pharmacy",
+     "town": "Floriana"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "San Raffael Pharmacy",
+     "town": "Marsa"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Honest Pharmacy",
+     "town": "Qormi"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Honest Pharmacy",
+     "town": "Birkirkara"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "San Gwann Pharmacy",
+     "town": "San Ġwann"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "St Julian's Pharmacy",
+     "town": "St Julian's"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Brown's Victor's Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Brown's Chemists",
+     "town": "Naxxar"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "M4 Pharmacy",
+     "town": "Attard"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "Mgarr Pharmacy",
+     "town": "Mġarr"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Central Pharmacy",
+     "town": "Luqa"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Fgura Pharmacy",
+     "town": "Fgura"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "Delta Pharmacy",
+     "town": "Żabbar"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Health Junction Pharmacy",
+     "town": "Żejtun"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Qrendi Pharmacy",
+     "town": "Qrendi"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "St Luke's Pharmacy",
+     "town": "Pietà"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Central Pharmacy",
+     "town": "Rabat"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Fontana Pharmacy",
+     "town": "Fontana (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "St John's Pharmacy",
+     "town": "Xewkija (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-04-11",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Chemimart Citygate Pharmacy",
+     "town": "Valletta"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Darwin Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Tal Hlas Pharmacy",
+     "town": "Qormi"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Coora Pharmacy",
+     "town": "Fleur-de-Lys"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "Tony's Pharmacy",
+     "town": "Gżira"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Krypton Pharmacy",
+     "town": "Swieqi"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Edwards Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Smith's St Albert Pharmacy",
+     "town": "Għargħur"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Smith's PAMA Pharmacy",
+     "town": "Mosta"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "St. Simon Pharmacy",
+     "town": "St Paul's Bay"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Smiths Paola Hub",
+     "town": "Paola"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Milia's Pharmacy",
+     "town": "Isla"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "St Elias Pharmacy",
+     "town": "Xgħajra"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Health Point Pharmacy",
+     "town": "Birżebbuġa"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Bronja Pharmacy",
+     "town": "Żurrieq"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Regal Pharmacy",
+     "town": "Msida"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Remedies Pharmacy",
+     "town": "Siġġiewi"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Highland Pharmacy",
+     "town": "Żebbuġ"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Lauretana Pharmacy",
+     "town": "Għajnsielem (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-04-18",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Empire Pharmacy",
+     "town": "Valletta"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Thomas Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Brown's San Bastjan Pharmacy",
+     "town": "Qormi"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Remedies Pharmacy",
+     "town": "Birkirkara"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "Brown's Pharmacy (Mensija)",
+     "town": "San Ġwann"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Potter Chemist",
+     "town": "St Julian's"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Harley Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Whites Pharmacy",
+     "town": "Naxxar"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "St. Catherine Pharmacy",
+     "town": "Attard"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "Remedies Pharmacy",
+     "town": "Mellieħa"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Santa Lucija Pharmacy",
+     "town": "Santa Luċija"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Hompesch Pharmacy",
+     "town": "Fgura"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "Mediatrix Plus Pharmacy",
+     "town": "Żabbar"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "St Philip Pharmacy",
+     "town": "Għaxaq"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Safi Pharmacy",
+     "town": "Safi"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Charing Pharmacy",
+     "town": "Pietà"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "White's Pharmacy",
+     "town": "Mtarfa"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Emeral Pharmacy",
+     "town": "Fontana (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Xagħra Pharmacy",
+     "town": "Xagħra (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-04-25",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "St Publius Pharmacy",
+     "town": "Floriana"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Remedies Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Whites Pharmacy - Ħal Mula",
+     "town": "Żebbuġ"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Herba Pharmacy",
+     "town": "Birkirkara"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "William's Pharmacy",
+     "town": "Swatar"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "JV's Pharmacy",
+     "town": "Swieqi"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Wales Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Il-Mehriez Pharmacy",
+     "town": "Iklin"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Brown's St. Louis Pharmacy",
+     "town": "Mosta"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "Brown's Pharmacy",
+     "town": "St Paul's Bay"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Distinction Pharmacy",
+     "town": "Paola"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "White Cross Pharmacy",
+     "town": "Bormla"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "St Gwakkin Pharmacy",
+     "town": "Marsaskala"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "St Catherine Pharmacy",
+     "town": "Żejtun"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Medicaid Pharmacy",
+     "town": "Gudja"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Regional Pharmacy",
+     "town": "Msida"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Santa Marija Pharmacy",
+     "town": "Dingli"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Abela's Pharmacy",
+     "town": "Victoria (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Vella Pharmacy",
+     "town": "Nadur (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-05-01",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Chemimart Republic Street Pharmacy",
+     "town": "Valletta"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Vivien Pharmacy",
+     "town": "Marsa"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Brown's Pharmacy",
+     "town": "Qormi"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Brown's Quad Pharmacy",
+     "town": "Mrieħel"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "D'Argens Pharmacy",
+     "town": "Gżira"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Brown's Pharmacy",
+     "town": "St Julian's"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Remedies Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "St Michael Pharmacy",
+     "town": "Lija"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "St. Mary Pharmacy",
+     "town": "Mosta"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "Brown's Pharmacy",
+     "town": "Mellieħa"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Tarxien Pharmacy",
+     "town": "Tarxien"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "MC Pharmacy",
+     "town": "Fgura"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "Polymer Żabbar Pharmacy",
+     "town": "Żabbar"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Martin's Pharmacy",
+     "town": "Birżebbuġa"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Salus Pharmacy",
+     "town": "Żurrieq"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "St Anthony Pharmacy",
+     "town": "Pietà"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Ideal Pharmacy",
+     "town": "Rabat"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Castle Pharmacy",
+     "town": "Victoria (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Gozo Chemist",
+     "town": "Xewkija (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-05-02",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Empire branch Pharmacy",
+     "town": "Valletta"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "St. Gaetan Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Brown's Pharmacy",
+     "town": "Żebbuġ"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Brown's Pharmacy",
+     "town": "Fleur-de-Lys"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "Spizerija Kappara",
+     "town": "San Ġwann"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Pembroke Health Hub Pharmacy",
+     "town": "Pembroke"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Honest Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Reeds",
+     "town": "Naxxar"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Tat-Tarġa Pharmacy",
+     "town": "Mosta"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "Frontline Pharmacy",
+     "town": "Burmarrad"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Brown's Pharmacy",
+     "town": "Paola"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Vittoriosa Pharmacy",
+     "town": "Birgu"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "Medicor Pharmacy",
+     "town": "Xgħajra"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Fisherman's Cove Pharmacy",
+     "town": "Marsaxlokk"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Kristianne Pharmacy",
+     "town": "Mqabba"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Lantern Pharmacy",
+     "town": "Santa Venera"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "The Bypass Pharmacy",
+     "town": "Siġġiewi"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Tony's Pharmacy",
+     "town": "Marsalforn (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Qala Pharmacy",
+     "town": "Qala (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-05-09",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Floriana Dispensary",
+     "town": "Floriana"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "The Cross Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Drugshop Pharmacy",
+     "town": "Qormi"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Pharmaplus Pharmacy",
+     "town": "Birkirkara"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "Remedies Pharmacy",
+     "town": "Ta' Xbiex"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Balluta Pharmacy",
+     "town": "St Julian's"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "The Economical Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Honest Pharmacy",
+     "town": "Għargħur"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Brown's Grognet Pharmacy",
+     "town": "Mosta"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "Parkes Pharmacy",
+     "town": "St Paul's Bay"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "St Andrew's Pharmacy",
+     "town": "Luqa"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Brown's Pharmacy",
+     "town": "Kalkara"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "St James Pharmacy",
+     "town": "Żabbar"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Our Lady of Mercy Pharmacy",
+     "town": "Żejtun"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Prestige Pharmacy",
+     "town": "Kirkop"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Remedies Pharmacy",
+     "town": "Msida"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "St Anthony Pharmacy",
+     "town": "Rabat"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Palm Pharmacy",
+     "town": "Victoria (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Ghajnsielem Pharmacy",
+     "town": "Għajnsielem (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-05-16",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Honest Pharmacy",
+     "town": "Valletta"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Chemimart International Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "De Rohan Pharmacy",
+     "town": "Żebbuġ"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Brown's St.Anne Pharmacy",
+     "town": "Birkirkara"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "Brown's Medical Plaza Pharmacy",
+     "town": "San Ġwann"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Brown's Pharmacy, Swieqi",
+     "town": "Swieqi"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Mrabat Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Brown's Naxxar Centre Pharmacy",
+     "town": "Naxxar"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Rotunda Pharmacy",
+     "town": "Mosta"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "St Paul's Bay Pharmacy",
+     "town": "St Paul's Bay"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Fleming Pharmacy",
+     "town": "Paola"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Alpha Pharmacy",
+     "town": "Fgura"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "Bellavista Pharmacy",
+     "town": "Marsaskala"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Gerada Pharmacy",
+     "town": "Żejtun"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Chrysanthemum Pharmacy",
+     "town": "Qrendi"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Collis Williams Pharmacy",
+     "town": "Santa Venera"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Baħrjia Pharmacy",
+     "town": "Baħrija"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Tac-Cawla Pharmacy",
+     "town": "Victoria (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Joyce Pharmacy",
+     "town": "Xagħra (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-05-23",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Regent Pharmacy",
+     "town": "Valletta"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Brown's Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Evans Pharmacy",
+     "town": "Qormi"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Mackies Pharmacy",
+     "town": "Birkirkara"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "O'hea Pharmacy",
+     "town": "Gżira"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Melita Pharmacy",
+     "town": "St Julian's"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Chemimart Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Brown's Pharmacy",
+     "town": "Iklin"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Brown's St. Mary Pharmacy",
+     "town": "Attard"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "St Mary Pharmacy",
+     "town": "Mġarr"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Maddalena Pharmacy",
+     "town": "Santa Luċija"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Victory Pharmacy",
+     "town": "Isla"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "Polymer St Peter Pharmacy",
+     "town": "Żabbar"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Blossoms Pharmacy",
+     "town": "Birżebbuġa"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Gudja Pharmacy",
+     "town": "Gudja"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Brown's Pharmacy",
+     "town": "Pietà"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Coora Nigret Pharmacy",
+     "town": "Rabat"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Sokkors Pharmacy",
+     "town": "Kerċem (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Nadur Pharmacy",
+     "town": "Nadur (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-05-30",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Vilhena Pharmacy",
+     "town": "Floriana"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Fra Diego Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Plaza Pharmacy",
+     "town": "Żebbuġ"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "St Bartolomew Pharmacy",
+     "town": "Fleur-de-Lys"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "Lourdes Pharmacy",
+     "town": "San Ġwann"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Coora San Giorgio Pharmacy",
+     "town": "Pembroke"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Brown's Pharmacy Tigne",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Pillbox Pharmacy",
+     "town": "Naxxar"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Medica Pharmacy",
+     "town": "Balzan"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "El Medina Pharmacy",
+     "town": "St Paul's Bay"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "St Monica Pharmacy",
+     "town": "Paola"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Verdala Pharmacy",
+     "town": "Bormla"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "Milia's Pharmacy",
+     "town": "Marsaskala"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Beta Pharmacy",
+     "town": "Għaxaq"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Pasteur Pharmacy",
+     "town": "Safi"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Fatima Pharmacy",
+     "town": "Santa Venera"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Menelo Pharmacy",
+     "town": "Siġġiewi"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Batu Pharmacy",
+     "town": "Victoria (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Pisani Pharmacy",
+     "town": "Sannat (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-06-06",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "New British Pharmacy",
+     "town": "Valletta"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Trinity Pharmacy",
+     "town": "Marsa"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Brown's Pinto Pharmacy",
+     "town": "Qormi"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Rational Pharmacy",
+     "town": "Birkirkara"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "St Matthew Pharmacy",
+     "town": "Gżira"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Pennylane Pharmacy",
+     "town": "Swieqi"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Drugstore Pharmacy, Springs",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "St Joseph Pharmacy",
+     "town": "Lija"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Santa Margherita Pharmacy",
+     "town": "Mosta"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "Brown's Village",
+     "town": "Mellieħa"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Theresa Jo Pharmacy",
+     "town": "Tarxien"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Pillhouse Pharmacy",
+     "town": "Fgura"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "Anici Pharmacy",
+     "town": "Marsaskala"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Green Cross Pharmacy",
+     "town": "Żejtun"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Milia's Pharmacy",
+     "town": "Żurrieq"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Brown's Pharmacy",
+     "town": "Msida"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Spizerija Carmen",
+     "town": "Dingli"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Azzopardi Pharmacy",
+     "town": "Victoria (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "St Joseph Pharmacy",
+     "town": "Qala (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-06-07",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Collis Williams Pharmacy",
+     "town": "Valletta"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "San Raffael Pharmacy",
+     "town": "Marsa"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Santa Marija Pharmacy",
+     "town": "Żebbuġ"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "The Local Dispensary",
+     "town": "Birkirkara"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "San Gwann Pharmacy",
+     "town": "San Ġwann"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "St Julian's Pharmacy",
+     "town": "St Julian's"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Norman's Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Brown's Chemists",
+     "town": "Naxxar"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Sghajtar Pharmacy",
+     "town": "Mosta"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "Qawra Pharmacy",
+     "town": "St Paul's Bay"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Brown's Paola Square Pharmacy",
+     "town": "Paola"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Milia's Pharmacy",
+     "town": "Birgu"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "Felice Dispensary",
+     "town": "Żabbar"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Honest Pharmacy",
+     "town": "Birżebbuġa"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Remedies Pharmacy",
+     "town": "Mqabba"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "St Luke's Pharmacy",
+     "town": "Pietà"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Nova Pharmacy",
+     "town": "Rabat"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Ta' Pinu Pharmacy",
+     "town": "Għarb (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "St John's Pharmacy",
+     "town": "Xewkija (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-06-13",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Chemimart Pharmacy",
+     "town": "Floriana"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Darwin Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "St George's Pharmacy",
+     "town": "Qormi"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Honest Pharmacy",
+     "town": "Birkirkara"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "Tony's Pharmacy",
+     "town": "Gżira"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Krypton Pharmacy",
+     "town": "Swieqi"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Brown's Victor's Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Smith's St Albert Pharmacy",
+     "town": "Għargħur"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "M4 Pharmacy",
+     "town": "Attard"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "Promenade Pharmacy",
+     "town": "St Paul's Bay"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Sonren by Milia's Pharmacy",
+     "town": "Tarxien"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Honest Pharmacy",
+     "town": "Smart City"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "St Anne Pharmacy",
+     "town": "Marsaskala"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Pompei Pharmacy",
+     "town": "Marsaxlokk"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Kristianne Pharmacy",
+     "town": "Żurrieq"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Regal Pharmacy",
+     "town": "Msida"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Mtarfa Pharmacy",
+     "town": "Mtarfa"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Fontana Pharmacy",
+     "town": "Fontana (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Lauretana Pharmacy",
+     "town": "Għajnsielem (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-06-20",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Chemimart Citygate Pharmacy",
+     "town": "Valletta"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Thomas Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Tal Grazzja Pharmacy",
+     "town": "Żebbuġ"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Coora Pharmacy",
+     "town": "Fleur-de-Lys"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "Brown's Pharmacy (Mensija)",
+     "town": "San Ġwann"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Potter Chemist",
+     "town": "St Julian's"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Edwards Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Whites Pharmacy",
+     "town": "Naxxar"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Smith's PAMA Pharmacy",
+     "town": "Mosta"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "Mgarr Pharmacy",
+     "town": "Mġarr"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Central Pharmacy",
+     "town": "Luqa"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Whites Pharmacy",
+     "town": "Smart City"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "Delta Pharmacy",
+     "town": "Żabbar"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Health Junction Pharmacy",
+     "town": "Żejtun"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Kirkop Pharmacy",
+     "town": "Kirkop"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Charing Pharmacy",
+     "town": "Pietà"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Central Pharmacy",
+     "town": "Rabat"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Highland Pharmacy",
+     "town": "Żebbuġ"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Xagħra Pharmacy",
+     "town": "Xagħra (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-06-27",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Empire Pharmacy",
+     "town": "Valletta"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Remedies Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Honest Pharmacy",
+     "town": "Qormi"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Remedies Pharmacy",
+     "town": "Birkirkara"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "William's Pharmacy",
+     "town": "Swatar"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "JV's Pharmacy",
+     "town": "Swieqi"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Harley Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Il-Mehriez Pharmacy",
+     "town": "Iklin"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "St. Catherine Pharmacy",
+     "town": "Attard"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "St. Simon Pharmacy",
+     "town": "St Paul's Bay"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Smiths Paola Hub",
+     "town": "Paola"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Fgura Pharmacy",
+     "town": "Fgura"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "St Elias Pharmacy",
+     "town": "Xgħajra"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Health Point Pharmacy",
+     "town": "Birżebbuġa"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Qrendi Pharmacy",
+     "town": "Qrendi"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Regional Pharmacy",
+     "town": "Msida"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Remedies Pharmacy",
+     "town": "Siġġiewi"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Emeral Pharmacy",
+     "town": "Fontana (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Vella Pharmacy",
+     "town": "Nadur (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-06-29",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "St Publius Pharmacy",
+     "town": "Floriana"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Vivien Pharmacy",
+     "town": "Marsa"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Tal Hlas Pharmacy",
+     "town": "Qormi"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Herba Pharmacy",
+     "town": "Birkirkara"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "D'Argens Pharmacy",
+     "town": "Gżira"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Brown's Pharmacy",
+     "town": "St Julian's"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Wales Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "St Michael Pharmacy",
+     "town": "Lija"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Brown's St. Louis Pharmacy",
+     "town": "Mosta"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "Remedies Pharmacy",
+     "town": "Mellieħa"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Santa Lucija Pharmacy",
+     "town": "Santa Luċija"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Milia's Pharmacy",
+     "town": "Isla"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "Mediatrix Plus Pharmacy",
+     "town": "Żabbar"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "St Philip Pharmacy",
+     "town": "Għaxaq"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Bronja Pharmacy",
+     "town": "Żurrieq"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "St Anthony Pharmacy",
+     "town": "Pietà"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "White's Pharmacy",
+     "town": "Mtarfa"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Abela's Pharmacy",
+     "town": "Victoria (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Gozo Chemist",
+     "town": "Xewkija (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-07-04",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Chemimart Republic Street Pharmacy",
+     "town": "Valletta"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "St. Gaetan Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Brown's San Bastjan Pharmacy",
+     "town": "Qormi"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Brown's Quad Pharmacy",
+     "town": "Mrieħel"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "Spizerija Kappara",
+     "town": "San Ġwann"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Pembroke Health Hub Pharmacy",
+     "town": "Pembroke"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Remedies Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Reeds",
+     "town": "Naxxar"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "St. Mary Pharmacy",
+     "town": "Mosta"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "Brown's Pharmacy",
+     "town": "St Paul's Bay"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Distinction Pharmacy",
+     "town": "Paola"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Hompesch Pharmacy",
+     "town": "Fgura"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "St Gwakkin Pharmacy",
+     "town": "Marsaskala"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "St Catherine Pharmacy",
+     "town": "Żejtun"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Safi Pharmacy",
+     "town": "Safi"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Lantern Pharmacy",
+     "town": "Santa Venera"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Santa Marija Pharmacy",
+     "town": "Dingli"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Castle Pharmacy",
+     "town": "Victoria (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Qala Pharmacy",
+     "town": "Qala (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-07-11",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Empire branch Pharmacy",
+     "town": "Valletta"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "The Cross Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Whites Pharmacy - Ħal Mula",
+     "town": "Żebbuġ"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Brown's Pharmacy",
+     "town": "Fleur-de-Lys"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "Remedies Pharmacy",
+     "town": "Ta' Xbiex"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Balluta Pharmacy",
+     "town": "St Julian's"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Honest Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Honest Pharmacy",
+     "town": "Għargħur"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Tat-Tarġa Pharmacy",
+     "town": "Mosta"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "Brown's Pharmacy",
+     "town": "Mellieħa"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Tarxien Pharmacy",
+     "town": "Tarxien"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "White Cross Pharmacy",
+     "town": "Bormla"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "Polymer Żabbar Pharmacy",
+     "town": "Żabbar"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Martin's Pharmacy",
+     "town": "Birżebbuġa"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Medicaid Pharmacy",
+     "town": "Gudja"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Remedies Pharmacy",
+     "town": "Msida"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Ideal Pharmacy",
+     "town": "Rabat"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Tony's Pharmacy",
+     "town": "Marsalforn (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Ghajnsielem Pharmacy",
+     "town": "Għajnsielem (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-07-18",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Floriana Dispensary",
+     "town": "Floriana"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Chemimart International Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Brown's Pharmacy",
+     "town": "Qormi"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Pharmaplus Pharmacy",
+     "town": "Birkirkara"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "Brown's Medical Plaza Pharmacy",
+     "town": "San Ġwann"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Brown's Pharmacy, Swieqi",
+     "town": "Swieqi"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "The Economical Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Brown's Naxxar Centre Pharmacy",
+     "town": "Naxxar"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Brown's Grognet Pharmacy",
+     "town": "Mosta"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "Frontline Pharmacy",
+     "town": "Burmarrad"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Brown's Pharmacy",
+     "town": "Paola"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "MC Pharmacy",
+     "town": "Fgura"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "Medicor Pharmacy",
+     "town": "Xgħajra"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Fisherman's Cove Pharmacy",
+     "town": "Marsaxlokk"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Salus Pharmacy",
+     "town": "Żurrieq"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Collis Williams Pharmacy",
+     "town": "Santa Venera"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "The Bypass Pharmacy",
+     "town": "Siġġiewi"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Palm Pharmacy",
+     "town": "Victoria (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Joyce Pharmacy",
+     "town": "Xagħra (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-07-25",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Honest Pharmacy",
+     "town": "Valletta"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Brown's Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Brown's Pharmacy",
+     "town": "Żebbuġ"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Brown's St.Anne Pharmacy",
+     "town": "Birkirkara"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "O'hea Pharmacy",
+     "town": "Gżira"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Melita Pharmacy",
+     "town": "St Julian's"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Mrabat Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Brown's Pharmacy",
+     "town": "Iklin"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Rotunda Pharmacy",
+     "town": "Mosta"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "Parkes Pharmacy",
+     "town": "St Paul's Bay"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "St Andrew's Pharmacy",
+     "town": "Luqa"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Vittoriosa Pharmacy",
+     "town": "Birgu"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "St James Pharmacy",
+     "town": "Żabbar"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Our Lady of Mercy Pharmacy",
+     "town": "Żejtun"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Kristianne Pharmacy",
+     "town": "Mqabba"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Brown's Pharmacy",
+     "town": "Pietà"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "St Anthony Pharmacy",
+     "town": "Rabat"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Tac-Cawla Pharmacy",
+     "town": "Victoria (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Nadur Pharmacy",
+     "town": "Nadur (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-08-01",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Regent Pharmacy",
+     "town": "Valletta"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Fra Diego Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Drugshop Pharmacy",
+     "town": "Qormi"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Mackies Pharmacy",
+     "town": "Birkirkara"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "Lourdes Pharmacy",
+     "town": "San Ġwann"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Coora San Giorgio Pharmacy",
+     "town": "Pembroke"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Chemimart Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Pillbox Pharmacy",
+     "town": "Naxxar"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Brown's St. Mary Pharmacy",
+     "town": "Attard"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "St Paul's Bay Pharmacy",
+     "town": "St Paul's Bay"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Fleming Pharmacy",
+     "town": "Paola"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Brown's Pharmacy",
+     "town": "Kalkara"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "Bellavista Pharmacy",
+     "town": "Marsaskala"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Gerada Pharmacy",
+     "town": "Żejtun"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Prestige Pharmacy",
+     "town": "Kirkop"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Fatima Pharmacy",
+     "town": "Santa Venera"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Baħrjia Pharmacy",
+     "town": "Baħrija"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Sokkors Pharmacy",
+     "town": "Kerċem (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Pisani Pharmacy",
+     "town": "Sannat (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-08-08",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Vilhena Pharmacy",
+     "town": "Floriana"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Trinity Pharmacy",
+     "town": "Marsa"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "De Rohan Pharmacy",
+     "town": "Żebbuġ"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "St Bartolomew Pharmacy",
+     "town": "Fleur-de-Lys"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "St Matthew Pharmacy",
+     "town": "Gżira"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Pennylane Pharmacy",
+     "town": "Swieqi"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Brown's Pharmacy Tigne",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "St Joseph Pharmacy",
+     "town": "Lija"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Medica Pharmacy",
+     "town": "Balzan"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "St Mary Pharmacy",
+     "town": "Mġarr"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Maddalena Pharmacy",
+     "town": "Santa Luċija"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Alpha Pharmacy",
+     "town": "Fgura"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "Polymer St Peter Pharmacy",
+     "town": "Żabbar"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Blossoms Pharmacy",
+     "town": "Birżebbuġa"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Chrysanthemum Pharmacy",
+     "town": "Qrendi"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Brown's Pharmacy",
+     "town": "Msida"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Coora Nigret Pharmacy",
+     "town": "Rabat"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Batu Pharmacy",
+     "town": "Victoria (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "St Joseph Pharmacy",
+     "town": "Qala (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-08-15",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "New British Pharmacy",
+     "town": "Valletta"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "San Raffael Pharmacy",
+     "town": "Marsa"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Evans Pharmacy",
+     "town": "Qormi"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Rational Pharmacy",
+     "town": "Birkirkara"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "San Gwann Pharmacy",
+     "town": "San Ġwann"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "St Julian's Pharmacy",
+     "town": "St Julian's"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Drugstore Pharmacy, Springs",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Brown's Chemists",
+     "town": "Naxxar"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Santa Margherita Pharmacy",
+     "town": "Mosta"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "El Medina Pharmacy",
+     "town": "St Paul's Bay"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "St Monica Pharmacy",
+     "town": "Paola"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Victory Pharmacy",
+     "town": "Isla"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "Milia's Pharmacy",
+     "town": "Marsaskala"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Beta Pharmacy",
+     "town": "Għaxaq"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Gudja Pharmacy",
+     "town": "Gudja"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "St Luke's Pharmacy",
+     "town": "Pietà"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Menelo Pharmacy",
+     "town": "Siġġiewi"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Azzopardi Pharmacy",
+     "town": "Victoria (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "St John's Pharmacy",
+     "town": "Xewkija (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-08-22",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Collis Williams Pharmacy",
+     "town": "Valletta"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Darwin Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Plaza Pharmacy",
+     "town": "Żebbuġ"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "The Local Dispensary",
+     "town": "Birkirkara"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "Tony's Pharmacy",
+     "town": "Gżira"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Krypton Pharmacy",
+     "town": "Swieqi"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Norman's Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Smith's St Albert Pharmacy",
+     "town": "Għargħur"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Sghajtar Pharmacy",
+     "town": "Mosta"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "Brown's Village",
+     "town": "Mellieħa"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Theresa Jo Pharmacy",
+     "town": "Tarxien"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Verdala Pharmacy",
+     "town": "Bormla"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "Anici Pharmacy",
+     "town": "Marsaskala"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Green Cross Pharmacy",
+     "town": "Żejtun"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Pasteur Pharmacy",
+     "town": "Safi"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Regal Pharmacy",
+     "town": "Msida"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Spizerija Carmen",
+     "town": "Dingli"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Ta' Pinu Pharmacy",
+     "town": "Għarb (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Lauretana Pharmacy",
+     "town": "Għajnsielem (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-08-29",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Chemimart Pharmacy",
+     "town": "Floriana"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Thomas Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Brown's Pinto Pharmacy",
+     "town": "Qormi"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Honest Pharmacy",
+     "town": "Birkirkara"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "Brown's Pharmacy (Mensija)",
+     "town": "San Ġwann"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Potter Chemist",
+     "town": "St Julian's"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Brown's Victor's Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Whites Pharmacy",
+     "town": "Naxxar"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "M4 Pharmacy",
+     "town": "Attard"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "Qawra Pharmacy",
+     "town": "St Paul's Bay"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Brown's Paola Square Pharmacy",
+     "town": "Paola"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Pillhouse Pharmacy",
+     "town": "Fgura"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "Felice Dispensary",
+     "town": "Żabbar"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Honest Pharmacy",
+     "town": "Birżebbuġa"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Milia's Pharmacy",
+     "town": "Żurrieq"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Charing Pharmacy",
+     "town": "Pietà"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Nova Pharmacy",
+     "town": "Rabat"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Fontana Pharmacy",
+     "town": "Fontana (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Xagħra Pharmacy",
+     "town": "Xagħra (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-09-05",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Chemimart Citygate Pharmacy",
+     "town": "Valletta"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Remedies Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Santa Marija Pharmacy",
+     "town": "Żebbuġ"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Coora Pharmacy",
+     "town": "Fleur-de-Lys"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "William's Pharmacy",
+     "town": "Swatar"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "JV's Pharmacy",
+     "town": "Swieqi"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Edwards Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Il-Mehriez Pharmacy",
+     "town": "Iklin"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Smith's PAMA Pharmacy",
+     "town": "Mosta"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "Promenade Pharmacy",
+     "town": "St Paul's Bay"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Sonren by Milia's Pharmacy",
+     "town": "Tarxien"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Milia's Pharmacy",
+     "town": "Birgu"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "St Anne Pharmacy",
+     "town": "Marsaskala"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Pompei Pharmacy",
+     "town": "Marsaxlokk"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Remedies Pharmacy",
+     "town": "Mqabba"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Regional Pharmacy",
+     "town": "Msida"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Mtarfa Pharmacy",
+     "town": "Mtarfa"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Highland Pharmacy",
+     "town": "Żebbuġ"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Vella Pharmacy",
+     "town": "Nadur (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-09-08",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Empire Pharmacy",
+     "town": "Valletta"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Vivien Pharmacy",
+     "town": "Marsa"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "St George's Pharmacy",
+     "town": "Qormi"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Remedies Pharmacy",
+     "town": "Birkirkara"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "D'Argens Pharmacy",
+     "town": "Gżira"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Brown's Pharmacy",
+     "town": "St Julian's"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Harley Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "St Michael Pharmacy",
+     "town": "Lija"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "St. Catherine Pharmacy",
+     "town": "Attard"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "Mgarr Pharmacy",
+     "town": "Mġarr"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Central Pharmacy",
+     "town": "Luqa"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Honest Pharmacy",
+     "town": "Smart City"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "Delta Pharmacy",
+     "town": "Żabbar"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Health Junction Pharmacy",
+     "town": "Żejtun"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Kristianne Pharmacy",
+     "town": "Żurrieq"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "St Anthony Pharmacy",
+     "town": "Pietà"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Central Pharmacy",
+     "town": "Rabat"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Emeral Pharmacy",
+     "town": "Fontana (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Gozo Chemist",
+     "town": "Xewkija (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-09-12",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "St Publius Pharmacy",
+     "town": "Floriana"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "St. Gaetan Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Tal Grazzja Pharmacy",
+     "town": "Żebbuġ"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Herba Pharmacy",
+     "town": "Birkirkara"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "Spizerija Kappara",
+     "town": "San Ġwann"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Pembroke Health Hub Pharmacy",
+     "town": "Pembroke"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Wales Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Reeds",
+     "town": "Naxxar"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Brown's St. Louis Pharmacy",
+     "town": "Mosta"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "St. Simon Pharmacy",
+     "town": "St Paul's Bay"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Smiths Paola Hub",
+     "town": "Paola"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Whites Pharmacy",
+     "town": "Smart City"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "St Elias Pharmacy",
+     "town": "Xgħajra"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Health Point Pharmacy",
+     "town": "Birżebbuġa"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Kirkop Pharmacy",
+     "town": "Kirkop"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Lantern Pharmacy",
+     "town": "Santa Venera"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Remedies Pharmacy",
+     "town": "Siġġiewi"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Abela's Pharmacy",
+     "town": "Victoria (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Qala Pharmacy",
+     "town": "Qala (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-09-19",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Chemimart Republic Street Pharmacy",
+     "town": "Valletta"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "The Cross Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Honest Pharmacy",
+     "town": "Qormi"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Brown's Quad Pharmacy",
+     "town": "Mrieħel"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "Remedies Pharmacy",
+     "town": "Ta' Xbiex"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Balluta Pharmacy",
+     "town": "St Julian's"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Remedies Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Honest Pharmacy",
+     "town": "Għargħur"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "St. Mary Pharmacy",
+     "town": "Mosta"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "Remedies Pharmacy",
+     "town": "Mellieħa"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Santa Lucija Pharmacy",
+     "town": "Santa Luċija"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Fgura Pharmacy",
+     "town": "Fgura"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "Mediatrix Plus Pharmacy",
+     "town": "Żabbar"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "St Philip Pharmacy",
+     "town": "Għaxaq"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Qrendi Pharmacy",
+     "town": "Qrendi"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Remedies Pharmacy",
+     "town": "Msida"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "White's Pharmacy",
+     "town": "Mtarfa"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Castle Pharmacy",
+     "town": "Victoria (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Ghajnsielem Pharmacy",
+     "town": "Għajnsielem (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-09-21",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Empire branch Pharmacy",
+     "town": "Valletta"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Chemimart International Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Tal Hlas Pharmacy",
+     "town": "Qormi"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Brown's Pharmacy",
+     "town": "Fleur-de-Lys"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "Brown's Medical Plaza Pharmacy",
+     "town": "San Ġwann"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Brown's Pharmacy, Swieqi",
+     "town": "Swieqi"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Honest Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Brown's Naxxar Centre Pharmacy",
+     "town": "Naxxar"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Tat-Tarġa Pharmacy",
+     "town": "Mosta"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "Brown's Pharmacy",
+     "town": "St Paul's Bay"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Distinction Pharmacy",
+     "town": "Paola"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Milia's Pharmacy",
+     "town": "Isla"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "St Gwakkin Pharmacy",
+     "town": "Marsaskala"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "St Catherine Pharmacy",
+     "town": "Żejtun"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Bronja Pharmacy",
+     "town": "Żurrieq"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Collis Williams Pharmacy",
+     "town": "Santa Venera"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Santa Marija Pharmacy",
+     "town": "Dingli"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Tony's Pharmacy",
+     "town": "Marsalforn (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Joyce Pharmacy",
+     "town": "Xagħra (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-09-26",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Floriana Dispensary",
+     "town": "Floriana"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Brown's Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Brown's San Bastjan Pharmacy",
+     "town": "Qormi"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Pharmaplus Pharmacy",
+     "town": "Birkirkara"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "O'hea Pharmacy",
+     "town": "Gżira"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Melita Pharmacy",
+     "town": "St Julian's"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "The Economical Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Brown's Pharmacy",
+     "town": "Iklin"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Brown's Grognet Pharmacy",
+     "town": "Mosta"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "Brown's Pharmacy",
+     "town": "Mellieħa"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Tarxien Pharmacy",
+     "town": "Tarxien"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Hompesch Pharmacy",
+     "town": "Fgura"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "Polymer Żabbar Pharmacy",
+     "town": "Żabbar"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Martin's Pharmacy",
+     "town": "Birżebbuġa"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Safi Pharmacy",
+     "town": "Safi"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Brown's Pharmacy",
+     "town": "Pietà"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Ideal Pharmacy",
+     "town": "Rabat"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Palm Pharmacy",
+     "town": "Victoria (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Nadur Pharmacy",
+     "town": "Nadur (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-10-03",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Honest Pharmacy",
+     "town": "Valletta"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Fra Diego Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Whites Pharmacy - Ħal Mula",
+     "town": "Żebbuġ"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Brown's St.Anne Pharmacy",
+     "town": "Birkirkara"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "Lourdes Pharmacy",
+     "town": "San Ġwann"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Coora San Giorgio Pharmacy",
+     "town": "Pembroke"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Mrabat Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Pillbox Pharmacy",
+     "town": "Naxxar"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Rotunda Pharmacy",
+     "town": "Mosta"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "Frontline Pharmacy",
+     "town": "Burmarrad"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Brown's Pharmacy",
+     "town": "Paola"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "White Cross Pharmacy",
+     "town": "Bormla"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "Medicor Pharmacy",
+     "town": "Xgħajra"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Fisherman's Cove Pharmacy",
+     "town": "Marsaxlokk"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Medicaid Pharmacy",
+     "town": "Gudja"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Fatima Pharmacy",
+     "town": "Santa Venera"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "The Bypass Pharmacy",
+     "town": "Siġġiewi"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Tac-Cawla Pharmacy",
+     "town": "Victoria (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Pisani Pharmacy",
+     "town": "Sannat (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-10-10",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Regent Pharmacy",
+     "town": "Valletta"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Trinity Pharmacy",
+     "town": "Marsa"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Brown's Pharmacy",
+     "town": "Qormi"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "St Matthew Pharmacy",
+     "town": "Gżira"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Pennylane Pharmacy",
+     "town": "Swieqi"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Chemimart Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "St Joseph Pharmacy",
+     "town": "Lija"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Brown's St. Mary Pharmacy",
+     "town": "Attard"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "Parkes Pharmacy",
+     "town": "St Paul's Bay"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "St Andrew's Pharmacy",
+     "town": "Luqa"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "MC Pharmacy",
+     "town": "Fgura"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "St James Pharmacy",
+     "town": "Żabbar"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Our Lady of Mercy Pharmacy",
+     "town": "Żejtun"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Salus Pharmacy",
+     "town": "Żurrieq"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Brown's Pharmacy",
+     "town": "Msida"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "St Anthony Pharmacy",
+     "town": "Rabat"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Sokkors Pharmacy",
+     "town": "Kerċem (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "St Joseph Pharmacy",
+     "town": "Qala (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-10-17",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Vilhena Pharmacy",
+     "town": "Floriana"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "San Raffael Pharmacy",
+     "town": "Marsa"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Brown's Pharmacy",
+     "town": "Żebbuġ"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "St Bartolomew Pharmacy",
+     "town": "Fleur-de-Lys"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "San Gwann Pharmacy",
+     "town": "San Ġwann"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "St Julian's Pharmacy",
+     "town": "St Julian's"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Brown's Pharmacy Tigne",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Brown's Chemists",
+     "town": "Naxxar"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Medica Pharmacy",
+     "town": "Balzan"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "St Paul's Bay Pharmacy",
+     "town": "St Paul's Bay"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Fleming Pharmacy",
+     "town": "Paola"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Vittoriosa Pharmacy",
+     "town": "Birgu"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "Bellavista Pharmacy",
+     "town": "Marsaskala"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Gerada Pharmacy",
+     "town": "Żejtun"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Kristianne Pharmacy",
+     "town": "Mqabba"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "St Luke's Pharmacy",
+     "town": "Pietà"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Baħrjia Pharmacy",
+     "town": "Baħrija"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Batu Pharmacy",
+     "town": "Victoria (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "St John's Pharmacy",
+     "town": "Xewkija (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-10-24",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "New British Pharmacy",
+     "town": "Valletta"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Darwin Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Drugshop Pharmacy",
+     "town": "Qormi"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Rational Pharmacy",
+     "town": "Birkirkara"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "Tony's Pharmacy",
+     "town": "Gżira"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Krypton Pharmacy",
+     "town": "Swieqi"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Drugstore Pharmacy, Springs",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Smith's St Albert Pharmacy",
+     "town": "Għargħur"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Santa Margherita Pharmacy",
+     "town": "Mosta"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "St Mary Pharmacy",
+     "town": "Mġarr"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Maddalena Pharmacy",
+     "town": "Santa Luċija"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Brown's Pharmacy",
+     "town": "Kalkara"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "Polymer St Peter Pharmacy",
+     "town": "Żabbar"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Blossoms Pharmacy",
+     "town": "Birżebbuġa"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Prestige Pharmacy",
+     "town": "Kirkop"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Regal Pharmacy",
+     "town": "Msida"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Coora Nigret Pharmacy",
+     "town": "Rabat"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Azzopardi Pharmacy",
+     "town": "Victoria (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Lauretana Pharmacy",
+     "town": "Għajnsielem (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-10-31",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Collis Williams Pharmacy",
+     "town": "Valletta"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Thomas Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "De Rohan Pharmacy",
+     "town": "Żebbuġ"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "The Local Dispensary",
+     "town": "Birkirkara"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "Brown's Pharmacy (Mensija)",
+     "town": "San Ġwann"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Potter Chemist",
+     "town": "St Julian's"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Norman's Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Whites Pharmacy",
+     "town": "Naxxar"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Sghajtar Pharmacy",
+     "town": "Mosta"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "El Medina Pharmacy",
+     "town": "St Paul's Bay"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "St Monica Pharmacy",
+     "town": "Paola"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Alpha Pharmacy",
+     "town": "Fgura"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "Milia's Pharmacy",
+     "town": "Marsaskala"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Beta Pharmacy",
+     "town": "Għaxaq"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Chrysanthemum Pharmacy",
+     "town": "Qrendi"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Charing Pharmacy",
+     "town": "Pietà"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Menelo Pharmacy",
+     "town": "Siġġiewi"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Ta' Pinu Pharmacy",
+     "town": "Għarb (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Xagħra Pharmacy",
+     "town": "Xagħra (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-11-07",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Chemimart Pharmacy",
+     "town": "Floriana"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Remedies Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Evans Pharmacy",
+     "town": "Qormi"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Honest Pharmacy",
+     "town": "Birkirkara"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "William's Pharmacy",
+     "town": "Swatar"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "JV's Pharmacy",
+     "town": "Swieqi"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Brown's Victor's Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Il-Mehriez Pharmacy",
+     "town": "Iklin"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "M4 Pharmacy",
+     "town": "Attard"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "Brown's Village",
+     "town": "Mellieħa"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Theresa Jo Pharmacy",
+     "town": "Tarxien"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Victory Pharmacy",
+     "town": "Isla"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "Anici Pharmacy",
+     "town": "Marsaskala"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Green Cross Pharmacy",
+     "town": "Żejtun"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Gudja Pharmacy",
+     "town": "Gudja"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Regional Pharmacy",
+     "town": "Msida"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Spizerija Carmen",
+     "town": "Dingli"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Fontana Pharmacy",
+     "town": "Fontana (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Vella Pharmacy",
+     "town": "Nadur (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-11-14",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Chemimart Citygate Pharmacy",
+     "town": "Valletta"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Vivien Pharmacy",
+     "town": "Marsa"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Plaza Pharmacy",
+     "town": "Żebbuġ"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Coora Pharmacy",
+     "town": "Fleur-de-Lys"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "D'Argens Pharmacy",
+     "town": "Gżira"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Brown's Pharmacy",
+     "town": "St Julian's"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Edwards Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "St Michael Pharmacy",
+     "town": "Lija"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Smith's PAMA Pharmacy",
+     "town": "Mosta"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "Qawra Pharmacy",
+     "town": "St Paul's Bay"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Brown's Paola Square Pharmacy",
+     "town": "Paola"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Verdala Pharmacy",
+     "town": "Bormla"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "Felice Dispensary",
+     "town": "Żabbar"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Honest Pharmacy",
+     "town": "Birżebbuġa"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Pasteur Pharmacy",
+     "town": "Safi"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "St Anthony Pharmacy",
+     "town": "Pietà"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Nova Pharmacy",
+     "town": "Rabat"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Highland Pharmacy",
+     "town": "Żebbuġ"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Gozo Chemist",
+     "town": "Xewkija (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-11-21",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Empire Pharmacy",
+     "town": "Valletta"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "St. Gaetan Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Brown's Pinto Pharmacy",
+     "town": "Qormi"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Remedies Pharmacy",
+     "town": "Birkirkara"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "Spizerija Kappara",
+     "town": "San Ġwann"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Pembroke Health Hub Pharmacy",
+     "town": "Pembroke"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Harley Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Reeds",
+     "town": "Naxxar"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "St. Catherine Pharmacy",
+     "town": "Attard"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "Promenade Pharmacy",
+     "town": "St Paul's Bay"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Sonren by Milia's Pharmacy",
+     "town": "Tarxien"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Pillhouse Pharmacy",
+     "town": "Fgura"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "St Anne Pharmacy",
+     "town": "Marsaskala"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Pompei Pharmacy",
+     "town": "Marsaxlokk"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Milia's Pharmacy",
+     "town": "Żurrieq"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Lantern Pharmacy",
+     "town": "Santa Venera"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Mtarfa Pharmacy",
+     "town": "Mtarfa"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Emeral Pharmacy",
+     "town": "Fontana (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Qala Pharmacy",
+     "town": "Qala (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-11-28",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "St Publius Pharmacy",
+     "town": "Floriana"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "The Cross Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Santa Marija Pharmacy",
+     "town": "Żebbuġ"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Herba Pharmacy",
+     "town": "Birkirkara"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "Remedies Pharmacy",
+     "town": "Ta' Xbiex"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Balluta Pharmacy",
+     "town": "St Julian's"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Wales Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Honest Pharmacy",
+     "town": "Għargħur"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Brown's St. Louis Pharmacy",
+     "town": "Mosta"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "Mgarr Pharmacy",
+     "town": "Mġarr"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Central Pharmacy",
+     "town": "Luqa"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Milia's Pharmacy",
+     "town": "Birgu"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "Delta Pharmacy",
+     "town": "Żabbar"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Health Junction Pharmacy",
+     "town": "Żejtun"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Remedies Pharmacy",
+     "town": "Mqabba"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Remedies Pharmacy",
+     "town": "Msida"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Central Pharmacy",
+     "town": "Rabat"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Abela's Pharmacy",
+     "town": "Victoria (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Ghajnsielem Pharmacy",
+     "town": "Għajnsielem (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-12-05",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Chemimart Republic Street Pharmacy",
+     "town": "Valletta"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Chemimart International Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "St George's Pharmacy",
+     "town": "Qormi"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Brown's Quad Pharmacy",
+     "town": "Mrieħel"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "Brown's Medical Plaza Pharmacy",
+     "town": "San Ġwann"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Brown's Pharmacy, Swieqi",
+     "town": "Swieqi"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Remedies Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Brown's Naxxar Centre Pharmacy",
+     "town": "Naxxar"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "St. Mary Pharmacy",
+     "town": "Mosta"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "St. Simon Pharmacy",
+     "town": "St Paul's Bay"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Smiths Paola Hub",
+     "town": "Paola"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Honest Pharmacy",
+     "town": "Smart City"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "St Elias Pharmacy",
+     "town": "Xgħajra"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Health Point Pharmacy",
+     "town": "Birżebbuġa"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Kristianne Pharmacy",
+     "town": "Żurrieq"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Collis Williams Pharmacy",
+     "town": "Santa Venera"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Remedies Pharmacy",
+     "town": "Siġġiewi"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Castle Pharmacy",
+     "town": "Victoria (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Joyce Pharmacy",
+     "town": "Xagħra (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-12-08",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Empire branch Pharmacy",
+     "town": "Valletta"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Brown's Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Tal Grazzja Pharmacy",
+     "town": "Żebbuġ"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Brown's Pharmacy",
+     "town": "Fleur-de-Lys"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "O'hea Pharmacy",
+     "town": "Gżira"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Melita Pharmacy",
+     "town": "St Julian's"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Honest Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Brown's Pharmacy",
+     "town": "Iklin"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Tat-Tarġa Pharmacy",
+     "town": "Mosta"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "Remedies Pharmacy",
+     "town": "Mellieħa"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Santa Lucija Pharmacy",
+     "town": "Santa Luċija"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Whites Pharmacy",
+     "town": "Smart City"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "Mediatrix Plus Pharmacy",
+     "town": "Żabbar"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "St Philip Pharmacy",
+     "town": "Għaxaq"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Kirkop Pharmacy",
+     "town": "Kirkop"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Brown's Pharmacy",
+     "town": "Pietà"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "White's Pharmacy",
+     "town": "Mtarfa"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Tony's Pharmacy",
+     "town": "Marsalforn (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Nadur Pharmacy",
+     "town": "Nadur (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-12-12",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Floriana Dispensary",
+     "town": "Floriana"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Fra Diego Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Honest Pharmacy",
+     "town": "Qormi"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Pharmaplus Pharmacy",
+     "town": "Birkirkara"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "Lourdes Pharmacy",
+     "town": "San Ġwann"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Coora San Giorgio Pharmacy",
+     "town": "Pembroke"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "The Economical Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Pillbox Pharmacy",
+     "town": "Naxxar"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Brown's Grognet Pharmacy",
+     "town": "Mosta"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "Brown's Pharmacy",
+     "town": "St Paul's Bay"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Distinction Pharmacy",
+     "town": "Paola"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Fgura Pharmacy",
+     "town": "Fgura"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "St Gwakkin Pharmacy",
+     "town": "Marsaskala"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "St Catherine Pharmacy",
+     "town": "Żejtun"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Qrendi Pharmacy",
+     "town": "Qrendi"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Fatima Pharmacy",
+     "town": "Santa Venera"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Santa Marija Pharmacy",
+     "town": "Dingli"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Palm Pharmacy",
+     "town": "Victoria (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Pisani Pharmacy",
+     "town": "Sannat (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-12-13",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Honest Pharmacy",
+     "town": "Valletta"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Trinity Pharmacy",
+     "town": "Marsa"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Tal Hlas Pharmacy",
+     "town": "Qormi"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Brown's St.Anne Pharmacy",
+     "town": "Birkirkara"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "St Matthew Pharmacy",
+     "town": "Gżira"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Pennylane Pharmacy",
+     "town": "Swieqi"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Mrabat Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "St Joseph Pharmacy",
+     "town": "Lija"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Rotunda Pharmacy",
+     "town": "Mosta"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "Brown's Pharmacy",
+     "town": "Mellieħa"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Tarxien Pharmacy",
+     "town": "Tarxien"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Milia's Pharmacy",
+     "town": "Isla"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "Polymer Żabbar Pharmacy",
+     "town": "Żabbar"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Martin's Pharmacy",
+     "town": "Birżebbuġa"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Bronja Pharmacy",
+     "town": "Żurrieq"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Brown's Pharmacy",
+     "town": "Msida"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Ideal Pharmacy",
+     "town": "Rabat"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Tac-Cawla Pharmacy",
+     "town": "Victoria (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "St Joseph Pharmacy",
+     "town": "Qala (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-12-19",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Regent Pharmacy",
+     "town": "Valletta"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "San Raffael Pharmacy",
+     "town": "Marsa"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Brown's San Bastjan Pharmacy",
+     "town": "Qormi"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Mackies Pharmacy",
+     "town": "Birkirkara"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "San Gwann Pharmacy",
+     "town": "San Ġwann"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "St Julian's Pharmacy",
+     "town": "St Julian's"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Chemimart Pharmacy",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Brown's Chemists",
+     "town": "Naxxar"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Brown's St. Mary Pharmacy",
+     "town": "Attard"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "Frontline Pharmacy",
+     "town": "Burmarrad"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Brown's Pharmacy",
+     "town": "Paola"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "Hompesch Pharmacy",
+     "town": "Fgura"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "Medicor Pharmacy",
+     "town": "Xgħajra"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Fisherman's Cove Pharmacy",
+     "town": "Marsaxlokk"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Safi Pharmacy",
+     "town": "Safi"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "St Luke's Pharmacy",
+     "town": "Pietà"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "The Bypass Pharmacy",
+     "town": "Siġġiewi"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Sokkors Pharmacy",
+     "town": "Kerċem (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "St John's Pharmacy",
+     "town": "Xewkija (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-12-25",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "Vilhena Pharmacy",
+     "town": "Floriana"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Darwin Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Whites Pharmacy - Ħal Mula",
+     "town": "Żebbuġ"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "St Bartolomew Pharmacy",
+     "town": "Fleur-de-Lys"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "Tony's Pharmacy",
+     "town": "Gżira"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Krypton Pharmacy",
+     "town": "Swieqi"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Brown's Pharmacy Tigne",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Smith's St Albert Pharmacy",
+     "town": "Għargħur"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Medica Pharmacy",
+     "town": "Balzan"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "Parkes Pharmacy",
+     "town": "St Paul's Bay"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "St Andrew's Pharmacy",
+     "town": "Luqa"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "White Cross Pharmacy",
+     "town": "Bormla"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "St James Pharmacy",
+     "town": "Żabbar"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Our Lady of Mercy Pharmacy",
+     "town": "Żejtun"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Medicaid Pharmacy",
+     "town": "Gudja"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Regal Pharmacy",
+     "town": "Msida"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "St Anthony Pharmacy",
+     "town": "Rabat"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Batu Pharmacy",
+     "town": "Victoria (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Lauretana Pharmacy",
+     "town": "Għajnsielem (Gozo)"
+    }
+   ]
+  },
+  {
+   "date": "2027-12-26",
+   "pharmacies": [
+    {
+     "area": 1,
+     "areaName": "Valletta, Floriana",
+     "name": "New British Pharmacy",
+     "town": "Valletta"
+    },
+    {
+     "area": 2,
+     "areaName": "Ħamrun, Marsa",
+     "name": "Thomas Pharmacy",
+     "town": "Ħamrun"
+    },
+    {
+     "area": 3,
+     "areaName": "Qormi, Żebbuġ",
+     "name": "Brown's Pharmacy",
+     "town": "Qormi"
+    },
+    {
+     "area": 4,
+     "areaName": "Birkirkara, Fleur-de-Lys, Mrieħel",
+     "name": "Rational Pharmacy",
+     "town": "Birkirkara"
+    },
+    {
+     "area": 5,
+     "areaName": "Gżira, San Ġwann, Ta' Xbiex, Swatar",
+     "name": "Brown's Pharmacy (Mensija)",
+     "town": "San Ġwann"
+    },
+    {
+     "area": 6,
+     "areaName": "Pembroke, Swieqi, San Ġiljan",
+     "name": "Potter Chemist",
+     "town": "St Julian's"
+    },
+    {
+     "area": 7,
+     "areaName": "Sliema",
+     "name": "Drugstore Pharmacy, Springs",
+     "town": "Sliema"
+    },
+    {
+     "area": 8,
+     "areaName": "Naxxar, Għargħur, Iklin, Lija",
+     "name": "Whites Pharmacy",
+     "town": "Naxxar"
+    },
+    {
+     "area": 9,
+     "areaName": "Mosta, Attard, Balzan",
+     "name": "Santa Margherita Pharmacy",
+     "town": "Mosta"
+    },
+    {
+     "area": 10,
+     "areaName": "St. Paul's Bay, Mġarr, Mellieħa",
+     "name": "St Paul's Bay Pharmacy",
+     "town": "St Paul's Bay"
+    },
+    {
+     "area": 11,
+     "areaName": "Paola, Tarxien, Luqa, Santa Luċija",
+     "name": "Fleming Pharmacy",
+     "town": "Paola"
+    },
+    {
+     "area": 12,
+     "areaName": "Fgura, Isla, Bormla, Birgu, Kalkara",
+     "name": "MC Pharmacy",
+     "town": "Fgura"
+    },
+    {
+     "area": 13,
+     "areaName": "Żabbar, Marsaskala, Xgħajra",
+     "name": "Bellavista Pharmacy",
+     "town": "Marsaskala"
+    },
+    {
+     "area": 14,
+     "areaName": "Żejtun, Birżebbuġa, Għaxaq, M'Xlokk",
+     "name": "Gerada Pharmacy",
+     "town": "Żejtun"
+    },
+    {
+     "area": 15,
+     "areaName": "Żurrieq, Imqabba, Kirkop, Qrendi, Gudja, Safi",
+     "name": "Salus Pharmacy",
+     "town": "Żurrieq"
+    },
+    {
+     "area": 16,
+     "areaName": "Msida, Santa Venera, Pietà",
+     "name": "Charing Pharmacy",
+     "town": "Pietà"
+    },
+    {
+     "area": 17,
+     "areaName": "Rabat, Mtarfa, Dingli, Baħrija, Siġġiewi",
+     "name": "Baħrjia Pharmacy",
+     "town": "Baħrija"
+    },
+    {
+     "area": 18,
+     "areaName": "Rabat, Marsalforn, Kerċem, Għarb",
+     "name": "Azzopardi Pharmacy",
+     "town": "Victoria (Gozo)"
+    },
+    {
+     "area": 19,
+     "areaName": "Għajnsielem, Xagħra, Nadur, Sannat, Qala, Xewkija",
+     "name": "Xagħra Pharmacy",
+     "town": "Xagħra (Gozo)"
+    }
+   ]
   }
  ]
 }
