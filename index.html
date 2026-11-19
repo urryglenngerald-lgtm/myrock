@@ -131,7 +131,7 @@
           <img src="images/bus.jpg" alt="" style="object-position:55% 60%" loading="lazy"><span class="pill">Transport</span></a>
         <a class="tile card press" href="https://www.gozochannel.com" target="_blank" rel="noopener noreferrer" aria-label="Ferries between Malta and Gozo">
           <img src="images/ferry.jpg" alt="" loading="lazy"><span class="pill">Ferries</span></a>
-        <a class="tile card press" href="https://medicinesauthority.gov.mt/pharmacyroster" target="_blank" rel="noopener noreferrer" aria-label="Pharmacies open on Sundays and holidays">
+        <a class="tile card press" id="pharmTile" href="https://medicinesauthority.gov.mt/pharmacyroster" target="_blank" rel="noopener noreferrer" aria-label="Pharmacies open on Sundays and holidays">
           <img src="images/pharm.jpg" alt="" loading="lazy"><span class="pill">Pharmacies</span></a>
         <a class="tile card press" href="#knock" id="knockTile" aria-label="Local food on Knock">
           <img src="images/knock2.jpg" alt="" loading="lazy"><span class="pill">Food</span></a>
@@ -170,7 +170,24 @@
 
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
 
+<!-- SUNDAY PHARMACIES SHEET -->
+  <div class="sheet-wrap" id="pharmSheet" hidden>
+    <div class="sheet-backdrop" data-close></div>
+    <section class="sheet glass-dark" role="dialog" aria-modal="true" aria-labelledby="pharmTitle">
+      <div class="sheet-grab" aria-hidden="true"></div>
+      <div class="sheet-head">
+        <div><span class="kicker">Open on duty</span><h2 class="h2 neon-text" id="pharmTitle">Pharmacies</h2></div>
+        <button class="sheet-x press" type="button" data-close aria-label="Close">✕</button>
+      </div>
+      <div class="ph-days" id="phDays" role="tablist" aria-label="Choose a day"></div>
+      <p class="ph-hours" id="phHours"></p>
+      <label class="ph-search glass"><span aria-hidden="true">⌕</span><input id="phSearch" type="search" placeholder="Your town, e.g. Mosta" autocomplete="off"></label>
+      <div class="ph-list" id="phList"></div>
+      <p class="ph-note">Official roster from the <a id="phSource" href="https://medicinesauthority.gov.mt/pharmacyroster" target="_blank" rel="noopener noreferrer">Malta Medicines Authority</a>. Pharmacies sometimes swap shifts or change hours, so call ahead if it's urgent. Emergencies: 112.</p>
+    </section>
+  </div>
 <script src="js/launch.js"></script>
 <script src="js/app.js"></script>
+<script src="js/pharmacies.js"></script>
 </body>
 </html>
