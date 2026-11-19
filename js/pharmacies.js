@@ -25,9 +25,16 @@
 
   function pickDays() {
     var now = maltaNow();
-    days = data.days.filter(function (d) {
+    // Always 4 Sundays ahead, plus any public holidays that fall in between.
+    var upcoming = data.days.filter(function (d) {
       return d.date > now.date || (d.date === now.date && now.hour < 19);
-    }).slice(0, 4);
+    });
+    var sundays = 0;
+    days = [];
+    for (var i = 0; i < upcoming.length && sundays < 4; i++) {
+      days.push(upcoming[i]);
+      if (new Date(upcoming[i].date + "T12:00:00Z").getUTCDay() === 0) sundays++;
+    }
     current = 0;
     if (!days.length) {
       $("phDays").innerHTML = "";
