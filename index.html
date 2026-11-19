@@ -127,8 +127,8 @@
         </div>
       </div>
       <div class="tiles">
-        <a class="tile card press" href="https://www.publictransport.com.mt/tallinja-app/" target="_blank" rel="noopener noreferrer" aria-label="Transport: Tallinja buses">
-          <img src="images/bus.jpg" alt="" style="object-position:55% 60%" loading="lazy"><span class="pill">Transport</span></a>
+        <a class="tile card press" id="ridesTile" href="https://www.publictransport.com.mt/tallinja-app/" target="_blank" rel="noopener noreferrer" aria-label="Rides: buses, Bolt, eCabs and Uber">
+          <img src="images/bus.jpg" alt="" style="object-position:55% 60%" loading="lazy"><span class="pill">Rides</span></a>
         <a class="tile card press" id="ferryTile" href="https://www.gozochannel.com" target="_blank" rel="noopener noreferrer" aria-label="Ferries between Malta and Gozo">
           <img src="images/ferry.jpg" alt="" loading="lazy"><span class="pill">Ferries</span></a>
         <a class="tile card press" id="pharmTile" href="https://medicinesauthority.gov.mt/pharmacyroster" target="_blank" rel="noopener noreferrer" aria-label="Pharmacies open on Sundays and holidays">
@@ -170,6 +170,34 @@
 
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
 
+<!-- RIDES SHEET -->
+  <div class="sheet-wrap" id="ridesSheet" hidden>
+    <div class="sheet-backdrop" data-close></div>
+    <section class="sheet glass-dark" role="dialog" aria-modal="true" aria-labelledby="ridesTitle">
+      <div class="sheet-grab" aria-hidden="true"></div>
+      <div class="sheet-head">
+        <div><span class="kicker">Get around</span><h2 class="h2 neon-text" id="ridesTitle">Rides</h2></div>
+        <button class="sheet-x press" type="button" data-close aria-label="Close">✕</button>
+      </div>
+      <div class="rd-list">
+        <a class="ph-row rd-row glass press" href="https://www.publictransport.com.mt/tallinja-app/" target="_blank" rel="noopener noreferrer">
+          <span class="rd-badge" style="background:#F5A300">🚌</span>
+          <div class="ph-txt"><b>Tallinja</b><span>Public buses, Malta &amp; Gozo. Cheapest way around.</span></div><span class="ph-map">Open</span></a>
+        <a class="ph-row rd-row glass press" href="https://bolt.eu/en-mt/" target="_blank" rel="noopener noreferrer">
+          <span class="rd-badge" style="background:#2EB872">B</span>
+          <div class="ph-txt"><b>Bolt</b><span>Most drivers on the island, usually the quickest pickup.</span></div><span class="ph-map">Open</span></a>
+        <a class="ph-row rd-row glass press" href="https://www.ecabs.com.mt/" target="_blank" rel="noopener noreferrer">
+          <span class="rd-badge" style="background:#111">e</span>
+          <div class="ph-txt"><b>eCabs</b><span>The Maltese one. Best for booking ahead and for Gozo.</span></div><span class="ph-map">Open</span></a>
+        <a class="ph-row rd-row glass press" href="https://m.uber.com/" target="_blank" rel="noopener noreferrer">
+          <span class="rd-badge" style="background:#000">U</span>
+          <div class="ph-txt"><b>Uber</b><span>Handy third price check when the others surge.</span></div><span class="ph-map">Open</span></a>
+      </div>
+      <p class="ph-hours">Tip: check two apps on Friday and Saturday nights, prices jump.</p>
+      <p class="ph-note">myRock isn't linked to these companies. Prices and availability are set by each app.</p>
+    </section>
+  </div>
+
 <!-- FERRIES SHEET -->
   <div class="sheet-wrap" id="ferrySheet" hidden>
     <div class="sheet-backdrop" data-close></div>
@@ -209,5 +237,6 @@
 <script src="js/app.js"></script>
 <script src="js/pharmacies.js"></script>
 <script src="js/ferries.js"></script>
+<script src="js/rides.js"></script>
 </body>
 </html>

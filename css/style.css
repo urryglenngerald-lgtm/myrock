@@ -284,3 +284,8 @@ button{font:inherit}
 .fe-t.next{background:rgba(48,6,78,.75);border-color:var(--yellow);color:var(--yellow);box-shadow:0 0 14px rgba(255,228,92,.45)}
 .fe-none{opacity:.8;font-size:14px}
 .fe-t.fe-gone{opacity:.5;font-size:13px;border-style:dashed}
+
+/* ===== Rides sheet ===== */
+.rd-row{text-decoration:none;color:#fff}
+.rd-badge{flex:0 0 auto;width:42px;height:42px;border-radius:14px;display:grid;place-items:center;font-weight:900;font-size:20px;color:#fff;border:1px solid rgba(255,255,255,.3)}
+.rd-row .ph-map{pointer-events:none}
