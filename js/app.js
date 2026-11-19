@@ -106,7 +106,7 @@
 
   // Official posters are shown whole (with a blurred copy behind), covers fill the card.
   function posterImg(e, lazy) {
-    if (!e.image) return "";
+    if (!e.image || !e.poster) return "";
     var src = esc(safeUrl(e.image)), l = lazy ? ' loading="lazy"' : "";
     if (!e.poster) return '<img src="' + src + '" alt=""' + l + '>';
     return '<img class="poster-bg" src="' + src + '" alt="" aria-hidden="true"' + l + '>' +
@@ -129,7 +129,7 @@
     var img = posterImg(e, true);
     var meta = [e.venue, e.town].filter(Boolean).join(", ") + (e.time ? " · " + e.time : "");
     return '<div class="ev-wrap">' +
-      '<a class="ev card press' + (e.poster ? ' has-poster' : '') + '" href="' + esc(link) + '"' + target + hidden + '>' + img +
+      '<a class="ev card press' + (e.poster ? ' has-poster' : ' no-poster') + '" href="' + esc(link) + '"' + target + hidden + '>' + img +
         '<span class="scrim" aria-hidden="true"></span>' +
         '<span class="ev-top">' + (e.category ? '<span class="pill">' + esc(e.category) + '</span>' : '<span></span>') +
           '<span class="day">' + esc(dayBadge(e)) + '</span></span>' +
@@ -148,7 +148,7 @@
     var where = [e.venue, e.town].filter(Boolean).join(", ");
     var when = dayBadge(e) + (e.time && e.date >= todayMalta() ? ", " + e.time : "");
     return '<div class="f-wrap">' +
-      '<a class="featured press' + (e.poster ? ' has-poster' : '') + '" href="' + esc(link) + '"' + target + '>' +
+      '<a class="featured press' + (e.poster ? ' has-poster' : ' no-poster') + '" href="' + esc(link) + '"' + target + '>' +
         posterImg(e, false) +
         '<span class="scrim" aria-hidden="true"></span>' +
         '<span class="pill">★ ' + (e.featured ? "Featured" : "Top pick") + '</span>' +
