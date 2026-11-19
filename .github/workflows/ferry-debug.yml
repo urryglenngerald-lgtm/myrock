@@ -9,7 +9,7 @@ jobs:
           UA="Mozilla/5.0 (Linux; Android 14) myRock"
           for u in https://www.gozochannel.com/ferry/schedule/ https://www.gozochannel.com/ferry/schedule/detail/ https://gozohighspeed.com/ https://www.gozohighspeed.com/timetable/ https://gozofastferry.com/ https://www.gozofastferry.com/timetable ; do
             echo "=================== $u"
-            curl -sSL -A "$UA" -o page.html -w "HTTP %{http_code} final=%{url_effective}\n" "$u" || true
+            curl -sSL -m 25 -A "$UA" -o page.html -w "HTTP %{http_code} final=%{url_effective}\n" "$u" || true
             echo "--- links:"; grep -oiE 'href="[^"]*(schedul|timetabl|time-table|trip|departure|ajax|api|json|pdf)[^"]*"' page.html | sort -u | head -40
             echo "--- scripts/ajax hints:"; grep -oiE '(admin-ajax\.php|wp-json[^"'"'"' ]*|action=[a-z_]+|data-date[^ >]*|schedule_date|\.pdf)' page.html | sort -u | head -20
             echo "--- text:"; python3 -c "import re,sys,html;t=open('page.html',encoding='utf-8',errors='ignore').read();t=re.sub(r'(?s)<(script|style).*?</\1>',' ',t);t=re.sub(r'<[^>]+>',' ',t);t=html.unescape(re.sub(r'\s+',' ',t));i=max(0,t.lower().find('depart')-300);print(t[i:i+2500])"
