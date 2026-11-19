@@ -7,7 +7,7 @@ Usage: python3 build_pharmacies.py OUT.json YEAR:AREAS.pdf:ROSTER.pdf [YEAR:AREA
 import json, re, sys
 import pdfplumber
 
-TOWNS = ["Fleur De Lys", "St Paul's Bay", "Ta' Xbiex", "San Gwann", "St Julian", "St Lucija", "Smart City",
+TOWNS = ["Swatar", "Fleur De Lys", "St Paul's Bay", "Ta' Xbiex", "San Gwann", "St Julian", "St Lucija", "Smart City",
          "Santa Venera", "Pieta'", "Valletta", "Floriana", "Hamrun", "Marsa", "Qormi", "Zebbug", "Żebbuġ",
          "Birkirkara", "Mrieħel", "Gzira", "Pembroke", "Swieqi", "Sliema", "Naxxar", "Gharghur", "Iklin", "Lija",
          "Mosta", "Attard", "Balzan", "Mgarr", "Mellieha", "Burmarrad", "Paola", "Tarxien", "Luqa", "Fgura",
@@ -46,9 +46,16 @@ def parse_areas(path):
                                 continue
                             idx, rest = int(pm.group(1)), pm.group(2).strip()
                             town = next((t for t in sorted(TOWNS, key=len, reverse=True) if rest.endswith(" " + t)), None)
-                            if not town:
-                                raise ValueError(f"No town found in: {line!r}")
-                            name = rest[: -len(town)].strip().rstrip(",")
+                            if town:
+                                name = rest[: -len(town)].strip().rstrip(",")
+                            else:
+                                # Unknown town: split after the last "Pharmacy/Dispensary/Chemist", else take the last word.
+                                km = list(re.finditer(r"(Pharmacy|Dispensary|Chemists?)\b", rest))
+                                if km and km[-1].end() < len(rest):
+                                    name, town = rest[: km[-1].end()].strip(), rest[km[-1].end():].strip()
+                                else:
+                                    name, town = rest.rsplit(" ", 1)
+                                print(f"  check: area {num} #{idx}: {name!r} / {town!r}")
                             nice = NICE.get(town, town)
                             if town == "Rabat":
                                 nice = "Victoria (Gozo)" if gozo else "Rabat"
