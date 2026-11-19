@@ -7,10 +7,28 @@ jobs:
     steps:
       - run: |
           UA="Mozilla/5.0 (Linux; Android 14) myRock"
-          for u in https://www.gozochannel.com/ferry/schedule/ https://www.gozochannel.com/ferry/schedule/detail/ https://gozohighspeed.com/ https://www.gozohighspeed.com/timetable/ https://gozofastferry.com/ https://www.gozofastferry.com/timetable ; do
-            echo "=================== $u"
-            curl -sSL -m 25 -A "$UA" -o page.html -w "HTTP %{http_code} final=%{url_effective}\n" "$u" || true
-            echo "--- links:"; grep -oiE 'href="[^"]*(schedul|timetabl|time-table|trip|departure|ajax|api|json|pdf)[^"]*"' page.html | sort -u | head -40
-            echo "--- scripts/ajax hints:"; grep -oiE '(admin-ajax\.php|wp-json[^"'"'"' ]*|action=[a-z_]+|data-date[^ >]*|schedule_date|\.pdf)' page.html | sort -u | head -20
-            echo "--- text:"; python3 -c "import re,sys,html;t=open('page.html',encoding='utf-8',errors='ignore').read();t=re.sub(r'(?s)<(script|style).*?</\1>',' ',t);t=re.sub(r'<[^>]+>',' ',t);t=html.unescape(re.sub(r'\s+',' ',t));i=max(0,t.lower().find('depart')-300);print(t[i:i+2500])"
+          echo "########## GOZO CHANNEL schedule page: ajax snippets"
+          curl -sSL -m 25 -A "$UA" -o gc.html https://www.gozochannel.com/ferry/schedule/
+          python3 - <<'PY'
+          import re
+          t=open('gc.html',encoding='utf-8',errors='ignore').read()
+          for m in re.finditer(r'(?i)(ajax|schedule|sch=|trip|departure)', t):
+              pass
+          scripts=re.findall(r'(?s)<script[^>]*>(.*?)</script>',t)
+          for s in scripts:
+              if re.search(r'(?i)ajax|schedule|depart',s) and len(s)<8000:
+                  print('--- inline script:', s.strip()[:1500])
+          for src in re.findall(r'<script[^>]+src="([^"]+)"',t):
+              print('src', src)
+          i=t.find('Current Ferry Schedule'); print('--- around schedule html:', re.sub(r'\s+',' ',t[i:i+3000]))
+          PY
+          echo "########## GOZO HIGHSPEED bundle"
+          curl -sSL -m 25 -A "$UA" -o hs.html https://gozohighspeed.com/
+          grep -oE 'src="[^"]+\.js"' hs.html
+          for js in $(grep -oE '/static/js/[^"]+\.js' hs.html | sort -u); do
+            curl -sSL -m 25 -A "$UA" -o b.js "https://gozohighspeed.com$js"
+            echo "== $js $(wc -c < b.js) bytes"
+            grep -oE 'https?://[a-zA-Z0-9./_-]+' b.js | sort -u | grep -viE 'w3.org|reactjs|github|mozilla|google-analytics|googletag|facebook|schema.org' | head -40
+            grep -oE '"/?api/[^"]{0,80}"|`/?api/[^`]{0,80}`|"/[a-z]+/(timetable|schedule|trips|departures)[^"]{0,60}"' b.js | sort -u | head -40
+            grep -oiE '.{80}(timetable|schedule)[^,;]{0,80}' b.js | head -15
           done
