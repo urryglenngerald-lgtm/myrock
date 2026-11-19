@@ -289,3 +289,28 @@ button{font:inherit}
 .rd-row{text-decoration:none;color:#fff}
 .rd-badge{flex:0 0 auto;width:42px;height:42px;border-radius:14px;display:grid;place-items:center;font-weight:900;font-size:20px;color:#fff;border:1px solid rgba(255,255,255,.3)}
 .rd-row .ph-map{pointer-events:none}
+
+/* Official posters: whole poster on a blurred copy of itself */
+.featured img.poster-bg,.ev img.poster-bg{filter:blur(22px) brightness(.55) saturate(1.3);transform:scale(1.25)}
+.featured img.poster-img,.ev img.poster-img{object-fit:contain;object-position:center top}
+.poster-by{position:absolute;right:12px;bottom:8px;z-index:2;font-size:9px;font-weight:600;letter-spacing:.3px;opacity:.75;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,.8)}
+.featured .poster-by{bottom:auto;top:58px;right:18px}
+/* Poster cards: poster sits in the top part, text underneath on a solid fade */
+.has-poster img.poster-img{height:62%;top:0;bottom:auto}
+.featured.has-poster img.poster-img{height:58%}
+.has-poster .scrim{background:linear-gradient(180deg,rgba(20,0,30,0) 40%,rgba(20,0,30,.88) 62%,rgba(20,0,30,.97) 100%)!important}
+.featured.has-poster .f-title,.featured.has-poster h3{font-size:clamp(26px,8vw,38px)!important}
+.has-poster .poster-by{top:auto;bottom:auto;right:12px}
+.ev.has-poster .poster-by{top:calc(62% - 18px)}
+.featured.has-poster .poster-by{top:calc(58% - 18px);right:18px}
+/* v2: poster gets its own zone, text gets a solid band below it */
+.featured.has-poster{height:470px}
+.featured.has-poster img.poster-img{height:250px;top:14px}
+.featured.has-poster .scrim{background:linear-gradient(180deg,rgba(20,0,30,0) 0,rgba(20,0,30,0) 250px,rgba(20,0,30,.96) 285px)!important}
+.featured.has-poster .f-title{font-size:26px!important;line-height:1.05}
+.featured.has-poster .poster-by{top:248px;right:18px}
+.ev.has-poster{height:250px}
+.ev.has-poster img.poster-img{height:150px;top:0}
+.ev.has-poster .scrim{background:linear-gradient(180deg,rgba(20,0,30,0) 0,rgba(20,0,30,0) 150px,rgba(20,0,30,.96) 170px)!important}
+.ev.has-poster .poster-by{top:134px}
+.ev{height:250px}

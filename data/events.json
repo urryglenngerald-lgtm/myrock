@@ -7,8 +7,10 @@
   "time": "19:30",
   "venue": "St Paul's Anglican Pro-Cathedral",
   "town": "Valletta",
-  "image": "images/covers/classical.svg",
-  "link": "https://eventsmalta.org/events/malta-international-organ-festival-26"
+  "image": "images/posters/organ-fest-faggioni-2026-11-19.jpg",
+  "link": "https://eventsmalta.org/events/malta-international-organ-festival-26",
+  "poster": true,
+  "posterBy": "Malta International Organ Festival"
  },
  {
   "id": "voice-of-velvet-2026-11-20",
@@ -18,8 +20,10 @@
   "time": "19:00",
   "venue": "Teatru Manoel",
   "town": "Valletta",
-  "image": "images/covers/live.svg",
-  "link": "https://eventsmalta.org/events/a-voice-of-velvet"
+  "image": "images/posters/voice-of-velvet-2026-11-20.jpg",
+  "link": "https://eventsmalta.org/events/a-voice-of-velvet",
+  "poster": true,
+  "posterBy": "Teatru Manoel"
  },
  {
   "id": "sip-listen-2026-11-20",
@@ -53,8 +57,10 @@
   "time": "19:30",
   "venue": "Teatru tal-Opra Aurora",
   "town": "Victoria, Gozo",
-  "image": "images/covers/live.svg",
-  "link": "https://manicmalta.com/events/golden-age-abba-boney-m-gozo-2026/"
+  "image": "images/posters/abba-boney-m-gozo-2026-11-21.jpg",
+  "link": "https://manicmalta.com/events/golden-age-abba-boney-m-gozo-2026/",
+  "poster": true,
+  "posterBy": "Gozo Youth Orchestra"
  },
  {
   "id": "john-williams-astra-2026-11-21",
@@ -64,8 +70,10 @@
   "time": "20:00",
   "venue": "Teatru Astra",
   "town": "Victoria, Gozo",
-  "image": "images/covers/classical.svg",
-  "link": "https://manicmalta.com/events/a-celebration-of-john-williams-2026-11-21/"
+  "image": "images/posters/john-williams-astra-2026-11-21.jpg",
+  "link": "https://manicmalta.com/events/a-celebration-of-john-williams-2026-11-21/",
+  "poster": true,
+  "posterBy": "La Stella Band"
  },
  {
   "id": "christmas-in-the-capital-2026",
@@ -77,8 +85,10 @@
   "venue": "St George's Square",
   "town": "Valletta",
   "price": "Free",
-  "image": "images/covers/christmas.svg",
-  "link": "https://eventsmalta.org/events/christmas-in-the-capital"
+  "image": "images/posters/christmas-in-the-capital-2026.jpg",
+  "link": "https://eventsmalta.org/events/christmas-in-the-capital",
+  "poster": true,
+  "posterBy": "Valletta Cultural Agency"
  },
  {
   "id": "77cellar-2026-11-27",
@@ -121,8 +131,10 @@
   "time": "20:00",
   "venue": "Teatru Salesjan",
   "town": "Sliema",
-  "image": "images/covers/live.svg",
-  "link": "https://www.guidememalta.com/en/event/ts-rock-series-2026-brikkuni"
+  "image": "images/posters/ts-rock-brikkuni-2026-11-28.jpg",
+  "link": "https://www.guidememalta.com/en/event/ts-rock-series-2026-brikkuni",
+  "poster": true,
+  "posterBy": "Teatru Salesjan"
  },
  {
   "id": "nebular-fest-2026-11-28",
@@ -133,8 +145,10 @@
   "venue": "The Garage",
   "town": "Żebbuġ",
   "price": "€20",
-  "image": "images/covers/metal.svg",
-  "link": "https://manicmalta.com/events/nebular-festival-2026-2026-11-28/"
+  "image": "images/posters/nebular-fest-2026-11-28.jpg",
+  "link": "https://manicmalta.com/events/nebular-festival-2026-2026-11-28/",
+  "poster": true,
+  "posterBy": "Nebular Festival"
  },
  {
   "id": "impulse-division-2026-11-28",
@@ -167,9 +181,11 @@
   "venue": "Pjazza Tritoni to the Granaries",
   "town": "Valletta & Floriana",
   "price": "Free entry",
-  "image": "images/covers/christmas.svg",
+  "image": "images/posters/fairyland-2026.jpg",
   "link": "https://www.fairylandmalta.com",
-  "featured": true
+  "featured": true,
+  "poster": true,
+  "posterBy": "Fairyland Malta"
  },
  {
   "id": "conjuring-fest-2026-12-05",
@@ -179,8 +195,10 @@
   "time": "20:00",
   "venue": "The Garage",
   "town": "Żebbuġ",
-  "image": "images/covers/metal.svg",
-  "link": "https://www.melodija.eu/event-details/the-conjuring-fest"
+  "image": "images/posters/conjuring-fest-2026-12-05.jpg",
+  "link": "https://www.melodija.eu/event-details/the-conjuring-fest",
+  "poster": true,
+  "posterBy": "The Conjuring Fest"
  },
  {
   "id": "beatfest-lejla-rock-2026-12-07",

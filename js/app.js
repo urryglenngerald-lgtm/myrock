@@ -104,6 +104,16 @@
 
   function inWindow(e, w) { return e.date <= w.end && e.end >= w.start; }
 
+  // Official posters are shown whole (with a blurred copy behind), covers fill the card.
+  function posterImg(e, lazy) {
+    if (!e.image) return "";
+    var src = esc(safeUrl(e.image)), l = lazy ? ' loading="lazy"' : "";
+    if (!e.poster) return '<img src="' + src + '" alt=""' + l + '>';
+    return '<img class="poster-bg" src="' + src + '" alt="" aria-hidden="true"' + l + '>' +
+      '<img class="poster-img" src="' + src + '" alt="Poster: ' + esc(e.title) + '"' + l + '>' +
+      (e.posterBy ? '<span class="poster-by">Poster: ' + esc(e.posterBy) + '</span>' : "");
+  }
+
   function dayBadge(e) {
     var t = todayMalta();
     if (e.endDate && e.date < t) return "Till " + new Intl.DateTimeFormat("en-GB", { day: "numeric", month: "short", timeZone: "UTC" }).format(new Date(e.endDate + "T00:00:00Z"));
@@ -116,10 +126,10 @@
     var hidden = opts.hidden ? ' aria-hidden="true" tabindex="-1"' : "";
     var link = safeUrl(e.link);
     var target = /^https?:/i.test(link) ? ' target="_blank" rel="noopener noreferrer"' : "";
-    var img = e.image ? '<img src="' + esc(safeUrl(e.image)) + '" alt="" loading="lazy">' : "";
+    var img = posterImg(e, true);
     var meta = [e.venue, e.town].filter(Boolean).join(", ") + (e.time ? " · " + e.time : "");
     return '<div class="ev-wrap">' +
-      '<a class="ev card press" href="' + esc(link) + '"' + target + hidden + '>' + img +
+      '<a class="ev card press' + (e.poster ? ' has-poster' : '') + '" href="' + esc(link) + '"' + target + hidden + '>' + img +
         '<span class="scrim" aria-hidden="true"></span>' +
         '<span class="ev-top">' + (e.category ? '<span class="pill">' + esc(e.category) + '</span>' : '<span></span>') +
           '<span class="day">' + esc(dayBadge(e)) + '</span></span>' +
@@ -138,8 +148,8 @@
     var where = [e.venue, e.town].filter(Boolean).join(", ");
     var when = dayBadge(e) + (e.time && e.date >= todayMalta() ? ", " + e.time : "");
     return '<div class="f-wrap">' +
-      '<a class="featured press" href="' + esc(link) + '"' + target + '>' +
-        (e.image ? '<img src="' + esc(safeUrl(e.image)) + '" alt="">' : "") +
+      '<a class="featured press' + (e.poster ? ' has-poster' : '') + '" href="' + esc(link) + '"' + target + '>' +
+        posterImg(e, false) +
         '<span class="scrim" aria-hidden="true"></span>' +
         '<span class="pill">★ ' + (e.featured ? "Featured" : "Top pick") + '</span>' +
         '<span class="f-bottom"><span class="f-text">' +
