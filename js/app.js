@@ -169,49 +169,87 @@
     '</div>';
   }
 
+  /* ---------- big-card feed (Malta Daily style, myRock colours) ---------- */
+  function fdCard(e) {
+    var saved = getSaved().indexOf(e.id) !== -1;
+    var link = safeUrl(e.link);
+    var target = /^https?:/i.test(link) ? ' target="_blank" rel="noopener noreferrer"' : "";
+    var src = e.poster && e.image ? esc(safeUrl(e.image)) : "";
+    var when = dayBadge(e) + (e.time && e.date >= todayMalta() ? " · " + e.time : "");
+    var where = [e.venue, e.town].filter(Boolean).join(", ");
+    var img = src ? '<span class="fd-img"><img class="fd-bg" src="' + src + '" alt="" aria-hidden="true" loading="lazy">' +
+      '<img class="fd-poster" src="' + src + '" alt="Poster: ' + esc(e.title) + '" loading="lazy">' +
+      (e.posterBy ? '<span class="poster-by">Poster: ' + esc(e.posterBy) + '</span>' : "") + '</span>' : "";
+    return '<div class="fd-wrap">' +
+      '<a class="fd press' + (src ? "" : " fd-glass") + (e.featured ? " fd-hot" : "") + '" href="' + esc(link) + '"' + target + '>' + img +
+        '<span class="fd-band">' +
+          '<span class="fd-chips"><span class="fd-chip">' + esc(e.featured ? "★ Featured" : (e.category || "Event")) + '</span><span class="fd-day">' + esc(when) + '</span></span>' +
+          '<span class="fd-title">' + esc(e.title) + '</span>' +
+          (where ? '<span class="fd-meta">' + ICON.pin + esc(where) + '</span>' : "") +
+          '<span class="fd-go" aria-hidden="true">' + ICON.ext + '</span>' +
+        '</span>' +
+      '</a>' +
+      '<button type="button" class="save-btn" data-save="' + esc(e.id) + '" aria-pressed="' + saved + '" aria-label="Save ' + esc(e.title) + '">' + ICON.bookmark + '</button>' +
+    '</div>';
+  }
+
+  function newsCard(n) {
+    return '<div class="fd-wrap"><a class="fd press fd-glass fd-news" href="' + esc(safeUrl(n.link || "#")) + '" target="_blank" rel="noopener noreferrer">' +
+      '<span class="fd-band"><span class="fd-chips"><span class="fd-chip">News</span><span class="fd-day">' + esc(n.source || "") + '</span></span>' +
+      '<span class="fd-title">' + esc(String(n.text || "").replace(/\s*\([^)]*\)\s*$/, "")) + '</span>' +
+      '<span class="fd-go" aria-hidden="true">' + ICON.ext + '</span></span></a></div>';
+  }
+
+  function adCard() {
+    return '<div class="fd-wrap"><a class="fd press fd-glass fd-ad" href="#" data-ad="1">' +
+      '<span class="fd-band"><span class="fd-chips"><span class="fd-chip">Sponsored</span></span>' +
+      '<span class="fd-title">Your ad here</span><span class="fd-meta">Put your venue, brand or event in front of Malta.</span>' +
+      '<span class="fd-go" aria-hidden="true">' + ICON.ext + '</span></span></a></div>';
+  }
+
+  // Lays cards into 1 column on phones, 2 side by side on wider screens, keeping date order left to right.
+  function feedHTML(cards) {
+    var cols = window.innerWidth >= 600 && cards.length > 1 ? 2 : 1;
+    if (cols === 1) return '<div class="feed"><div class="feed-col">' + cards.join("") + '</div></div>';
+    var a = [], b = [];
+    cards.forEach(function (c, i) { (i % 2 ? b : a).push(c); });
+    return '<div class="feed"><div class="feed-col">' + a.join("") + '</div><div class="feed-col">' + b.join("") + '</div></div>';
+  }
+
   function renderDiscover() {
     var w = windowFor(state.when);
     $("whenLabel").textContent = w.label;
     var list = state.events.filter(function (e) { return inWindow(e, w); });
-    var feat = list.filter(function (e) { return e.featured; })[0] || list[0];
-    var rest = list.filter(function (e) { return e !== feat; });
-    var heading = w.heading;
+    list.sort(function (a, b) { return (b.featured ? 1 : 0) - (a.featured ? 1 : 0); });
 
-    // Featured area
-    if (feat) {
-      $("featured").innerHTML = featuredCard(feat);
+    if (list.length) {
+      $("featured").innerHTML = feedHTML(list.map(fdCard));
     } else {
       var other = state.when === "weekend" ? ["Check tonight", "tonight"] : ["Check the weekend", "weekend"];
       $("featured").innerHTML = state.events.length
-        ? emptyCard("Nothing listed yet", "We haven't found anything for " + heading.toLowerCase() + " so far. New events land every week.", other[0], other[1])
+        ? emptyCard("Nothing listed yet", "We haven't found anything for " + w.heading.toLowerCase() + " so far. New events land every week.", other[0], other[1])
         : emptyCard("Events dropping soon", "We're lining up the best of Malta and Gozo. Save this page to your home screen and check back this week.", "", "");
     }
 
-    // Row: rest of this window, or coming up next if the window is thin
-    if (!rest.length) {
-      var t = todayMalta(), until = addDays(t, 14);
-      rest = state.events.filter(function (e) { return e !== feat && e.date <= until && !inWindow(e, w); });
-      heading = "Coming up";
-    }
-    $("thisWeekTitle").textContent = heading;
+    // Everything else coming up, with news and a sponsored card mixed in
+    var rest = state.events.filter(function (e) { return !inWindow(e, w); });
+    var news = (state.news || []).slice(0, 6), cards = [], ni = 0;
+    rest.forEach(function (e, i) {
+      cards.push(fdCard(e));
+      if (i === 2) cards.push(adCard());
+      if (i % 4 === 3 && news[ni]) cards.push(newsCard(news[ni++]));
+    });
+    $("thisWeekTitle").textContent = "Coming up";
     var row = $("eventRow");
-    var section = row.closest("section");
-    section.hidden = !state.events.length;
-    if (!rest.length) {
-      row.innerHTML = '<p class="when-label" style="margin:0">More events coming soon.</p>';
-      return;
-    }
-    var auto = !reduceMotion && rest.length >= (CFG.autoSlideFrom || 4);
-    var html = rest.map(function (e) { return evCard(e); }).join("");
-    if (auto) html += rest.map(function (e) { return evCard(e, { hidden: true }); }).join("");
-    row.innerHTML = '<div class="row fade-x ' + (auto ? "auto" : "scroll") + '">' + html + "</div>";
+    row.closest("section").hidden = !cards.length;
+    row.innerHTML = cards.length ? feedHTML(cards) : "";
   }
 
   function renderSaved() {
     var ids = getSaved();
     var list = state.events.filter(function (e) { return ids.indexOf(e.id) !== -1; });
     $("savedList").innerHTML = list.length
-      ? list.map(function (e) { return evCard(e); }).join("")
+      ? feedHTML(list.map(fdCard))
       : emptyCard("Nothing saved yet", "Tap the bookmark on any event and it will wait for you here.", "Find something", "tonight");
   }
 
@@ -366,6 +404,12 @@
         if (state.tab === "saved") renderSaved();
         return;
       }
+      var adc = e.target.closest("[data-ad]");
+      if (adc) {
+        if (CFG.adEmail) adc.href = "mailto:" + CFG.adEmail + "?subject=" + encodeURIComponent("Advertise on myRock");
+        else { e.preventDefault(); toast("Advertising opens soon"); }
+        return;
+      }
       var go = e.target.closest("[data-goto]");
       if (go) {
         if (state.tab !== "discover") setTab("discover");
@@ -375,13 +419,18 @@
   }
 
   /* ---------- start ---------- */
+  var lastCols = window.innerWidth >= 600;
+  window.addEventListener("resize", function () {
+    var c = window.innerWidth >= 600;
+    if (c !== lastCols && state.events) { lastCols = c; render(); }
+  });
   function start() {
     wire();
     setupLinks();
-    $("featured").innerHTML = '<div class="skeleton" style="height:340px"></div>';
+    $("featured").innerHTML = '<div class="skeleton" style="height:420px"></div>';
     var demo = CFG.demo === true || /[?&]demo=1/.test(location.search);
 
-    getJSON("data/news.json").then(renderNews).catch(function () { renderNews([]); });
+    getJSON("data/news.json").then(function (n) { state.news = Array.isArray(n) ? n : []; renderNews(n); if (state.events) renderDiscover(); }).catch(function () { renderNews([]); });
 
     getJSON("data/events.json").catch(function () { return []; }).then(function (real) {
       var list = normalise(real, false);

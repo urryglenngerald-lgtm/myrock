@@ -317,3 +317,36 @@ button{font:inherit}
 /* No poster: just the frosted purple-pink glass card, no clip art */
 .ev.no-poster,.featured.no-poster{background:linear-gradient(145deg,rgba(176,38,255,.42) 0%,rgba(90,10,120,.55) 45%,rgba(255,30,150,.38) 100%);-webkit-backdrop-filter:blur(18px) saturate(1.4);backdrop-filter:blur(18px) saturate(1.4);border:1px solid rgba(255,255,255,.28);box-shadow:inset 0 1px 0 rgba(255,255,255,.25),0 10px 30px rgba(48,6,78,.35)}
 .no-poster .scrim{background:linear-gradient(180deg,rgba(255,255,255,.08) 0%,rgba(48,6,78,0) 40%,rgba(48,6,78,.35) 100%)!important}
+/* ===== Big-card feed (Malta Daily layout, myRock frosted purple) ===== */
+.feed{display:flex;gap:12px;align-items:flex-start}
+.feed-col{flex:1;min-width:0;display:flex;flex-direction:column;gap:14px}
+.fd-wrap{position:relative}
+.fd-wrap .save-btn{position:absolute;top:12px;right:12px;z-index:3}
+.fd{display:flex;flex-direction:column;border-radius:22px;overflow:hidden;text-decoration:none;color:#fff;background:rgba(36,4,58,.78);-webkit-backdrop-filter:blur(16px) saturate(1.3);backdrop-filter:blur(16px) saturate(1.3);border:1px solid rgba(255,255,255,.18);box-shadow:0 10px 28px rgba(48,6,78,.35)}
+.fd-img{position:relative;display:block;overflow:hidden;background:#24043a}
+.fd-img .fd-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:blur(22px) brightness(.55) saturate(1.3);transform:scale(1.25)}
+.fd-img .fd-poster{position:relative;display:block;width:100%;height:auto;max-height:560px;object-fit:contain}
+.fd-img .poster-by{position:absolute;right:10px;bottom:8px;top:auto;z-index:2}
+.fd-band{position:relative;display:flex;flex-direction:column;gap:8px;padding:14px 52px 16px 16px}
+.fd-chips{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.fd-chip{background:#FFD21F;color:#24043a;font-weight:800;font-size:12px;letter-spacing:.6px;text-transform:uppercase;padding:3px 8px;border-radius:6px}
+.fd-day{font-size:12.5px;font-weight:700;color:rgba(255,255,255,.85)}
+.fd-title{font-family:Anton,Impact,sans-serif;font-size:26px;line-height:1.05;letter-spacing:.3px;text-transform:uppercase}
+.fd-meta{display:flex;align-items:center;gap:6px;font-size:13.5px;color:rgba(255,255,255,.82)}
+.fd-meta svg{flex:none}
+.fd-go{position:absolute;right:14px;bottom:16px;width:26px;height:26px;border-radius:6px;background:#FFD21F;color:#24043a;display:grid;place-items:center}
+/* No poster: whole card is the frosted purple-pink glass */
+.fd-glass{background:linear-gradient(145deg,rgba(176,38,255,.42) 0%,rgba(90,10,120,.55) 45%,rgba(255,30,150,.38) 100%);border:1px solid rgba(255,255,255,.28);box-shadow:inset 0 1px 0 rgba(255,255,255,.25),0 10px 30px rgba(48,6,78,.35)}
+.fd-glass .fd-band{min-height:190px;justify-content:flex-end;padding-top:64px}
+.fd-glass .fd-title{font-size:32px}
+.fd-news .fd-band,.fd-ad .fd-band{min-height:150px;padding-top:18px}
+.fd-news .fd-title{font-size:23px}
+/* Featured: yellow band like the highlight cards */
+.fd-hot .fd-band{background:#FFD21F;color:#24043a}
+.fd-hot .fd-chip{background:#24043a;color:#FFD21F}
+.fd-hot .fd-day,.fd-hot .fd-meta{color:#3a0a55}
+.fd-hot .fd-go{background:#24043a;color:#FFD21F}
+.fd-hot{border-color:#FFD21F;box-shadow:0 0 0 1px #FFD21F,0 12px 34px rgba(255,210,31,.25)}
+.fd-glass.fd-hot{background:linear-gradient(145deg,rgba(176,38,255,.42),rgba(255,30,150,.38))}
+@media (min-width:600px){.fd-title{font-size:22px}.fd-glass .fd-title{font-size:26px}}
+#eventRow{overflow:visible}
