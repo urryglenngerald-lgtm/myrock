@@ -38,7 +38,7 @@ def highspeed_tables():
     notes_var = notes_m.group(1)
     notes = re.findall(r'accessibleNote:"([^"]+)"', notes_m.group(0))
     arrays = {}
-    for m in re.finditer(r'[,;\s](\w{2,5})=(\[\{d:"[^\]]*\])', b):
+    for m in re.finditer(r'[,;\s](\w{2,5})=(\[\{d:".*?\}\])', b):
         name, body = m.group(1), m.group(2)
         trips = []
         for t in re.finditer(r'\{d:"(\d\d:\d\d)",a:"(\d\d:\d\d)"(?:,note:' + re.escape(notes_var) + r'\[(\d)\])?\}', body):
