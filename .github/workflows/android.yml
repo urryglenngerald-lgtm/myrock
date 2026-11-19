@@ -1,0 +1,30 @@
+name: Build Android app
+on:
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "20" }
+      - name: Bubblewrap
+        env:
+          BUBBLEWRAP_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KS_PASS }}
+          BUBBLEWRAP_KEY_PASSWORD: ${{ secrets.ANDROID_KS_PASS }}
+        run: |
+          test -n "$BUBBLEWRAP_KEYSTORE_PASSWORD" || { echo "Missing ANDROID_KS_PASS secret"; exit 1; }
+          npm i -g @bubblewrap/cli
+          mkdir -p ~/.bubblewrap
+          echo "{\"jdkPath\":\"$JAVA_HOME_17_X64\",\"androidSdkPath\":\"$ANDROID_HOME\"}" > ~/.bubblewrap/config.json
+          cd android
+          yes | bubblewrap update --skipVersionUpgrade --manifest=./twa-manifest.json
+          yes | bubblewrap build --skipPwaValidation --manifest=./twa-manifest.json
+          ls -la
+      - name: Publish as a GitHub release
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          tag="android-$(date +%Y%m%d-%H%M)"
+          gh release create "$tag" android/app-release-bundle.aab android/app-release-signed.apk --title "myRock Android $tag" --notes "Upload the .aab to Google Play Console."

@@ -1,0 +1,10 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.myrockmalta.app",
+    "sha256_cert_fingerprints": [
+      "CA:96:9F:FC:0A:35:23:DE:14:E1:E6:BD:E2:2C:81:F5:31:C8:EB:E4:3B:C2:A6:0B:11:B1:84:6D:CD:8E:D2:4F"
+    ]
+  }
+}]
