@@ -21,8 +21,18 @@ jobs:
           echo "{\"jdkPath\":\"$JAVA_HOME_17_X64\",\"androidSdkPath\":\"$ANDROID_HOME\"}" > ~/.bubblewrap/config.json
           cd android
           yes | bubblewrap update --skipVersionUpgrade --manifest=./twa-manifest.json
-          yes | bubblewrap build --skipPwaValidation --manifest=./twa-manifest.json
-          ls -la
+          export JAVA_HOME=$JAVA_HOME_17_X64
+          chmod +x gradlew
+          ./gradlew --no-daemon bundleRelease assembleRelease
+          P="$BUBBLEWRAP_KEYSTORE_PASSWORD"
+          AAB=$(ls app/build/outputs/bundle/release/*.aab | head -1)
+          cp "$AAB" app-release-bundle.aab
+          $JAVA_HOME/bin/jarsigner -keystore upload.jks -storepass "$P" -keypass "$P" -sigalg SHA256withRSA -digestalg SHA-256 app-release-bundle.aab myrock
+          BT=$(ls -d $ANDROID_HOME/build-tools/* | sort -V | tail -1)
+          APK=$(ls app/build/outputs/apk/release/*.apk | head -1)
+          $BT/zipalign -f -p 4 "$APK" aligned.apk
+          $BT/apksigner sign --ks upload.jks --ks-pass pass:"$P" --key-pass pass:"$P" --ks-key-alias myrock --out app-release-signed.apk aligned.apk
+          ls -la *.aab *.apk
       - name: Publish as a GitHub release
         env: { GH_TOKEN: "${{ github.token }}" }
         run: |
