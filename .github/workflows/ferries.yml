@@ -1,0 +1,22 @@
+name: Update ferry times
+on:
+  schedule:
+    - cron: "30 1 * * *"   # every night, about 2:30am Malta time
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  ferries:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/update_ferries.py data/ferries.json
+      - name: Save
+        run: |
+          git config user.name "myRock ferry bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/ferries.json
+          git diff --cached --quiet && echo "No change" || (git commit -m "Ferry times updated" && git push)
