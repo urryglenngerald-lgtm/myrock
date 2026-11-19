@@ -4,7 +4,13 @@ import json, re, io, sys, urllib.request, urllib.parse
 from PIL import Image
 
 UA = {"User-Agent": "Mozilla/5.0 (Linux; Android 14) myRock poster fetcher"}
-SKIP = re.compile(r"feverup\.com|candlelight", re.I)
+SKIP = re.compile(r"$^")
+# Better poster pages for events whose main link only shows a logo
+SOURCES = {
+  "peter-pan-madc-2026": "https://www.manicmalta.com/events/event/peter-pan-2026/",
+  "waterfront-xmas-village-2026": "https://vallettawaterfront.com/activity/the-valletta-waterfront-christmas-express",
+}
+ONLY = set(sys.argv[1:])
 
 def get(url):
     with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=30) as r:
@@ -12,12 +18,16 @@ def get(url):
 
 events = json.load(open("data/events.json"))
 for e in events:
+    if ONLY and e["id"] not in ONLY: continue
     if e.get("poster") or SKIP.search(e.get("link", "") + " " + e["title"]):
         print("skip", e["id"]); continue
     try:
-        html, final = get(e["link"])
+        html, final = get(SOURCES.get(e["id"], e["link"]))
         html = html.decode("utf-8", "ignore")
-        m = re.search(r'<meta[^>]+(?:property|name)=["\'](?:og:image|twitter:image)["\'][^>]+content=["\']([^"\']+)', html) or \
+        # Prefer a real flyer image on the page (technoairlines shows one), else og:image
+        m = re.search(r'<img[^>]+src=["\']([^"\']+)["\'][^>]*alt=["\'][^"\']*flyer', html, re.I) or \
+            re.search(r'<img[^>]+alt=["\'][^"\']*flyer[^"\']*["\'][^>]*src=["\']([^"\']+)', html, re.I) or \
+            re.search(r'<meta[^>]+(?:property|name)=["\'](?:og:image|twitter:image)["\'][^>]+content=["\']([^"\']+)', html) or \
             re.search(r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+(?:property|name)=["\'](?:og:image|twitter:image)', html)
         if not m:
             print("no-image", e["id"]); continue

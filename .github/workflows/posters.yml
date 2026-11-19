@@ -1,6 +1,11 @@
 name: Fetch event posters
 on:
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      ids:
+        description: event ids (blank = all without poster)
+        required: false
+        default: ""
 permissions:
   contents: write
 jobs:
@@ -12,10 +17,10 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install pillow
-      - run: python scripts/fetch_posters.py
+      - run: python scripts/fetch_posters.py ${{ inputs.ids }}
       - name: Save
         run: |
           git config user.name "myRock poster bot"
           git config user.email "actions@users.noreply.github.com"
-          git add images/posters
+          mkdir -p images/posters/review && git add images/posters
           git diff --cached --quiet && echo "No change" || (git commit -m "Event posters fetched" && git push)
