@@ -7,12 +7,25 @@ jobs:
     steps:
       - run: |
           UA="Mozilla/5.0 (Linux; Android 14) myRock"
-          echo "########## GC main js"
-          for u in "https://www.gozochannel.com/wp-content/themes/gozochannel/dist/scripts/main_0d42ae1f.js" "https://www.gozochannel.com/wp-content/plugins/gc-functionality/js/gc-ts.js?ver=1.0.9"; do
-            curl -sSL -m 25 -A "$UA" -o m.js "$u"; echo "== $u $(wc -c < m.js)"
-            grep -oiE '.{120}(schedule|admin-ajax|action:|action=|get_trips|days)[^;]{0,160}' m.js | head -25
-          done
-          echo "########## HS bundle"
-          curl -sSL -m 25 -A "$UA" -o b.js "https://gozohighspeed.com/assets/index-DwzXZidQ.js"; echo "size $(wc -c < b.js)"
-          grep -oE 'https?://[a-zA-Z0-9./_:-]+' b.js | sort -u | grep -viE 'w3.org|reactjs|github|mozilla|googletag|facebook|schema.org|fb.me|unpkg|jsdelivr' | head -40
-          grep -oiE '.{100}(timetable|schedule|/trips|departures|baseURL|apiUrl|api_url)[^;]{0,140}' b.js | head -25
+          echo "########## GC ajax"
+          curl -sSL -m 25 -A "$UA" -o m.js "https://www.gozochannel.com/wp-content/themes/gozochannel/dist/scripts/main_0d42ae1f.js"
+          python3 - <<'PY'
+          import re
+          t=open('m.js',encoding='utf-8',errors='ignore').read()
+          i=t.find('DEPARTURE FROM MĠARR, GOZO')
+          seg=t[max(0,i-9000):i+500]
+          for m in re.finditer(r'(ajax|url|fetch|action|\.get\(|\.post\(|wp-json|schedule)', seg):
+              s=max(0,m.start()-150); print('>>', seg[s:m.start()+200].replace('\n',' ')); print()
+          PY
+          echo "########## HS times"
+          curl -sSL -m 25 -A "$UA" -o b.js "https://gozohighspeed.com/assets/index-DwzXZidQ.js"
+          python3 - <<'PY'
+          import re
+          t=open('b.js',encoding='utf-8',errors='ignore').read()
+          seen=0
+          for m in re.finditer(r'"(0[5-9]|1\d|2[0-3]):[0-5]\d"', t):
+              s=max(0,m.start()-400); print('>>', t[s:m.start()+900]); print(); seen+=1
+              if seen>=3: break
+          for m in re.finditer(r'spreadsheets/', t):
+              print('SHEETS >>', t[max(0,m.start()-300):m.start()+400])
+          PY
