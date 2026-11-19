@@ -7,28 +7,12 @@ jobs:
     steps:
       - run: |
           UA="Mozilla/5.0 (Linux; Android 14) myRock"
-          echo "########## GOZO CHANNEL schedule page: ajax snippets"
-          curl -sSL -m 25 -A "$UA" -o gc.html https://www.gozochannel.com/ferry/schedule/
-          python3 - <<'PY'
-          import re
-          t=open('gc.html',encoding='utf-8',errors='ignore').read()
-          for m in re.finditer(r'(?i)(ajax|schedule|sch=|trip|departure)', t):
-              pass
-          scripts=re.findall(r'(?s)<script[^>]*>(.*?)</script>',t)
-          for s in scripts:
-              if re.search(r'(?i)ajax|schedule|depart',s) and len(s)<8000:
-                  print('--- inline script:', s.strip()[:1500])
-          for src in re.findall(r'<script[^>]+src="([^"]+)"',t):
-              print('src', src)
-          i=t.find('Current Ferry Schedule'); print('--- around schedule html:', re.sub(r'\s+',' ',t[i:i+3000]))
-          PY
-          echo "########## GOZO HIGHSPEED bundle"
-          curl -sSL -m 25 -A "$UA" -o hs.html https://gozohighspeed.com/
-          grep -oE 'src="[^"]+\.js"' hs.html
-          for js in $(grep -oE '/static/js/[^"]+\.js' hs.html | sort -u); do
-            curl -sSL -m 25 -A "$UA" -o b.js "https://gozohighspeed.com$js"
-            echo "== $js $(wc -c < b.js) bytes"
-            grep -oE 'https?://[a-zA-Z0-9./_-]+' b.js | sort -u | grep -viE 'w3.org|reactjs|github|mozilla|google-analytics|googletag|facebook|schema.org' | head -40
-            grep -oE '"/?api/[^"]{0,80}"|`/?api/[^`]{0,80}`|"/[a-z]+/(timetable|schedule|trips|departures)[^"]{0,60}"' b.js | sort -u | head -40
-            grep -oiE '.{80}(timetable|schedule)[^,;]{0,80}' b.js | head -15
+          echo "########## GC main js"
+          for u in "https://www.gozochannel.com/wp-content/themes/gozochannel/dist/scripts/main_0d42ae1f.js" "https://www.gozochannel.com/wp-content/plugins/gc-functionality/js/gc-ts.js?ver=1.0.9"; do
+            curl -sSL -m 25 -A "$UA" -o m.js "$u"; echo "== $u $(wc -c < m.js)"
+            grep -oiE '.{120}(schedule|admin-ajax|action:|action=|get_trips|days)[^;]{0,160}' m.js | head -25
           done
+          echo "########## HS bundle"
+          curl -sSL -m 25 -A "$UA" -o b.js "https://gozohighspeed.com/assets/index-DwzXZidQ.js"; echo "size $(wc -c < b.js)"
+          grep -oE 'https?://[a-zA-Z0-9./_:-]+' b.js | sort -u | grep -viE 'w3.org|reactjs|github|mozilla|googletag|facebook|schema.org|fb.me|unpkg|jsdelivr' | head -40
+          grep -oiE '.{100}(timetable|schedule|/trips|departures|baseURL|apiUrl|api_url)[^;]{0,140}' b.js | head -25
