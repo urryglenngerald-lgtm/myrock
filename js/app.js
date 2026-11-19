@@ -104,6 +104,12 @@
 
   function inWindow(e, w) { return e.date <= w.end && e.end >= w.start; }
 
+  function dayBadge(e) {
+    var t = todayMalta();
+    if (e.endDate && e.date < t) return "Till " + new Intl.DateTimeFormat("en-GB", { day: "numeric", month: "short", timeZone: "UTC" }).format(new Date(e.endDate + "T00:00:00Z"));
+    return shortDay(e.date);
+  }
+
   function evCard(e, opts) {
     opts = opts || {};
     var saved = getSaved().indexOf(e.id) !== -1;
@@ -116,7 +122,7 @@
       '<a class="ev card press" href="' + esc(link) + '"' + target + hidden + '>' + img +
         '<span class="scrim" aria-hidden="true"></span>' +
         '<span class="ev-top">' + (e.category ? '<span class="pill">' + esc(e.category) + '</span>' : '<span></span>') +
-          '<span class="day">' + esc(shortDay(e.date)) + '</span></span>' +
+          '<span class="day">' + esc(dayBadge(e)) + '</span></span>' +
         '<span class="ev-bottom"><span class="ev-title">' + esc(e.title) + '</span>' +
           (meta ? '<span class="ev-meta">' + ICON.pin + esc(meta) + '</span>' : "") +
           (e.price ? '<span class="ev-meta">' + esc(e.price) + '</span>' : "") +
@@ -130,7 +136,7 @@
     var link = safeUrl(e.link);
     var target = /^https?:/i.test(link) ? ' target="_blank" rel="noopener noreferrer"' : "";
     var where = [e.venue, e.town].filter(Boolean).join(", ");
-    var when = shortDay(e.date) + (e.time ? ", " + e.time : "");
+    var when = dayBadge(e) + (e.time && e.date >= todayMalta() ? ", " + e.time : "");
     return '<div class="f-wrap">' +
       '<a class="featured press" href="' + esc(link) + '"' + target + '>' +
         (e.image ? '<img src="' + esc(safeUrl(e.image)) + '" alt="">' : "") +
