@@ -1,10 +1,15 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.myrockmalta.app",
-    "sha256_cert_fingerprints": [
-      "7A:F3:F9:89:61:0E:BA:40:65:17:32:FF:7A:60:A1:85:EE:C1:B4:00:7D:34:AA:12:40:23:A1:D2:4C:7E:4E:71"
-    ]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.myrockmalta.app",
+      "sha256_cert_fingerprints": [
+        "AB:4C:1C:5C:0C:8B:14:F0:83:EB:D4:D4:F3:2F:59:8D:D9:B9:75:DE:52:86:32:29:BA:FD:C0:1D:41:23:50:B5",
+        "7A:F3:F9:89:61:0E:BA:40:65:17:32:FF:7A:60:A1:85:EE:C1:B4:00:7D:34:AA:12:40:23:A1:D2:4C:7E:4E:71"
+      ]
+    }
   }
-}]
+]
