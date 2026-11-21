@@ -1,0 +1,38 @@
+[
+  {
+    "id": "sample-top",
+    "name": "Sample Burger Bar",
+    "cuisine": "Burgers",
+    "town": "Sample town",
+    "deal": "Sample deal: 2 for 1 every Tuesday",
+    "hours": "Sample hours: 12:00 to 23:00",
+    "image": "images/knock2.jpg",
+    "menu": "https://example.com",
+    "plan": "top"
+  },
+  {
+    "id": "sample-pizza",
+    "name": "Sample Pizzeria",
+    "cuisine": "Pizza",
+    "town": "Sample town",
+    "deal": "Sample deal: free dessert over €25",
+    "menu": "https://example.com",
+    "order": "https://example.com"
+  },
+  {
+    "id": "sample-pastizzi",
+    "name": "Sample Pastizzeria",
+    "cuisine": "Maltese",
+    "town": "Sample town",
+    "hours": "Sample hours: from 06:00",
+    "menu": "https://example.com"
+  },
+  {
+    "id": "sample-sushi",
+    "name": "Sample Sushi Spot",
+    "cuisine": "Asian",
+    "town": "Sample town",
+    "deal": "Sample deal: lunch box €9.50",
+    "order": "https://example.com"
+  }
+]

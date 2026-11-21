@@ -56,6 +56,7 @@
     toastTimer = setTimeout(function () { t.classList.remove("show"); }, 2200);
     if (navigator.vibrate) { try { navigator.vibrate(12); } catch (e) {} }
   }
+  window.MYROCK_TOAST = toast;
   function getJSON(url) {
     return fetch(url, { cache: "no-store" }).then(function (r) {
       if (!r.ok) throw new Error(url + " " + r.status);
@@ -274,28 +275,35 @@
   }
 
   /* ---------- tabs ---------- */
-  var TAB_INDEX = { discover: 0, saved: 1, useful: 2 };
+  var TAB_INDEX = { discover: 0, knock: 1, saved: 2, useful: 3 };
+  var VIEW_FOR = { discover: "view-discover", useful: "view-discover", knock: "view-knock", saved: "view-saved" };
   function setTab(tab) {
+    if (!(tab in TAB_INDEX)) tab = "discover";
     var prev = TAB_INDEX[state.tab], next = TAB_INDEX[tab];
     state.tab = tab;
     $("tabInd").style.transform = "translateX(" + (next * 100) + "%)";
     document.querySelectorAll(".tab").forEach(function (b) {
       if (b.dataset.tab === tab) b.setAttribute("aria-current", "page"); else b.removeAttribute("aria-current");
     });
-    var showSaved = tab === "saved";
-    var target = showSaved ? $("view-saved") : $("view-discover");
+    var target = $(VIEW_FOR[tab]);
     var wasHidden = target.hidden;
-    $("view-saved").hidden = !showSaved;
-    $("view-discover").hidden = showSaved;
+    ["view-discover", "view-knock", "view-saved"].forEach(function (id) { $(id).hidden = id !== VIEW_FOR[tab]; });
+    document.documentElement.classList.toggle("on-knock", tab === "knock");
     if (wasHidden) {
       target.classList.remove("view-in", "from-left");
       void target.offsetWidth;
       target.classList.add("view-in");
       if (next < prev) target.classList.add("from-left");
     }
-    if (showSaved) { renderSaved(); window.scrollTo({ top: 0, behavior: reduceMotion ? "auto" : "smooth" }); }
-    else if (tab === "useful") { $("useful").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" }); }
-    else if (wasHidden || tab === "discover") { window.scrollTo({ top: 0, behavior: reduceMotion ? "auto" : "smooth" }); }
+    // Keep #knock in the address so the billboard can be shared as a link.
+    try {
+      if (tab === "knock" && location.hash !== "#knock") history.replaceState(null, "", "#knock");
+      else if (tab !== "knock" && location.hash === "#knock") history.replaceState(null, "", location.pathname + location.search);
+    } catch (e) {}
+    if (tab === "saved") renderSaved();
+    if (tab === "knock" && window.KNOCK) window.KNOCK.render();
+    if (tab === "useful") $("useful").scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" });
+    else window.scrollTo({ top: 0, behavior: reduceMotion ? "auto" : "smooth" });
     if (navigator.vibrate) { try { navigator.vibrate(8); } catch (e) {} }
   }
 
@@ -362,9 +370,7 @@
     if (CFG.adEmail) ad.href = "mailto:" + CFG.adEmail + "?subject=" + encodeURIComponent("Advertise on myRock");
     else ad.addEventListener("click", function (e) { e.preventDefault(); toast("Advertising opens soon"); });
 
-    var k = $("knockTile");
-    if (CFG.knockLink) { k.href = safeUrl(CFG.knockLink); k.target = "_blank"; k.rel = "noopener noreferrer"; }
-    else k.addEventListener("click", function (e) { e.preventDefault(); toast("Knock is coming soon"); });
+    $("knockTile").addEventListener("click", function (e) { e.preventDefault(); setTab("knock"); });
 
     var s = CFG.socials || {}, html = "";
     if (s.facebook) html += '<a class="glass press" href="' + esc(safeUrl(s.facebook)) + '" target="_blank" rel="noopener noreferrer">Facebook ' + ICON.ext + "</a>";
@@ -452,6 +458,10 @@
       }
       setWhen(mode);
     });
+
+    if (window.KNOCK) window.KNOCK.init(demo);
+    if (location.hash === "#knock") setTab("knock");
+    window.addEventListener("hashchange", function () { if (location.hash === "#knock") setTab("knock"); });
 
     loadWeather();
     setInterval(loadWeather, 30 * 60 * 1000);

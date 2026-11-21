@@ -15,8 +15,8 @@ window.MYROCK_CONFIG = {
     instagram: ""
   },
 
-  // Where the Knock (food) tile goes. Empty = shows "coming soon".
-  knockLink: "",
+  // Where "Get on Knock" sends restaurants. Empty = uses adEmail, or shows "opens soon".
+  knockEmail: "geraldsmediahouse@gmail.com",
 
   // Weather location (Valletta).
   weather: { lat: 35.8989, lon: 14.5146, place: "Malta" },

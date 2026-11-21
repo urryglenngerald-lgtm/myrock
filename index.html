@@ -133,7 +133,7 @@
           <img src="images/ferry.jpg" alt="" loading="lazy"><span class="pill">Ferries</span></a>
         <a class="tile card press" id="pharmTile" href="https://medicinesauthority.gov.mt/pharmacyroster" target="_blank" rel="noopener noreferrer" aria-label="Pharmacies open on Sundays and holidays">
           <img src="images/pharm.jpg" alt="" loading="lazy"><span class="pill">Pharmacies</span></a>
-        <a class="tile card press" href="#knock" id="knockTile" aria-label="Local food on Knock">
+        <a class="tile card press" href="#knock" id="knockTile" aria-label="Food on Knock">
           <img src="images/knock2.jpg" alt="" loading="lazy"><span class="pill">Food</span></a>
         <div class="socials" id="socials">
           <span class="h2 neon-text socials-title">Our Socials</span>
@@ -149,6 +149,23 @@
     </footer>
   </main>
 
+  <!-- KNOCK VIEW: the food billboard -->
+  <main id="view-knock" class="wrap main knock" hidden>
+    <section class="kn-hero glass">
+      <span class="kn-glow" aria-hidden="true"></span>
+      <img class="kn-logo" src="images/knock-logo.png" alt="Knock" width="84" height="84">
+      <div class="kn-hero-txt">
+        <span class="kicker">Food on the rock</span>
+        <h2 class="h2 neon-text">Hungry? Knock knock.</h2>
+        <p>Menus, deals and fresh posters from kitchens around Malta and Gozo.</p>
+      </div>
+    </section>
+    <div id="knSample" class="sample-banner" hidden>Sample preview: these are not real restaurants.</div>
+    <div id="knChips" class="kn-chips" role="group" aria-label="Pick a food" hidden></div>
+    <div id="knFeed"><div class="skeleton" style="height:320px"></div></div>
+    <p class="ph-note kn-note">Listings on Knock are paid placements. Prices, menus and opening hours are set by each restaurant, so check with them before you go.</p>
+  </main>
+
   <!-- SAVED VIEW -->
   <main id="view-saved" class="wrap main" hidden>
     <section class="section">
@@ -161,6 +178,8 @@
     <span class="tab-ind" id="tabInd" aria-hidden="true"></span>
     <button type="button" class="tab press" data-tab="discover" aria-current="page">
       <span class="tab-ico"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><polygon points="15.5 8.5 13.5 13.5 8.5 15.5 10.5 10.5"/></svg></span>Discover</button>
+    <button type="button" class="tab press" data-tab="knock">
+      <span class="tab-ico"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3v8a2 2 0 0 0 2 2h0a2 2 0 0 0 2-2V3"/><line x1="9" y1="13" x2="9" y2="21"/><path d="M17 21V3c-2.2 1.2-3 3.6-3 7v3h3"/></svg></span>Knock</button>
     <button type="button" class="tab press" data-tab="saved">
       <span class="tab-ico"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"/></svg></span>Saved</button>
     <button type="button" class="tab press" data-tab="useful">
@@ -234,6 +253,7 @@
     </section>
   </div>
 <script src="js/launch.js"></script>
+<script src="js/knock.js"></script>
 <script src="js/app.js"></script>
 <script src="js/pharmacies.js"></script>
 <script src="js/ferries.js"></script>
