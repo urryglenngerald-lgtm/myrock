@@ -499,3 +499,10 @@ button{font:inherit}
 .gm-score{font-size:12.5px;font-weight:700;color:rgba(255,255,255,.85)}
 .gm-score b{font-family:Anton,Impact,sans-serif;font-weight:400;font-size:28px;color:#FFD21F;margin-right:4px}
 .gm-more{margin-top:auto;font-weight:800;font-size:13px;color:#FFD21F}
+/* Frosted purple band under each film poster */
+.fm-card{padding:0}
+.fm-band{position:relative;z-index:1;display:flex;flex-direction:column;gap:6px;flex:1;padding:10px 0 12px;background:rgba(48,6,78,.55);-webkit-backdrop-filter:blur(16px) saturate(1.5);backdrop-filter:blur(16px) saturate(1.5);border-top:1px solid rgba(255,255,255,.28);box-shadow:inset 0 1px 0 rgba(255,255,255,.12)}
+.fm-pcard{background:#24043a}
+.fm-pcard .fm-art{position:static}
+.fm-pcard .fm-pic{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center top}
+.fm-pcard .fm-art.fm-has-pic{aspect-ratio:auto;height:0;padding-top:128%;overflow:visible}

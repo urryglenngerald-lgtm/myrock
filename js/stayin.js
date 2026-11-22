@@ -44,10 +44,10 @@
   }
   function pic(f) { return /^images\/films\/[\w.-]+$/.test(f.img || "") ? f.img : ""; }
   function tile(f, i) {
-    return '<button type="button" class="fm-card fm-' + esc(f.mood) + ' press" data-film="' + i + '" aria-label="' + esc(f.title) + ', ' + f.year + '">' +
+    return '<button type="button" class="fm-card fm-' + esc(f.mood) + (pic(f) ? ' fm-pcard' : '') + ' press" data-film="' + i + '" aria-label="' + esc(f.title) + ', ' + f.year + '">' +
       (pic(f) ? '<span class="fm-art fm-has-pic" aria-hidden="true"><img class="fm-pic" src="' + pic(f) + '" alt="" loading="lazy"></span>' : '<span class="fm-art" aria-hidden="true"><span class="fm-glow"></span><span class="fm-year">' + f.year + '</span></span>') +
-      '<span class="fm-title">' + esc(f.title) + '</span>' +
-      '<span class="fm-meta"><span class="fm-genre">' + esc(f.genre) + '</span><span class="fm-imdb">IMDb ' + Number(f.imdb).toFixed(1) + '</span></span></button>';
+      '<span class="fm-band"><span class="fm-title">' + esc(f.title) + '</span>' +
+      '<span class="fm-meta"><span class="fm-genre">' + esc(f.genre) + '</span><span class="fm-imdb">IMDb ' + Number(f.imdb).toFixed(1) + '</span></span></span></button>';
   }
   function renderWatch() {
     if (!watch) { wBox.innerHTML = ""; return; }
