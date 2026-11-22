@@ -4,17 +4,18 @@ from zoneinfo import ZoneInfo
 
 MT = ZoneInfo("Europe/Malta")
 UA = {"User-Agent": "Mozilla/5.0 (myRock bot; +https://myrockmalta.com)"}
-LEAGUES = [  # order = priority in the app
-    ("uefa.champions", "Champions League"),
-    ("eng.1", "Premier League"),
-    ("ita.1", "Serie A"),
-    ("uefa.europa", "Europa League"),
-    ("esp.1", "La Liga"),
-    ("fra.1", "Ligue 1"),
-    ("ger.1", "Bundesliga"),
-    ("uefa.europa.conf", "Conference League"),
-    ("mlt.1", "Malta Premier League"),
+LEAGUES = [  # (TheSportsDB league name, label) in priority order
+    ("UEFA Champions League", "Champions League"),
+    ("English Premier League", "Premier League"),
+    ("Italian Serie A", "Serie A"),
+    ("UEFA Europa League", "Europa League"),
+    ("Spanish La Liga", "La Liga"),
+    ("French Ligue 1", "Ligue 1"),
+    ("German Bundesliga", "Bundesliga"),
+    ("UEFA Europa Conference League", "Conference League"),
+    ("Maltese Premier League", "Malta Premier League"),
 ]
+import urllib.parse
 
 def get(url):
     with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=30) as r:
@@ -22,33 +23,33 @@ def get(url):
 
 today = datetime.datetime.now(MT).date()
 days = [today, today + datetime.timedelta(days=1)]
-out = []
+out, seen = [], set()
 for code, name in LEAGUES:
-    seen = set()
-    for d in [today - datetime.timedelta(days=1)] + days:  # UTC vs Malta midnight overlap
+    for d in [today - datetime.timedelta(days=1)] + days:
+        url = "https://www.thesportsdb.com/api/v1/json/123/eventsday.php?d=%s&l=%s" % (d.isoformat(), urllib.parse.quote(code))
         try:
-            data = get(f"https://site.api.espn.com/apis/site/v2/sports/soccer/{code}/scoreboard?dates={d:%Y%m%d}")
+            data = get(url)
         except Exception as e:
             print("skip", code, d, e); continue
-        for ev in data.get("events", []):
-            if ev["id"] in seen: continue
-            seen.add(ev["id"])
-            ko = datetime.datetime.fromisoformat(ev["date"].replace("Z", "+00:00")).astimezone(MT)
+        for ev in (data.get("events") or []):
+            if ev["idEvent"] in seen or not ev.get("strTimestamp"): continue
+            seen.add(ev["idEvent"])
+            ko = datetime.datetime.fromisoformat(ev["strTimestamp"].replace("Z", "")).replace(tzinfo=datetime.timezone.utc).astimezone(MT)
             if ko.date() not in days: continue
-            comp = ev["competitions"][0]
-            teams = {c["homeAway"]: c for c in comp["competitors"]}
-            st = ev["status"]["type"]
+            status = (ev.get("strStatus") or "").upper()
+            done = status in ("FT", "MATCH FINISHED", "AET", "PEN")
+            live = status in ("1H", "2H", "HT", "ET", "LIVE")
+            hs, as_ = ev.get("intHomeScore"), ev.get("intAwayScore")
             out.append({
                 "league": name, "code": code,
-                "home": teams["home"]["team"].get("shortDisplayName") or teams["home"]["team"]["displayName"],
-                "away": teams["away"]["team"].get("shortDisplayName") or teams["away"]["team"]["displayName"],
+                "home": ev["strHomeTeam"], "away": ev["strAwayTeam"],
                 "ko": ko.isoformat(),
-                "state": st.get("state"),  # pre, in, post
-                "score": f'{teams["home"].get("score","")}-{teams["away"].get("score","")}' if st.get("state") != "pre" else "",
-                "clock": ev["status"].get("displayClock") if st.get("state") == "in" else "",
+                "state": "post" if done else ("in" if live else "pre"),
+                "score": f"{hs}-{as_}" if (done or live) and hs is not None else "",
+                "clock": status if live else "",
             })
 prio = {n: i for i, (_, n) in enumerate(LEAGUES)}
 out.sort(key=lambda m: (m["ko"][:10], prio[m["league"]], m["ko"]))
-res = {"updated": datetime.datetime.now(MT).isoformat(timespec="minutes"), "source": "ESPN", "matches": out}
+res = {"updated": datetime.datetime.now(MT).isoformat(timespec="minutes"), "source": "TheSportsDB", "matches": out}
 json.dump(res, open("data/football.json", "w"), ensure_ascii=False, indent=1)
 print(len(out), "matches"); print(json.dumps(out[:6], indent=1, ensure_ascii=False))
