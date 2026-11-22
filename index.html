@@ -107,6 +107,10 @@
           <span class="kicker">On the rock</span>
           <h2 id="thisWeekTitle" class="h2 neon-text">This week</h2>
         </div>
+        <button type="button" class="si-btn press" id="stayinBtn" aria-haspopup="dialog">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11V8a3 3 0 0 1 3-3h10a3 3 0 0 1 3 3v3"/><path d="M2 13a2 2 0 0 1 4 0v2h12v-2a2 2 0 0 1 4 0v4a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2z"/><line x1="5" y1="19" x2="5" y2="21"/><line x1="19" y1="19" x2="19" y2="21"/></svg>
+          <span><b>Staying in?</b><small>We got you sorted</small></span>
+        </button>
       </div>
       <div id="eventRow" class="row-outer"></div>
     </section>
@@ -189,6 +193,32 @@
 
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
 
+<!-- STAYIN SHEET -->
+  <div class="sheet-wrap" id="stayinSheet" hidden>
+    <div class="sheet-backdrop" data-close></div>
+    <section class="sheet glass-dark" role="dialog" aria-modal="true" aria-labelledby="stayinTitle">
+      <div class="sheet-grab" aria-hidden="true"></div>
+      <div class="sheet-head">
+        <div><span class="kicker">Sofa mode</span><h2 class="h2 neon-text" id="stayinTitle">Staying in</h2></div>
+        <button class="sheet-x press" type="button" data-close aria-label="Close">✕</button>
+      </div>
+      <p class="si-lead">Not going out tonight? No shame. Here's what Malta is watching and how to get food to the door.</p>
+      <div id="stayinBody"></div>
+      <h3 class="si-h">Order in</h3>
+      <div class="rd-list">
+        <button type="button" class="ph-row rd-row glass press si-knock" data-knock>
+          <span class="rd-badge" style="background:#C8036F">K</span>
+          <div class="ph-txt"><b>Knock</b><span>Menus and deals from places near you, right here in myRock.</span></div><span class="ph-map">Open</span></button>
+        <a class="ph-row rd-row glass press" href="https://wolt.com/en/mlt" target="_blank" rel="noopener noreferrer">
+          <span class="rd-badge" style="background:#009DE0">W</span>
+          <div class="ph-txt"><b>Wolt</b><span>Food, groceries and late-night snacks.</span></div><span class="ph-map">Open</span></a>
+        <a class="ph-row rd-row glass press" href="https://food.bolt.eu/en-us/" target="_blank" rel="noopener noreferrer">
+          <span class="rd-badge" style="background:#2EB872">B</span>
+          <div class="ph-txt"><b>Bolt Food</b><span>Often cheaper delivery, worth a price check.</span></div><span class="ph-map">Open</span></a>
+      </div>
+      <p class="ph-note">Watch list from the official Netflix Top 10, updated every Wednesday. myRock isn't linked to Netflix, Wolt or Bolt.</p>
+    </section>
+  </div>
 <!-- RIDES SHEET -->
   <div class="sheet-wrap" id="ridesSheet" hidden>
     <div class="sheet-backdrop" data-close></div>
@@ -258,5 +288,6 @@
 <script src="js/pharmacies.js"></script>
 <script src="js/ferries.js"></script>
 <script src="js/rides.js"></script>
+<script src="js/stayin.js"></script>
 </body>
 </html>
