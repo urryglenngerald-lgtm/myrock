@@ -1,0 +1,21 @@
+name: Staying in (Netflix Top 10)
+on:
+  schedule:
+    - cron: "15 6 * * 3"
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: python scripts/fetch_stayin.py
+      - run: |
+          git config user.name "myRock bot"
+          git config user.email "bot@myrockmalta.com"
+          git add data/stayin.json
+          git diff --cached --quiet || git commit -m "Staying in: this week's Netflix Top 10"
+          git pull --rebase && git push
