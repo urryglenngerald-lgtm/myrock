@@ -121,7 +121,8 @@
      "imdb": 8.5,
      "awards": "5 Oscars, including Best Picture",
      "about": "A Roman general is betrayed, enslaved and forced to fight as a gladiator, with one goal: revenge on the emperor who destroyed his family.",
-     "take": "Local flex: big chunks were shot at Fort Ricasoli in Kalkara."
+     "take": "Local flex: big chunks were shot at Fort Ricasoli in Kalkara.",
+     "img": "images/films/gladiator.jpg"
     },
     {
      "id": "casablanca",
@@ -140,7 +141,8 @@
      "imdb": 8.5,
      "awards": "3 Oscars, including Best Picture",
      "about": "In wartime Morocco, a cynical bar owner's life gets complicated when the woman who broke his heart walks into his café needing his help.",
-     "take": "Black and white, zero boring. Half your favourite lines come from here."
+     "take": "Black and white, zero boring. Half your favourite lines come from here.",
+     "img": "images/films/casablanca.jpg"
     },
     {
      "id": "pulpfiction",
@@ -159,7 +161,8 @@
      "imdb": 8.9,
      "awards": "Palme d'Or, Oscar for Best Original Screenplay",
      "about": "Hitmen, a boxer, a gangster's wife and a pair of diner robbers collide in LA, told out of order and somehow it all clicks.",
-     "take": "Snacks ready. The dialogue is the main character."
+     "take": "Snacks ready. The dialogue is the main character.",
+     "img": "images/films/pulpfiction.jpg"
     },
     {
      "id": "parasite",
@@ -178,7 +181,8 @@
      "imdb": 8.5,
      "awards": "4 Oscars, including Best Picture",
      "about": "A broke family cons its way, one job at a time, into the house of a rich one. Then the house reveals a secret.",
-     "take": "Go in knowing nothing. Subtitles, worth it."
+     "take": "Go in knowing nothing. Subtitles, worth it.",
+     "img": "images/films/parasite.jpg"
     },
     {
      "id": "backtothefuture",
@@ -197,7 +201,8 @@
      "imdb": 8.5,
      "awards": "Oscar for Best Sound Effects Editing",
      "about": "A teenager is accidentally sent back to 1955 in a time-travelling DeLorean and has to make sure his parents still fall in love.",
-     "take": "Feel-good certified. Great one for the family sofa."
+     "take": "Feel-good certified. Great one for the family sofa.",
+     "img": "images/films/backtothefuture.jpg"
     },
     {
      "id": "grandbudapest",
@@ -216,7 +221,8 @@
      "imdb": 8.1,
      "awards": "4 Oscars",
      "about": "A legendary concierge and his lobby boy get caught up in a stolen painting, a family fortune and a very fast chase across a made-up European country.",
-     "take": "Pastel-perfect and properly funny. Peak aesthetic."
+     "take": "Pastel-perfect and properly funny. Peak aesthetic.",
+     "img": "images/films/grandbudapest.jpg"
     },
     {
      "id": "spiritedaway",
@@ -234,7 +240,8 @@
      "imdb": 8.6,
      "awards": "Oscar for Best Animated Feature",
      "about": "A girl stumbles into a spirit world, her parents get turned into pigs, and she has to work in a bathhouse for gods to get them back.",
-     "take": "Animation for grown-ups too. Pure magic."
+     "take": "Animation for grown-ups too. Pure magic.",
+     "img": "images/films/spiritedaway.jpg"
     }
    ]
   },
