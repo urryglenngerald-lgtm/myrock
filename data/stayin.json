@@ -1,60 +1,154 @@
 {
- "where": "Malta",
+ "updated": "2026-11-22",
  "week": "2026-11-15",
- "tv": [
+ "tmdb": false,
+ "platforms": [
   {
-   "rank": 1,
-   "title": "Black Doves: Season 2",
-   "weeks": 2
-  },
-  {
-   "rank": 2,
-   "title": "Taken: Natalee Holloway: Season 1",
-   "weeks": 2
-  },
-  {
-   "rank": 3,
-   "title": "Lupin: Part 4",
-   "weeks": 4
-  },
-  {
-   "rank": 4,
-   "title": "The Empress: Season 3",
-   "weeks": 1
-  },
-  {
-   "rank": 5,
-   "title": "Black Doves: Season 1",
-   "weeks": 6
+   "id": "netflix",
+   "name": "Netflix",
+   "label": "Top 10 in Malta this week",
+   "items": [
+    {
+     "title": "Black Doves: Season 2",
+     "kind": "tv",
+     "rank": 1,
+     "weeks": 2,
+     "imdb": "https://www.imdb.com/find/?q=Black%20Doves"
+    },
+    {
+     "title": "Taken: Natalee Holloway: Season 1",
+     "kind": "tv",
+     "rank": 2,
+     "weeks": 2,
+     "imdb": "https://www.imdb.com/find/?q=Taken%3A%20Natalee%20Holloway"
+    },
+    {
+     "title": "Lupin: Part 4",
+     "kind": "tv",
+     "rank": 3,
+     "weeks": 4,
+     "imdb": "https://www.imdb.com/find/?q=Lupin"
+    },
+    {
+     "title": "The Empress: Season 3",
+     "kind": "tv",
+     "rank": 4,
+     "weeks": 1,
+     "imdb": "https://www.imdb.com/find/?q=The%20Empress"
+    },
+    {
+     "title": "Black Doves: Season 1",
+     "kind": "tv",
+     "rank": 5,
+     "weeks": 6,
+     "imdb": "https://www.imdb.com/find/?q=Black%20Doves"
+    },
+    {
+     "title": "The Body: Season 1",
+     "kind": "tv",
+     "rank": 6,
+     "weeks": 1,
+     "imdb": "https://www.imdb.com/find/?q=The%20Body"
+    },
+    {
+     "title": "A Couple of Lies: Limited Series",
+     "kind": "tv",
+     "rank": 7,
+     "weeks": 3,
+     "imdb": "https://www.imdb.com/find/?q=A%20Couple%20of%20Lies"
+    },
+    {
+     "title": "Doozie's Doghouse: Season 1",
+     "kind": "tv",
+     "rank": 8,
+     "weeks": 1,
+     "imdb": "https://www.imdb.com/find/?q=Doozie%27s%20Doghouse"
+    },
+    {
+     "title": "Anaesthesia: Season 1",
+     "kind": "tv",
+     "rank": 9,
+     "weeks": 1,
+     "imdb": "https://www.imdb.com/find/?q=Anaesthesia"
+    },
+    {
+     "title": "Nobody Wants This: Season 3",
+     "kind": "tv",
+     "rank": 10,
+     "weeks": 4,
+     "imdb": "https://www.imdb.com/find/?q=Nobody%20Wants%20This"
+    },
+    {
+     "title": "A Dog's Perfect Christmas",
+     "kind": "movie",
+     "rank": 1,
+     "weeks": 2,
+     "imdb": "https://www.imdb.com/find/?q=A%20Dog%27s%20Perfect%20Christmas"
+    },
+    {
+     "title": "The Christmas Switch",
+     "kind": "movie",
+     "rank": 2,
+     "weeks": 1,
+     "imdb": "https://www.imdb.com/find/?q=The%20Christmas%20Switch"
+    },
+    {
+     "title": "The Good Lawyer",
+     "kind": "movie",
+     "rank": 3,
+     "weeks": 1,
+     "imdb": "https://www.imdb.com/find/?q=The%20Good%20Lawyer"
+    },
+    {
+     "title": "Return to Christmas Creek",
+     "kind": "movie",
+     "rank": 4,
+     "weeks": 1,
+     "imdb": "https://www.imdb.com/find/?q=Return%20to%20Christmas%20Creek"
+    },
+    {
+     "title": "Never Surrender",
+     "kind": "movie",
+     "rank": 5,
+     "weeks": 1,
+     "imdb": "https://www.imdb.com/find/?q=Never%20Surrender"
+    },
+    {
+     "title": "The Unthinkable Daughter",
+     "kind": "movie",
+     "rank": 6,
+     "weeks": 1,
+     "imdb": "https://www.imdb.com/find/?q=The%20Unthinkable%20Daughter"
+    },
+    {
+     "title": "Christmas in Love",
+     "kind": "movie",
+     "rank": 7,
+     "weeks": 2,
+     "imdb": "https://www.imdb.com/find/?q=Christmas%20in%20Love"
+    },
+    {
+     "title": "How the Grinch Stole Christmas",
+     "kind": "movie",
+     "rank": 8,
+     "weeks": 12,
+     "imdb": "https://www.imdb.com/find/?q=How%20the%20Grinch%20Stole%20Christmas"
+    },
+    {
+     "title": "All the Pretty Horses",
+     "kind": "movie",
+     "rank": 9,
+     "weeks": 1,
+     "imdb": "https://www.imdb.com/find/?q=All%20the%20Pretty%20Horses"
+    },
+    {
+     "title": "War",
+     "kind": "movie",
+     "rank": 10,
+     "weeks": 4,
+     "imdb": "https://www.imdb.com/find/?q=War"
+    }
+   ]
   }
- ],
- "films": [
-  {
-   "rank": 1,
-   "title": "A Dog's Perfect Christmas",
-   "weeks": 2
-  },
-  {
-   "rank": 2,
-   "title": "The Christmas Switch",
-   "weeks": 1
-  },
-  {
-   "rank": 3,
-   "title": "The Good Lawyer",
-   "weeks": 1
-  },
-  {
-   "rank": 4,
-   "title": "Return to Christmas Creek",
-   "weeks": 1
-  },
-  {
-   "rank": 5,
-   "title": "Never Surrender",
-   "weeks": 1
-  }
- ],
- "source": "Netflix Top 10",
- "updated": "2026-11-22"
+ ]
 }
