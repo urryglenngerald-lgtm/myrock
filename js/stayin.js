@@ -15,8 +15,32 @@
         '<span class="si-rank">' + it.rank + '</span><span class="si-t">' + esc(it.title) + '</span>' + tag + '</a></li>';
     }).join("") + "</ol>";
   }
+  function football(d) {
+    var box = document.getElementById("stayinFootball");
+    if (!box) return;
+    var ms = (d && d.matches) || [];
+    if (!ms.length) { box.innerHTML = ""; return; }
+    var today = new Date().toLocaleDateString("en-CA", { timeZone: "Europe/Malta" });
+    var groups = {};
+    ms.forEach(function (m) { var k = m.ko.slice(0, 10); (groups[k] = groups[k] || []).push(m); });
+    var html = '<h3 class="si-h">Football</h3>';
+    Object.keys(groups).sort().forEach(function (k) {
+      html += '<p class="si-sub">' + (k === today ? "Tonight" : "Tomorrow") + '</p><ul class="si-list fb-list">';
+      groups[k].forEach(function (m) {
+        var t = m.ko.slice(11, 16);
+        var right = m.state === "in" ? '<span class="fb-live">LIVE ' + esc(m.score) + '</span>' :
+          m.state === "post" ? '<span class="si-wk">FT ' + esc(m.score) + '</span>' :
+          m.state === "off" ? '<span class="si-wk">Off</span>' : '<span class="fb-time">' + t + '</span>';
+        html += '<li class="si-item fb-item glass"><span class="fb-lg">' + esc(m.league) + '</span>' +
+          '<span class="si-t">' + esc(m.home) + ' <em>v</em> ' + esc(m.away) + '</span>' + right + '</li>';
+      });
+      html += '</ul>';
+    });
+    box.innerHTML = html;
+  }
   function load() {
     if (loaded) return; loaded = true;
+    fetch("data/football.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).then(football).catch(function () {});
     body.innerHTML = '<div class="skeleton" style="height:180px;border-radius:18px"></div>';
     fetch("data/stayin.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).then(function (d) {
       var wk = new Date(d.week + "T12:00:00");

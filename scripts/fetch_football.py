@@ -1,55 +1,44 @@
-"""Builds data/football.json: tonight's and tomorrow's big matches Maltese fans follow (Malta time)."""
-import json, urllib.request, datetime
+"""Builds data/football.json: tonight's and tomorrow's big matches Maltese fans follow, in Malta time.
+Source: football-data.org (free API key in the FOOTBALL_DATA_KEY secret)."""
+import json, os, urllib.request, datetime
 from zoneinfo import ZoneInfo
 
 MT = ZoneInfo("Europe/Malta")
-UA = {"User-Agent": "Mozilla/5.0 (myRock bot; +https://myrockmalta.com)"}
-LEAGUES = [  # (TheSportsDB league name, label) in priority order
-    ("UEFA Champions League", "Champions League"),
-    ("English Premier League", "Premier League"),
-    ("Italian Serie A", "Serie A"),
-    ("UEFA Europa League", "Europa League"),
-    ("Spanish La Liga", "La Liga"),
-    ("French Ligue 1", "Ligue 1"),
-    ("German Bundesliga", "Bundesliga"),
-    ("UEFA Europa Conference League", "Conference League"),
-    ("Maltese Premier League", "Malta Premier League"),
-]
-import urllib.parse
+COMPS = [("CL", "Champions League"), ("PL", "Premier League"), ("SA", "Serie A"),
+         ("PD", "La Liga"), ("FL1", "Ligue 1"), ("BL1", "Bundesliga")]
+NAMES = dict(COMPS)
+PRIO = {c: i for i, (c, _) in enumerate(COMPS)}
 
-def get(url):
-    with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=30) as r:
-        return json.loads(r.read().decode("utf-8"))
-
-today = datetime.datetime.now(MT).date()
+now = datetime.datetime.now(MT)
+today = now.date()
 days = [today, today + datetime.timedelta(days=1)]
-out, seen = [], set()
-import time
-names = {c: n for c, n in LEAGUES}
-for d in [today - datetime.timedelta(days=1)] + days:
-    url = "https://www.thesportsdb.com/api/v1/json/123/eventsday.php?d=%s&s=Soccer" % d.isoformat()
-    try:
-        data = get(url)
-    except Exception as e:
-        print("skip", d, e); time.sleep(5); continue
-    evs = data.get("events") or []
-    print(d, len(evs), "soccer events; leagues seen:", sorted({e.get("strLeague") for e in evs})[:40])
-    for ev in evs:
-        name = names.get(ev.get("strLeague"))
-        if not name or ev["idEvent"] in seen or not ev.get("strTimestamp"): continue
-        seen.add(ev["idEvent"])
-        ko = datetime.datetime.fromisoformat(ev["strTimestamp"].replace("Z", "")).replace(tzinfo=datetime.timezone.utc).astimezone(MT)
+res = {"updated": now.isoformat(timespec="minutes"), "source": "football-data.org", "matches": []}
+
+key = os.environ.get("FOOTBALL_DATA_KEY", "").strip()
+if not key:
+    print("No FOOTBALL_DATA_KEY yet, writing an empty list.")
+    res["pending"] = True
+else:
+    url = ("https://api.football-data.org/v4/matches?competitions=%s&dateFrom=%s&dateTo=%s"
+           % (",".join(c for c, _ in COMPS), (today - datetime.timedelta(days=1)).isoformat(), days[-1].isoformat()))
+    req = urllib.request.Request(url, headers={"X-Auth-Token": key, "User-Agent": "myRock bot"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        data = json.loads(r.read().decode("utf-8"))
+    for m in data.get("matches", []):
+        code = m["competition"]["code"]
+        if code not in NAMES: continue
+        ko = datetime.datetime.fromisoformat(m["utcDate"].replace("Z", "+00:00")).astimezone(MT)
         if ko.date() not in days: continue
-        status = (ev.get("strStatus") or "").upper()
-        done = status in ("FT", "MATCH FINISHED", "AET", "PEN")
-        live = status in ("1H", "2H", "HT", "ET", "LIVE")
-        hs, as_ = ev.get("intHomeScore"), ev.get("intAwayScore")
-        out.append({"league": name, "home": ev["strHomeTeam"], "away": ev["strAwayTeam"], "ko": ko.isoformat(),
-                    "state": "post" if done else ("in" if live else "pre"),
-                    "score": f"{hs}-{as_}" if (done or live) and hs is not None else "", "clock": status if live else ""})
-    time.sleep(3)
-prio = {n: i for i, (_, n) in enumerate(LEAGUES)}
-out.sort(key=lambda m: (m["ko"][:10], prio[m["league"]], m["ko"]))
-res = {"updated": datetime.datetime.now(MT).isoformat(timespec="minutes"), "source": "TheSportsDB", "matches": out}
+        st = m["status"]
+        state = "post" if st in ("FINISHED", "AWARDED") else ("in" if st in ("IN_PLAY", "PAUSED", "LIVE") else ("off" if st in ("POSTPONED", "CANCELLED", "SUSPENDED") else "pre"))
+        ft = (m.get("score") or {}).get("fullTime") or {}
+        res["matches"].append({
+            "league": NAMES[code], "code": code,
+            "home": m["homeTeam"].get("shortName") or m["homeTeam"]["name"],
+            "away": m["awayTeam"].get("shortName") or m["awayTeam"]["name"],
+            "ko": ko.isoformat(), "state": state,
+            "score": f'{ft.get("home")}-{ft.get("away")}' if state in ("in", "post") and ft.get("home") is not None else "",
+        })
+    res["matches"].sort(key=lambda x: (x["ko"][:10], PRIO[x["code"]], x["ko"]))
 json.dump(res, open("data/football.json", "w"), ensure_ascii=False, indent=1)
-print(len(out), "matches"); print(json.dumps(out[:6], indent=1, ensure_ascii=False))
+print(len(res["matches"]), "matches")

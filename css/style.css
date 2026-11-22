@@ -398,3 +398,11 @@ button{font:inherit}
 .si-new{background:#FFD21F;color:#24043a}
 .si-wk{background:rgba(255,255,255,.14);color:rgba(255,255,255,.85)}
 .si-knock{width:100%;font:inherit;text-align:left;cursor:pointer;border:0}
+.si-apps{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.si-app{display:flex;flex-direction:column;align-items:center;gap:6px;padding:12px 6px;border-radius:16px;color:#fff;text-decoration:none;font-weight:700;font-size:12.5px;text-align:center;min-height:44px}
+.si-logo{width:40px;height:40px;border-radius:12px;display:grid;place-items:center;font-weight:900;font-size:15px;color:#fff;border:1px solid rgba(255,255,255,.25)}
+.fb-item{flex-wrap:wrap;row-gap:4px}
+.fb-lg{flex:0 0 100%;font-size:11px;font-weight:800;letter-spacing:.6px;text-transform:uppercase;color:#FFD21F}
+.fb-item em{font-style:normal;opacity:.6;font-weight:600}
+.fb-time{flex:none;font-family:Anton,Impact,sans-serif;font-size:20px;color:#fff}
+.fb-live{flex:none;font-size:12px;font-weight:800;padding:3px 8px;border-radius:8px;background:#FF2E63;color:#fff}
