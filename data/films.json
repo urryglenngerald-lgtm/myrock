@@ -1,33 +1,451 @@
 {
  "note": "Curated by myRock. One block per week, the app shows the latest week that has started. IMDb ratings rounded, they can move by a tenth.",
  "weeks": [
-  {"from": "2026-11-23", "title": "Crime, classics and a bit of Malta", "films": [
-   {"id":"godfather","title":"The Godfather","year":1972,"mins":175,"genre":"Crime","mood":"crime","director":"Francis Ford Coppola","cast":["Marlon Brando","Al Pacino","James Caan","Diane Keaton","Robert Duvall"],"imdb":9.2,"awards":"3 Oscars, including Best Picture","about":"The Corleone family runs New York's underworld until a shooting forces the quiet youngest son, Michael, into the family business. Three hours that fly.","take":"The one everyone quotes. Watch it before someone ruins it for you."},
-   {"id":"gladiator","title":"Gladiator","year":2000,"mins":155,"genre":"Action","mood":"action","director":"Ridley Scott","cast":["Russell Crowe","Joaquin Phoenix","Connie Nielsen","Oliver Reed"],"imdb":8.5,"awards":"5 Oscars, including Best Picture","about":"A Roman general is betrayed, enslaved and forced to fight as a gladiator, with one goal: revenge on the emperor who destroyed his family.","take":"Local flex: big chunks were shot at Fort Ricasoli in Kalkara."},
-   {"id":"casablanca","title":"Casablanca","year":1942,"mins":102,"genre":"Classic romance","mood":"classic","director":"Michael Curtiz","cast":["Humphrey Bogart","Ingrid Bergman","Paul Henreid","Claude Rains"],"imdb":8.5,"awards":"3 Oscars, including Best Picture","about":"In wartime Morocco, a cynical bar owner's life gets complicated when the woman who broke his heart walks into his café needing his help.","take":"Black and white, zero boring. Half your favourite lines come from here."},
-   {"id":"pulpfiction","title":"Pulp Fiction","year":1994,"mins":154,"genre":"Crime","mood":"crime","director":"Quentin Tarantino","cast":["John Travolta","Samuel L. Jackson","Uma Thurman","Bruce Willis"],"imdb":8.9,"awards":"Palme d'Or, Oscar for Best Original Screenplay","about":"Hitmen, a boxer, a gangster's wife and a pair of diner robbers collide in LA, told out of order and somehow it all clicks.","take":"Snacks ready. The dialogue is the main character."},
-   {"id":"parasite","title":"Parasite","year":2019,"mins":132,"genre":"Thriller","mood":"thriller","director":"Bong Joon Ho","cast":["Song Kang-ho","Lee Sun-kyun","Cho Yeo-jeong","Choi Woo-shik"],"imdb":8.5,"awards":"4 Oscars, including Best Picture","about":"A broke family cons its way, one job at a time, into the house of a rich one. Then the house reveals a secret.","take":"Go in knowing nothing. Subtitles, worth it."},
-   {"id":"backtothefuture","title":"Back to the Future","year":1985,"mins":116,"genre":"Sci-fi comedy","mood":"scifi","director":"Robert Zemeckis","cast":["Michael J. Fox","Christopher Lloyd","Lea Thompson","Crispin Glover"],"imdb":8.5,"awards":"Oscar for Best Sound Effects Editing","about":"A teenager is accidentally sent back to 1955 in a time-travelling DeLorean and has to make sure his parents still fall in love.","take":"Feel-good certified. Great one for the family sofa."},
-   {"id":"heat","title":"Heat","year":1995,"mins":170,"genre":"Crime thriller","mood":"crime","director":"Michael Mann","cast":["Al Pacino","Robert De Niro","Val Kilmer","Tom Sizemore"],"imdb":8.3,"awards":"","about":"An obsessive LA detective chases a disciplined professional thief planning one last big score. Two legends, one diner scene.","take":"That shootout still sets the bar."},
-   {"id":"grandbudapest","title":"The Grand Budapest Hotel","year":2014,"mins":99,"genre":"Comedy","mood":"comedy","director":"Wes Anderson","cast":["Ralph Fiennes","Tony Revolori","Saoirse Ronan","Willem Dafoe"],"imdb":8.1,"awards":"4 Oscars","about":"A legendary concierge and his lobby boy get caught up in a stolen painting, a family fortune and a very fast chase across a made-up European country.","take":"Pastel-perfect and properly funny. Peak aesthetic."},
-   {"id":"spiritedaway","title":"Spirited Away","year":2001,"mins":125,"genre":"Animation","mood":"animation","director":"Hayao Miyazaki","cast":["Rumi Hiiragi","Miyu Irino","Mari Natsuki"],"imdb":8.6,"awards":"Oscar for Best Animated Feature","about":"A girl stumbles into a spirit world, her parents get turned into pigs, and she has to work in a bathhouse for gods to get them back.","take":"Animation for grown-ups too. Pure magic."},
-   {"id":"se7en","title":"Se7en","year":1995,"mins":127,"genre":"Crime thriller","mood":"thriller","director":"David Fincher","cast":["Brad Pitt","Morgan Freeman","Gwyneth Paltrow"],"imdb":8.6,"awards":"","about":"Two detectives, one about to retire and one brand new, hunt a killer who builds each murder around one of the seven deadly sins.","take":"Dark, rainy and that ending. Not a first-date pick."},
-   {"id":"romanholiday","title":"Roman Holiday","year":1953,"mins":118,"genre":"Classic romance","mood":"classic","director":"William Wyler","cast":["Audrey Hepburn","Gregory Peck","Eddie Albert"],"imdb":8.0,"awards":"3 Oscars, including Best Actress","about":"A bored princess escapes her schedule in Rome and spends one wild day with an American reporter who knows exactly who she is.","take":"Vespa, gelato, Audrey. The original soft-life movie."},
-   {"id":"superbad","title":"Superbad","year":2007,"mins":113,"genre":"Comedy","mood":"comedy","director":"Greg Mottola","cast":["Jonah Hill","Michael Cera","Christopher Mintz-Plasse","Emma Stone"],"imdb":7.6,"awards":"","about":"Two best friends try to score drinks for a party before school ends and they go to different universities. Nothing goes to plan.","take":"Turn your brain off and laugh. McLovin forever."}
-  ]},
-  {"from": "2026-11-30", "title": "Gangsters, legends and Malta on screen", "films": [
-   {"id":"goodfellas","title":"Goodfellas","year":1990,"mins":146,"genre":"Crime","mood":"crime","director":"Martin Scorsese","cast":["Ray Liotta","Robert De Niro","Joe Pesci","Lorraine Bracco"],"imdb":8.7,"awards":"Oscar for Best Supporting Actor (Joe Pesci)","about":"The true story of Henry Hill, from kid running errands for the mob to a life of money, cars and paranoia.","take":"Fast, funny, brutal. Scorsese at full speed."},
-   {"id":"munich","title":"Munich","year":2005,"mins":164,"genre":"Thriller","mood":"thriller","director":"Steven Spielberg","cast":["Eric Bana","Daniel Craig","Ciarán Hinds","Mathieu Kassovitz"],"imdb":7.5,"awards":"","about":"After the 1972 Olympics attack, a secret team is sent across Europe to track down the men behind it, and the mission starts to break them.","take":"Spot Valletta: Malta doubles for several cities in this one."},
-   {"id":"somelikeithot","title":"Some Like It Hot","year":1959,"mins":121,"genre":"Classic comedy","mood":"classic","director":"Billy Wilder","cast":["Marilyn Monroe","Tony Curtis","Jack Lemmon"],"imdb":8.2,"awards":"Oscar for Best Costume Design","about":"Two musicians who witness a mob hit hide from gangsters by dressing as women and joining an all-female band. Then they meet Marilyn.","take":"Still one of the funniest films ever made. That last line."},
-   {"id":"darkknight","title":"The Dark Knight","year":2008,"mins":152,"genre":"Action","mood":"action","director":"Christopher Nolan","cast":["Christian Bale","Heath Ledger","Aaron Eckhart","Gary Oldman"],"imdb":9.0,"awards":"2 Oscars, including Best Supporting Actor (Heath Ledger)","about":"Batman faces the Joker, a criminal who just wants to watch Gotham burn and keeps forcing everyone into impossible choices.","take":"Superhero movie that plays like a crime epic."},
-   {"id":"amelie","title":"Amélie","year":2001,"mins":122,"genre":"Romantic comedy","mood":"comedy","director":"Jean-Pierre Jeunet","cast":["Audrey Tautou","Mathieu Kassovitz","Rufus"],"imdb":8.3,"awards":"","about":"A shy waitress in Paris secretly fixes the lives of people around her, while being too scared to chase her own crush.","take":"Cosy, quirky, very French. Perfect rainy night pick."},
-   {"id":"shawshank","title":"The Shawshank Redemption","year":1994,"mins":142,"genre":"Drama","mood":"drama","director":"Frank Darabont","cast":["Tim Robbins","Morgan Freeman","Bob Gunton"],"imdb":9.3,"awards":"","about":"A banker sentenced to life for a murder he swears he didn't commit spends decades in prison, and never gives up hope.","take":"The highest rated film on IMDb for a reason."},
-   {"id":"knivesout","title":"Knives Out","year":2019,"mins":130,"genre":"Mystery comedy","mood":"thriller","director":"Rian Johnson","cast":["Daniel Craig","Ana de Armas","Chris Evans","Jamie Lee Curtis"],"imdb":7.9,"awards":"","about":"A famous crime writer dies after his birthday party, and a very Southern detective decides the whole messy family are suspects.","take":"Whodunit with jokes. Chris Evans' jumper is iconic."},
-   {"id":"psycho","title":"Psycho","year":1960,"mins":109,"genre":"Classic horror","mood":"classic","director":"Alfred Hitchcock","cast":["Anthony Perkins","Janet Leigh","Vera Miles"],"imdb":8.5,"awards":"","about":"A woman on the run checks into a quiet roadside motel run by a polite young man and his mother. Bad choice.","take":"The shower scene that changed horror forever."},
-   {"id":"departed","title":"The Departed","year":2006,"mins":151,"genre":"Crime thriller","mood":"crime","director":"Martin Scorsese","cast":["Leonardo DiCaprio","Matt Damon","Jack Nicholson","Mark Wahlberg"],"imdb":8.5,"awards":"4 Oscars, including Best Picture","about":"An undercover cop inside Boston's mob and a mob spy inside the police race to find each other first.","take":"Twists until the very last shot."},
-   {"id":"interstellar","title":"Interstellar","year":2014,"mins":169,"genre":"Sci-fi","mood":"scifi","director":"Christopher Nolan","cast":["Matthew McConaughey","Anne Hathaway","Jessica Chastain","Michael Caine"],"imdb":8.7,"awards":"Oscar for Best Visual Effects","about":"With Earth dying, a former pilot leaves his kids to travel through a wormhole looking for a new home for humanity.","take":"Big screen, loud volume, tissues nearby."},
-   {"id":"coco","title":"Coco","year":2017,"mins":105,"genre":"Animation","mood":"animation","director":"Lee Unkrich","cast":["Anthony Gonzalez","Gael García Bernal","Benjamin Bratt"],"imdb":8.4,"awards":"2 Oscars, including Best Animated Feature","about":"A boy who dreams of music ends up in the colourful Land of the Dead and has to uncover his family's real story before sunrise.","take":"You will cry. Everybody does."},
-   {"id":"popeye","title":"Popeye","year":1980,"mins":114,"genre":"Musical comedy","mood":"comedy","director":"Robert Altman","cast":["Robin Williams","Shelley Duvall","Paul L. Smith"],"imdb":5.3,"awards":"","about":"The spinach-loving sailor arrives in the seaside town of Sweethaven looking for his long-lost dad and falls for Olive Oyl.","take":"Not a masterpiece, but the whole village was built in Mellieħa and it's still there."}
-  ]}
+  {
+   "from": "2026-11-23",
+   "title": "Crime, classics and a bit of Malta",
+   "films": [
+    {
+     "id": "godfather",
+     "title": "The Godfather",
+     "year": 1972,
+     "mins": 175,
+     "genre": "Crime",
+     "mood": "crime",
+     "director": "Francis Ford Coppola",
+     "cast": [
+      "Marlon Brando",
+      "Al Pacino",
+      "James Caan",
+      "Diane Keaton",
+      "Robert Duvall"
+     ],
+     "imdb": 9.2,
+     "awards": "3 Oscars, including Best Picture",
+     "about": "The Corleone family runs New York's underworld until a shooting forces the quiet youngest son, Michael, into the family business. Three hours that fly.",
+     "take": "The one everyone quotes. Watch it before someone ruins it for you.",
+     "img": "images/films/godfather.jpg"
+    },
+    {
+     "id": "clockworkorange",
+     "title": "A Clockwork Orange",
+     "year": 1971,
+     "mins": 136,
+     "genre": "Crime sci-fi",
+     "mood": "crime",
+     "director": "Stanley Kubrick",
+     "cast": [
+      "Malcolm McDowell",
+      "Patrick Magee",
+      "Michael Bates"
+     ],
+     "imdb": 8.2,
+     "awards": "4 Oscar nominations, including Best Picture",
+     "about": "In a near-future Britain, a charming and violent gang leader is caught and offered early release, if he agrees to an experimental treatment that rewires his mind.",
+     "take": "Disturbing, stylish, unforgettable. Not one for a chill night.",
+     "img": "images/films/clockworkorange.jpg"
+    },
+    {
+     "id": "matrix",
+     "title": "The Matrix",
+     "year": 1999,
+     "mins": 136,
+     "genre": "Sci-fi action",
+     "mood": "scifi",
+     "director": "Lana and Lilly Wachowski",
+     "cast": [
+      "Keanu Reeves",
+      "Laurence Fishburne",
+      "Carrie-Anne Moss",
+      "Hugo Weaving"
+     ],
+     "imdb": 8.7,
+     "awards": "4 Oscars",
+     "about": "A hacker learns the world he lives in is a simulation, and that a small group of rebels thinks he's the one who can break it.",
+     "take": "Red pill or blue pill. Still looks cooler than most films made today.",
+     "img": "images/films/matrix.jpg"
+    },
+    {
+     "id": "madmaxfuryroad",
+     "title": "Mad Max: Fury Road",
+     "year": 2015,
+     "mins": 120,
+     "genre": "Action",
+     "mood": "action",
+     "director": "George Miller",
+     "cast": [
+      "Tom Hardy",
+      "Charlize Theron",
+      "Nicholas Hoult"
+     ],
+     "imdb": 8.1,
+     "awards": "6 Oscars",
+     "about": "In a desert wasteland, a drifter and a rebel driver flee a warlord in a stolen war rig. Basically one two-hour chase.",
+     "take": "Loud, mad and gorgeous. Volume up.",
+     "img": "images/films/madmaxfuryroad.jpg"
+    },
+    {
+     "id": "interstellar",
+     "title": "Interstellar",
+     "year": 2014,
+     "mins": 169,
+     "genre": "Sci-fi",
+     "mood": "scifi",
+     "director": "Christopher Nolan",
+     "cast": [
+      "Matthew McConaughey",
+      "Anne Hathaway",
+      "Jessica Chastain",
+      "Michael Caine"
+     ],
+     "imdb": 8.7,
+     "awards": "Oscar for Best Visual Effects",
+     "about": "With Earth dying, a former pilot leaves his kids to travel through a wormhole looking for a new home for humanity.",
+     "take": "Big screen, loud volume, tissues nearby.",
+     "img": "images/films/interstellar.jpg"
+    },
+    {
+     "id": "gladiator",
+     "title": "Gladiator",
+     "year": 2000,
+     "mins": 155,
+     "genre": "Action",
+     "mood": "action",
+     "director": "Ridley Scott",
+     "cast": [
+      "Russell Crowe",
+      "Joaquin Phoenix",
+      "Connie Nielsen",
+      "Oliver Reed"
+     ],
+     "imdb": 8.5,
+     "awards": "5 Oscars, including Best Picture",
+     "about": "A Roman general is betrayed, enslaved and forced to fight as a gladiator, with one goal: revenge on the emperor who destroyed his family.",
+     "take": "Local flex: big chunks were shot at Fort Ricasoli in Kalkara."
+    },
+    {
+     "id": "casablanca",
+     "title": "Casablanca",
+     "year": 1942,
+     "mins": 102,
+     "genre": "Classic romance",
+     "mood": "classic",
+     "director": "Michael Curtiz",
+     "cast": [
+      "Humphrey Bogart",
+      "Ingrid Bergman",
+      "Paul Henreid",
+      "Claude Rains"
+     ],
+     "imdb": 8.5,
+     "awards": "3 Oscars, including Best Picture",
+     "about": "In wartime Morocco, a cynical bar owner's life gets complicated when the woman who broke his heart walks into his café needing his help.",
+     "take": "Black and white, zero boring. Half your favourite lines come from here."
+    },
+    {
+     "id": "pulpfiction",
+     "title": "Pulp Fiction",
+     "year": 1994,
+     "mins": 154,
+     "genre": "Crime",
+     "mood": "crime",
+     "director": "Quentin Tarantino",
+     "cast": [
+      "John Travolta",
+      "Samuel L. Jackson",
+      "Uma Thurman",
+      "Bruce Willis"
+     ],
+     "imdb": 8.9,
+     "awards": "Palme d'Or, Oscar for Best Original Screenplay",
+     "about": "Hitmen, a boxer, a gangster's wife and a pair of diner robbers collide in LA, told out of order and somehow it all clicks.",
+     "take": "Snacks ready. The dialogue is the main character."
+    },
+    {
+     "id": "parasite",
+     "title": "Parasite",
+     "year": 2019,
+     "mins": 132,
+     "genre": "Thriller",
+     "mood": "thriller",
+     "director": "Bong Joon Ho",
+     "cast": [
+      "Song Kang-ho",
+      "Lee Sun-kyun",
+      "Cho Yeo-jeong",
+      "Choi Woo-shik"
+     ],
+     "imdb": 8.5,
+     "awards": "4 Oscars, including Best Picture",
+     "about": "A broke family cons its way, one job at a time, into the house of a rich one. Then the house reveals a secret.",
+     "take": "Go in knowing nothing. Subtitles, worth it."
+    },
+    {
+     "id": "backtothefuture",
+     "title": "Back to the Future",
+     "year": 1985,
+     "mins": 116,
+     "genre": "Sci-fi comedy",
+     "mood": "scifi",
+     "director": "Robert Zemeckis",
+     "cast": [
+      "Michael J. Fox",
+      "Christopher Lloyd",
+      "Lea Thompson",
+      "Crispin Glover"
+     ],
+     "imdb": 8.5,
+     "awards": "Oscar for Best Sound Effects Editing",
+     "about": "A teenager is accidentally sent back to 1955 in a time-travelling DeLorean and has to make sure his parents still fall in love.",
+     "take": "Feel-good certified. Great one for the family sofa."
+    },
+    {
+     "id": "grandbudapest",
+     "title": "The Grand Budapest Hotel",
+     "year": 2014,
+     "mins": 99,
+     "genre": "Comedy",
+     "mood": "comedy",
+     "director": "Wes Anderson",
+     "cast": [
+      "Ralph Fiennes",
+      "Tony Revolori",
+      "Saoirse Ronan",
+      "Willem Dafoe"
+     ],
+     "imdb": 8.1,
+     "awards": "4 Oscars",
+     "about": "A legendary concierge and his lobby boy get caught up in a stolen painting, a family fortune and a very fast chase across a made-up European country.",
+     "take": "Pastel-perfect and properly funny. Peak aesthetic."
+    },
+    {
+     "id": "spiritedaway",
+     "title": "Spirited Away",
+     "year": 2001,
+     "mins": 125,
+     "genre": "Animation",
+     "mood": "animation",
+     "director": "Hayao Miyazaki",
+     "cast": [
+      "Rumi Hiiragi",
+      "Miyu Irino",
+      "Mari Natsuki"
+     ],
+     "imdb": 8.6,
+     "awards": "Oscar for Best Animated Feature",
+     "about": "A girl stumbles into a spirit world, her parents get turned into pigs, and she has to work in a bathhouse for gods to get them back.",
+     "take": "Animation for grown-ups too. Pure magic."
+    }
+   ]
+  },
+  {
+   "from": "2026-11-30",
+   "title": "Gangsters, legends and Malta on screen",
+   "films": [
+    {
+     "id": "goodfellas",
+     "title": "Goodfellas",
+     "year": 1990,
+     "mins": 146,
+     "genre": "Crime",
+     "mood": "crime",
+     "director": "Martin Scorsese",
+     "cast": [
+      "Ray Liotta",
+      "Robert De Niro",
+      "Joe Pesci",
+      "Lorraine Bracco"
+     ],
+     "imdb": 8.7,
+     "awards": "Oscar for Best Supporting Actor (Joe Pesci)",
+     "about": "The true story of Henry Hill, from kid running errands for the mob to a life of money, cars and paranoia.",
+     "take": "Fast, funny, brutal. Scorsese at full speed."
+    },
+    {
+     "id": "munich",
+     "title": "Munich",
+     "year": 2005,
+     "mins": 164,
+     "genre": "Thriller",
+     "mood": "thriller",
+     "director": "Steven Spielberg",
+     "cast": [
+      "Eric Bana",
+      "Daniel Craig",
+      "Ciarán Hinds",
+      "Mathieu Kassovitz"
+     ],
+     "imdb": 7.5,
+     "awards": "",
+     "about": "After the 1972 Olympics attack, a secret team is sent across Europe to track down the men behind it, and the mission starts to break them.",
+     "take": "Spot Valletta: Malta doubles for several cities in this one."
+    },
+    {
+     "id": "somelikeithot",
+     "title": "Some Like It Hot",
+     "year": 1959,
+     "mins": 121,
+     "genre": "Classic comedy",
+     "mood": "classic",
+     "director": "Billy Wilder",
+     "cast": [
+      "Marilyn Monroe",
+      "Tony Curtis",
+      "Jack Lemmon"
+     ],
+     "imdb": 8.2,
+     "awards": "Oscar for Best Costume Design",
+     "about": "Two musicians who witness a mob hit hide from gangsters by dressing as women and joining an all-female band. Then they meet Marilyn.",
+     "take": "Still one of the funniest films ever made. That last line."
+    },
+    {
+     "id": "darkknight",
+     "title": "The Dark Knight",
+     "year": 2008,
+     "mins": 152,
+     "genre": "Action",
+     "mood": "action",
+     "director": "Christopher Nolan",
+     "cast": [
+      "Christian Bale",
+      "Heath Ledger",
+      "Aaron Eckhart",
+      "Gary Oldman"
+     ],
+     "imdb": 9.0,
+     "awards": "2 Oscars, including Best Supporting Actor (Heath Ledger)",
+     "about": "Batman faces the Joker, a criminal who just wants to watch Gotham burn and keeps forcing everyone into impossible choices.",
+     "take": "Superhero movie that plays like a crime epic."
+    },
+    {
+     "id": "amelie",
+     "title": "Amélie",
+     "year": 2001,
+     "mins": 122,
+     "genre": "Romantic comedy",
+     "mood": "comedy",
+     "director": "Jean-Pierre Jeunet",
+     "cast": [
+      "Audrey Tautou",
+      "Mathieu Kassovitz",
+      "Rufus"
+     ],
+     "imdb": 8.3,
+     "awards": "",
+     "about": "A shy waitress in Paris secretly fixes the lives of people around her, while being too scared to chase her own crush.",
+     "take": "Cosy, quirky, very French. Perfect rainy night pick."
+    },
+    {
+     "id": "shawshank",
+     "title": "The Shawshank Redemption",
+     "year": 1994,
+     "mins": 142,
+     "genre": "Drama",
+     "mood": "drama",
+     "director": "Frank Darabont",
+     "cast": [
+      "Tim Robbins",
+      "Morgan Freeman",
+      "Bob Gunton"
+     ],
+     "imdb": 9.3,
+     "awards": "",
+     "about": "A banker sentenced to life for a murder he swears he didn't commit spends decades in prison, and never gives up hope.",
+     "take": "The highest rated film on IMDb for a reason."
+    },
+    {
+     "id": "knivesout",
+     "title": "Knives Out",
+     "year": 2019,
+     "mins": 130,
+     "genre": "Mystery comedy",
+     "mood": "thriller",
+     "director": "Rian Johnson",
+     "cast": [
+      "Daniel Craig",
+      "Ana de Armas",
+      "Chris Evans",
+      "Jamie Lee Curtis"
+     ],
+     "imdb": 7.9,
+     "awards": "",
+     "about": "A famous crime writer dies after his birthday party, and a very Southern detective decides the whole messy family are suspects.",
+     "take": "Whodunit with jokes. Chris Evans' jumper is iconic."
+    },
+    {
+     "id": "psycho",
+     "title": "Psycho",
+     "year": 1960,
+     "mins": 109,
+     "genre": "Classic horror",
+     "mood": "classic",
+     "director": "Alfred Hitchcock",
+     "cast": [
+      "Anthony Perkins",
+      "Janet Leigh",
+      "Vera Miles"
+     ],
+     "imdb": 8.5,
+     "awards": "",
+     "about": "A woman on the run checks into a quiet roadside motel run by a polite young man and his mother. Bad choice.",
+     "take": "The shower scene that changed horror forever."
+    },
+    {
+     "id": "departed",
+     "title": "The Departed",
+     "year": 2006,
+     "mins": 151,
+     "genre": "Crime thriller",
+     "mood": "crime",
+     "director": "Martin Scorsese",
+     "cast": [
+      "Leonardo DiCaprio",
+      "Matt Damon",
+      "Jack Nicholson",
+      "Mark Wahlberg"
+     ],
+     "imdb": 8.5,
+     "awards": "4 Oscars, including Best Picture",
+     "about": "An undercover cop inside Boston's mob and a mob spy inside the police race to find each other first.",
+     "take": "Twists until the very last shot."
+    },
+    {
+     "id": "coco",
+     "title": "Coco",
+     "year": 2017,
+     "mins": 105,
+     "genre": "Animation",
+     "mood": "animation",
+     "director": "Lee Unkrich",
+     "cast": [
+      "Anthony Gonzalez",
+      "Gael García Bernal",
+      "Benjamin Bratt"
+     ],
+     "imdb": 8.4,
+     "awards": "2 Oscars, including Best Animated Feature",
+     "about": "A boy who dreams of music ends up in the colourful Land of the Dead and has to uncover his family's real story before sunrise.",
+     "take": "You will cry. Everybody does."
+    },
+    {
+     "id": "popeye",
+     "title": "Popeye",
+     "year": 1980,
+     "mins": 114,
+     "genre": "Musical comedy",
+     "mood": "comedy",
+     "director": "Robert Altman",
+     "cast": [
+      "Robin Williams",
+      "Shelley Duvall",
+      "Paul L. Smith"
+     ],
+     "imdb": 5.3,
+     "awards": "",
+     "about": "The spinach-loving sailor arrives in the seaside town of Sweethaven looking for his long-lost dad and falls for Olive Oyl.",
+     "take": "Not a masterpiece, but the whole village was built in Mellieħa and it's still there."
+    }
+   ]
+  }
  ]
 }

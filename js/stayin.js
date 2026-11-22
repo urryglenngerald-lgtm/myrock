@@ -42,9 +42,10 @@
     ws.forEach(function (w) { if (w.from <= today) cur = w; });
     return cur;
   }
+  function pic(f) { return /^images\/films\/[\w.-]+$/.test(f.img || "") ? f.img : ""; }
   function tile(f, i) {
     return '<button type="button" class="fm-card fm-' + esc(f.mood) + ' press" data-film="' + i + '" aria-label="' + esc(f.title) + ', ' + f.year + '">' +
-      '<span class="fm-art" aria-hidden="true"><span class="fm-glow"></span><span class="fm-year">' + f.year + '</span></span>' +
+      (pic(f) ? '<span class="fm-art fm-has-pic" aria-hidden="true"><img class="fm-pic" src="' + pic(f) + '" alt="" loading="lazy"></span>' : '<span class="fm-art" aria-hidden="true"><span class="fm-glow"></span><span class="fm-year">' + f.year + '</span></span>') +
       '<span class="fm-title">' + esc(f.title) + '</span>' +
       '<span class="fm-meta"><span class="fm-genre">' + esc(f.genre) + '</span><span class="fm-imdb">IMDb ' + Number(f.imdb).toFixed(1) + '</span></span></button>';
   }
@@ -59,7 +60,7 @@
   function showFilm(i) {
     var f = films[i]; if (!f) return;
     var h = Math.floor(f.mins / 60), m = f.mins % 60;
-    detail.innerHTML = '<div class="fm-d-top fm-' + esc(f.mood) + '"><span class="fm-glow"></span>' +
+    detail.innerHTML = '<div class="fm-d-top fm-' + esc(f.mood) + (pic(f) ? ' fm-d-pic' : '') + '">' + (pic(f) ? '<img class="fm-d-img" src="' + pic(f) + '" alt="">' : '<span class="fm-glow"></span>') +
       '<button type="button" class="fm-back press" data-back aria-label="Back to the film picks">‹ Back</button>' +
       '<span class="fm-d-genre">' + esc(f.genre) + '</span><h3 class="fm-d-title">' + esc(f.title) + '</h3>' +
       '<p class="fm-d-facts">' + f.year + ' · ' + h + 'h ' + (m < 10 ? "0" : "") + m + 'm</p></div>' +
