@@ -506,3 +506,6 @@ button{font:inherit}
 .fm-pcard .fm-art{position:static}
 .fm-pcard .fm-pic{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center top}
 .fm-pcard .fm-art.fm-has-pic{aspect-ratio:auto;height:0;padding-top:128%;overflow:visible}
+/* Film cards: square and flat, glass band only */
+.fm-card{border-radius:0;border:0;box-shadow:none}
+.fm-band{border-top:0;box-shadow:none;background:rgba(48,6,78,.5)}
