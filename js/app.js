@@ -449,7 +449,7 @@
       }
       return list;
     }).then(function (list) {
-      state.events = list;
+      state.events = list.filter(function (e) { return e.poster && e.image; }); // house rule: no official poster, no listing
       // Default to the first window that has something on.
       var mode = "tonight";
       if (!list.some(function (e) { return inWindow(e, windowFor("tonight")); })) {
