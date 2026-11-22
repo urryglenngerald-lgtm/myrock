@@ -441,3 +441,44 @@ button{font:inherit}
 .si-knock-txt b{font-family:Anton,Impact,sans-serif;font-weight:400;font-size:22px;text-transform:uppercase}
 .si-knock-txt small{font-size:13px;color:rgba(255,255,255,.85);line-height:1.4}
 @media (min-width:600px){.wt-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+/* Film picks: original myRock cards, no posters */
+.fm-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.fm-card{position:relative;display:flex;flex-direction:column;gap:6px;padding:0 0 12px;border-radius:22px;overflow:hidden;border:1px solid rgba(255,255,255,.28);background:rgba(36,4,58,.8);color:#fff;font:inherit;text-align:left;cursor:pointer;box-shadow:0 10px 24px rgba(48,6,78,.3)}
+.fm-art{position:relative;display:block;aspect-ratio:3/4;overflow:hidden}
+.fm-art::before,.fm-d-top::before{content:"";position:absolute;inset:0;background:var(--fm-bg)}
+.fm-glow{position:absolute;width:140%;height:70%;left:-20%;top:-10%;background:radial-gradient(closest-side,var(--fm-glow),transparent);opacity:.85;filter:blur(6px)}
+.fm-art::after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(135deg,rgba(255,255,255,.06) 0 2px,transparent 2px 14px)}
+.fm-year{position:absolute;right:10px;bottom:4px;z-index:1;font-family:Anton,Impact,sans-serif;font-size:46px;line-height:1;color:rgba(255,255,255,.9);text-shadow:0 0 18px var(--fm-glow)}
+.fm-title{padding:4px 12px 0;font-family:Anton,Impact,sans-serif;font-size:20px;line-height:1.08;text-transform:uppercase;letter-spacing:.3px}
+.fm-meta{display:flex;flex-wrap:wrap;align-items:center;gap:6px;padding:0 12px}
+.fm-genre{font-size:10.5px;font-weight:800;padding:3px 7px;border-radius:7px;background:#FFD21F;color:#24043a;text-transform:uppercase;letter-spacing:.4px}
+.fm-imdb{font-size:12px;font-weight:800;color:#FFD21F}
+.fm-crime{--fm-bg:linear-gradient(160deg,#1a0010,#5c0026 55%,#b0003a);--fm-glow:#ff2e63}
+.fm-thriller{--fm-bg:linear-gradient(160deg,#060a1f,#1d1450 55%,#5a1a8c);--fm-glow:#7c5cff}
+.fm-classic{--fm-bg:linear-gradient(160deg,#2a1800,#6b4300 55%,#c8902a);--fm-glow:#ffd36b}
+.fm-comedy{--fm-bg:linear-gradient(160deg,#5a0040,#c8036f 55%,#ff6fb5);--fm-glow:#ffe0f0}
+.fm-scifi{--fm-bg:linear-gradient(160deg,#001a24,#004a5e 55%,#00a3b5);--fm-glow:#5ff6ff}
+.fm-action{--fm-bg:linear-gradient(160deg,#1f0800,#7a2200 55%,#ff6a00);--fm-glow:#ffb347}
+.fm-animation{--fm-bg:linear-gradient(160deg,#22004a,#7a1fc8 55%,#ff9a3c);--fm-glow:#ffe08a}
+.fm-drama{--fm-bg:linear-gradient(160deg,#0a0f24,#203a6b 55%,#4f7fc8);--fm-glow:#a8c8ff}
+.fm-detail{position:relative}
+.si-sheet:has(.fm-detail:not([hidden])) > :not(.fm-detail):not(.sheet-grab){display:none}
+.fm-d-top{position:relative;overflow:hidden;margin:4px -2px 0;padding:16px 18px 20px;border-radius:24px;min-height:220px;display:flex;flex-direction:column;justify-content:flex-end;gap:6px}
+.fm-d-top > *{position:relative;z-index:1}
+.fm-d-top .fm-glow{z-index:0}
+.fm-back{position:absolute!important;top:14px;left:14px;min-height:44px;padding:0 16px;border-radius:999px;border:1px solid rgba(255,255,255,.35);background:rgba(0,0,0,.25);color:#fff;font:inherit;font-weight:800;cursor:pointer;-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}
+.fm-d-genre{align-self:flex-start;font-size:11px;font-weight:800;padding:3px 8px;border-radius:7px;background:#FFD21F;color:#24043a;text-transform:uppercase;letter-spacing:.4px}
+.fm-d-title{margin:0;font-family:Anton,Impact,sans-serif;font-weight:400;font-size:40px;line-height:1;text-transform:uppercase}
+.fm-d-facts{margin:0;font-weight:700;color:rgba(255,255,255,.9)}
+.fm-d-body{display:flex;flex-direction:column;gap:12px;padding:16px 2px 6px}
+.fm-score{display:flex;align-items:center;gap:12px;padding:12px 16px;border-radius:18px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.2)}
+.fm-score-n{font-family:Anton,Impact,sans-serif;font-size:44px;line-height:1;color:#FFD21F}
+.fm-score-l{display:flex;flex-direction:column;font-weight:800}
+.fm-score-l small{font-weight:600;opacity:.75}
+.fm-awards{margin:0;font-weight:700;color:#FFD21F}
+.fm-about{margin:0;font-size:15.5px;line-height:1.55;color:rgba(255,255,255,.92)}
+.fm-take{margin:0;padding:12px 14px;border-radius:16px;background:linear-gradient(145deg,rgba(176,38,255,.35),rgba(255,30,150,.3));font-size:14.5px;line-height:1.45}
+.fm-row{display:flex;flex-direction:column;gap:2px;padding-top:10px;border-top:1px solid rgba(255,255,255,.14)}
+.fm-row span{font-size:11px;font-weight:800;letter-spacing:1px;text-transform:uppercase;color:rgba(255,255,255,.65)}
+.fm-row b{font-size:15px}
+@media (min-width:600px){.fm-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}

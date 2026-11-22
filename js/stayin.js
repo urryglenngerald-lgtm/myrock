@@ -33,50 +33,55 @@
     fbBox.innerHTML = html;
   }
 
-  /* ---------- what to watch ---------- */
-  function card(it, i) {
-    var href = safe(it.imdb) || ("https://www.imdb.com/find/?q=" + encodeURIComponent(it.title));
-    var poster = safe(it.poster);
-    var tag = it.rank ? (it.weeks <= 1 ? '<span class="si-new">New</span>' : '<span class="si-wk">' + it.weeks + ' wks</span>') :
-      (it.year ? '<span class="si-wk">' + esc(it.year) + '</span>' : "");
-    var kind = it.kind === "tv" ? "Series" : "Film";
-    var num = it.rank || (i + 1);
-    return '<a class="wt-card press' + (poster ? "" : " wt-glass") + '" href="' + esc(href) + '" target="_blank" rel="noopener noreferrer" aria-label="' + esc(it.title) + ' on IMDb">' +
-      (poster ? '<span class="wt-img"><img src="' + esc(poster) + '" alt="" loading="lazy"><span class="wt-num">' + num + '</span></span>' : '<span class="wt-bignum">' + num + '</span>') +
-      '<span class="wt-band"><span class="wt-chips"><span class="wt-kind">' + kind + '</span>' + tag + '</span>' +
-      '<span class="wt-title">' + esc(it.title) + '</span><span class="wt-imdb">IMDb ↗</span></span></a>';
+  /* ---------- weekly film picks ---------- */
+  var films = [], detail = document.getElementById("filmDetail");
+  function pickWeek(d) {
+    var today = new Date().toLocaleDateString("en-CA", { timeZone: "Europe/Malta" });
+    var ws = (d.weeks || []).slice().sort(function (a, b) { return a.from < b.from ? -1 : 1; });
+    var cur = ws[0];
+    ws.forEach(function (w) { if (w.from <= today) cur = w; });
+    return cur;
+  }
+  function tile(f, i) {
+    return '<button type="button" class="fm-card fm-' + esc(f.mood) + ' press" data-film="' + i + '" aria-label="' + esc(f.title) + ', ' + f.year + '">' +
+      '<span class="fm-art" aria-hidden="true"><span class="fm-glow"></span><span class="fm-year">' + f.year + '</span></span>' +
+      '<span class="fm-title">' + esc(f.title) + '</span>' +
+      '<span class="fm-meta"><span class="fm-genre">' + esc(f.genre) + '</span><span class="fm-imdb">IMDb ' + Number(f.imdb).toFixed(1) + '</span></span></button>';
   }
   function renderWatch() {
-    if (!watch || !watch.platforms || !watch.platforms.length) { wBox.innerHTML = ""; return; }
-    var ps = watch.platforms.filter(function (p) { return p.items && p.items.length; });
-    if (!ps.some(function (p) { return p.id === current; })) current = ps[0].id;
-    var p = ps.filter(function (x) { return x.id === current; })[0];
-    var tabs = ps.length > 1 ? '<div class="wt-tabs" role="tablist">' + ps.map(function (x) {
-      return '<button type="button" role="tab" class="wt-tab press" data-plat="' + esc(x.id) + '" aria-selected="' + (x.id === current) + '">' + esc(x.name) + '</button>';
-    }).join("") + '</div>' : "";
-    var shows = p.items.filter(function (x) { return x.kind === "tv"; });
-    var films = p.items.filter(function (x) { return x.kind !== "tv"; });
-    var grid = function (arr) { return '<div class="wt-grid">' + arr.map(card).join("") + '</div>'; };
-    var body = p.id === "netflix"
-      ? (shows.length ? '<p class="wt-group">Series</p>' + grid(shows) : "") + (films.length ? '<p class="wt-group">Films</p>' + grid(films) : "")
-      : grid(p.items);
-    var wk = "";
-    if (p.id === "netflix" && watch.week) {
-      var d = new Date(watch.week + "T12:00:00");
-      if (!isNaN(d)) wk = " · week of " + d.toLocaleDateString("en-GB", { day: "numeric", month: "short" });
-    }
-    wBox.innerHTML = '<h3 class="si-h">What to watch</h3>' + tabs + '<p class="si-sub">' + esc(p.label) + wk + '</p>' + body;
+    if (!watch) { wBox.innerHTML = ""; return; }
+    var w = pickWeek(watch);
+    if (!w) { wBox.innerHTML = ""; return; }
+    films = w.films || [];
+    wBox.innerHTML = '<h3 class="si-h">This week\'s film picks</h3><p class="si-sub">' + esc(w.title) + '</p>' +
+      '<div class="fm-grid">' + films.map(tile).join("") + '</div>';
   }
+  function showFilm(i) {
+    var f = films[i]; if (!f) return;
+    var h = Math.floor(f.mins / 60), m = f.mins % 60;
+    detail.innerHTML = '<div class="fm-d-top fm-' + esc(f.mood) + '"><span class="fm-glow"></span>' +
+      '<button type="button" class="fm-back press" data-back aria-label="Back to the film picks">‹ Back</button>' +
+      '<span class="fm-d-genre">' + esc(f.genre) + '</span><h3 class="fm-d-title">' + esc(f.title) + '</h3>' +
+      '<p class="fm-d-facts">' + f.year + ' · ' + h + 'h ' + (m < 10 ? "0" : "") + m + 'm</p></div>' +
+      '<div class="fm-d-body">' +
+      '<div class="fm-score"><span class="fm-score-n">' + Number(f.imdb).toFixed(1) + '</span><span class="fm-score-l">IMDb rating<small>out of 10</small></span></div>' +
+      (f.awards ? '<p class="fm-awards">🏆 ' + esc(f.awards) + '</p>' : '') +
+      '<p class="fm-about">' + esc(f.about) + '</p>' +
+      '<p class="fm-take"><b>myRock says:</b> ' + esc(f.take) + '</p>' +
+      '<div class="fm-row"><span>Director</span><b>' + esc(f.director) + '</b></div>' +
+      '<div class="fm-row"><span>Starring</span><b>' + esc(f.cast.join(", ")) + '</b></div>' +
+      '</div>';
+    detail.hidden = false;
+    var sh = wrap.querySelector(".sheet"); if (sh) sh.scrollTop = 0;
+    var bk = detail.querySelector("[data-back]"); if (bk) bk.focus();
+  }
+  function hideFilm() { detail.hidden = true; detail.innerHTML = ""; }
 
   function load() {
     if (loaded) return; loaded = true;
     wBox.innerHTML = '<div class="skeleton" style="height:220px;border-radius:22px"></div>';
     fetch("data/football.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).then(football).catch(function () {});
-    fetch("data/stayin.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).then(function (d) {
-      if (d && !d.platforms && (d.tv || d.films)) { // old format fallback
-        d.platforms = [{ id: "netflix", name: "Netflix", label: "Top 10 in Malta this week",
-          items: (d.tv || []).map(function (x) { x.kind = "tv"; return x; }).concat((d.films || []).map(function (x) { x.kind = "movie"; return x; })) }];
-      }
+    fetch("data/films.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).then(function (d) {
       watch = d; renderWatch();
     }).catch(function () { wBox.innerHTML = '<p class="si-sub">The watch list is taking a nap. Try again in a bit.</p>'; loaded = false; });
   }
@@ -89,6 +94,7 @@
     setTimeout(function () { var x = wrap.querySelector(".sheet-x"); if (x) x.focus(); }, 50);
   }
   function close() {
+    hideFilm();
     wrap.classList.remove("show");
     document.documentElement.classList.remove("sheet-open");
     setTimeout(function () { wrap.hidden = true; }, 260);
@@ -96,11 +102,12 @@
   }
   btn.addEventListener("click", open);
   wrap.addEventListener("click", function (e) {
-    var tab = e.target.closest("[data-plat]");
-    if (tab) { current = tab.getAttribute("data-plat"); renderWatch(); return; }
+    var fc = e.target.closest("[data-film]");
+    if (fc) { showFilm(+fc.getAttribute("data-film")); return; }
+    if (e.target.closest("[data-back]")) { hideFilm(); return; }
     if (e.target.closest("[data-knock]")) { close(); var t = document.querySelector('[data-tab="knock"]'); if (t) setTimeout(function () { t.click(); }, 280); return; }
     if (e.target.closest("[data-close]")) close();
   });
-  document.addEventListener("keydown", function (e) { if (e.key === "Escape" && !wrap.hidden) close(); });
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape" && !wrap.hidden) { if (!detail.hidden) hideFilm(); else close(); } });
   if (location.hash === "#stayin") open();
 })();
