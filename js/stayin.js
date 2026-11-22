@@ -44,10 +44,11 @@
   }
   function pic(f) { return /^images\/films\/[\w.-]+$/.test(f.img || "") ? f.img : ""; }
   function tile(f, i) {
-    return '<button type="button" class="fm-card fm-' + esc(f.mood) + (pic(f) ? ' fm-pcard' : '') + ' press" data-film="' + i + '" aria-label="' + esc(f.title) + ', ' + f.year + '">' +
+    return '<button type="button" class="fm-card fm-' + esc(f.mood) + (pic(f) ? ' fm-pcard' : '') + ' press" style="--i:' + i + '" data-film="' + i + '" aria-label="' + esc(f.title) + ', ' + f.year + '">' +
       (pic(f) ? '<span class="fm-art fm-has-pic" aria-hidden="true"><img class="fm-pic" src="' + pic(f) + '" alt="" loading="lazy"></span>' : '<span class="fm-art" aria-hidden="true"><span class="fm-glow"></span><span class="fm-year">' + f.year + '</span></span>') +
       '<span class="fm-band"><span class="fm-title">' + esc(f.title) + '</span>' +
-      '<span class="fm-meta"><span class="fm-genre">' + esc(f.genre) + '</span><span class="fm-imdb">IMDb ' + Number(f.imdb).toFixed(1) + '</span></span></span></button>';
+      '<span class="fm-meta"><span class="fm-genre">' + esc(f.genre) + '</span><span class="fm-yr">' + f.year + '</span></span></span>' +
+      '<span class="fm-rate" aria-label="IMDb rating ' + Number(f.imdb).toFixed(1) + '">★ ' + Number(f.imdb).toFixed(1) + '</span></button>';
   }
   function renderWatch() {
     if (!watch) { wBox.innerHTML = ""; return; }
@@ -106,13 +107,19 @@
   }
   function hideFilm() { detail.hidden = true; detail.innerHTML = ""; }
 
+  function nav() {
+    var n = document.getElementById("stayinNav"); if (!n) return;
+    var items = [["stayinFootball", "Football", fbBox.innerHTML], ["stayinGame", "Game", gBox && gBox.innerHTML], ["stayinWatch", "Films", wBox.innerHTML], ["stayinFood", "Food", true]];
+    n.innerHTML = items.filter(function (x) { return x[2]; }).map(function (x) {
+      return '<button type="button" class="si-chip press" data-jump="' + x[0] + '">' + x[1] + '</button>'; }).join("");
+  }
   function load() {
     if (loaded) return; loaded = true;
     wBox.innerHTML = '<div class="skeleton" style="height:220px;border-radius:22px"></div>';
-    fetch("data/football.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).then(football).catch(function () {});
-    fetch("data/game.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).then(renderGame).catch(function () {});
+    fetch("data/football.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).then(function (d) { football(d); nav(); }).catch(function () {});
+    fetch("data/game.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).then(function (d) { renderGame(d); nav(); }).catch(function () {});
     fetch("data/films.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).then(function (d) {
-      watch = d; renderWatch();
+      watch = d; renderWatch(); nav();
     }).catch(function () { wBox.innerHTML = '<p class="si-sub">The watch list is taking a nap. Try again in a bit.</p>'; loaded = false; });
   }
   function open(e) {
@@ -132,6 +139,8 @@
   }
   btn.addEventListener("click", open);
   wrap.addEventListener("click", function (e) {
+    var j = e.target.closest("[data-jump]");
+    if (j) { var t = document.getElementById(j.getAttribute("data-jump")); if (t) t.scrollIntoView({ behavior: "smooth", block: "start" }); return; }
     var fc = e.target.closest("[data-film]");
     if (fc) { showFilm(+fc.getAttribute("data-film")); return; }
     if (e.target.closest("[data-game]")) { showGame(); return; }

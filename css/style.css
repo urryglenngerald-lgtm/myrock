@@ -519,3 +519,42 @@ button{font:inherit}
 .gm-txt{margin-left:0;background:rgba(72,12,110,.35)}
 /* Game card text panel: same purple-to-pink gradient as the Knock card, still see-through */
 .gm-txt{background:linear-gradient(145deg,rgba(176,38,255,.42),rgba(255,30,150,.38))}
+/* ===== Staying in: final polish ===== */
+.si-lead{font-size:15px;margin-bottom:10px}
+.si-nav{display:flex;gap:8px;overflow-x:auto;padding:2px 0 6px;scrollbar-width:none}
+.si-nav::-webkit-scrollbar{display:none}
+.si-chip{flex:none;min-height:44px;padding:0 18px;border-radius:999px;border:1px solid rgba(255,255,255,.3);background:linear-gradient(145deg,rgba(176,38,255,.42),rgba(255,30,150,.38));color:#fff;font:inherit;font-weight:800;font-size:14px;cursor:pointer}
+.si-chip:active{background:#fff;color:#4a0a6e}
+.si-h{margin:26px 0 10px;font-size:26px;line-height:1;display:flex;align-items:center;gap:10px;scroll-margin-top:12px}
+.si-h::before{content:"";flex:none;width:6px;height:22px;background:#FFD21F}
+#stayinGame,#stayinWatch,#stayinFootball{scroll-margin-top:12px}
+.si-sub{margin:0 0 12px}
+/* film cards */
+.fm-grid{gap:10px}
+.fm-rate{position:absolute;top:8px;left:8px;z-index:2;padding:4px 8px;background:#FFD21F;color:#24043a;font-weight:800;font-size:12.5px;line-height:1}
+.fm-title{font-size:21px;padding:2px 12px 0}
+.fm-meta{gap:8px}
+.fm-yr{font-size:12.5px;font-weight:700;color:rgba(255,255,255,.8)}
+.fm-genre,.fm-d-genre{border-radius:0}
+.fm-card{transition:transform .18s cubic-bezier(.2,.9,.3,1.2)}
+.fm-card:active{transform:scale(.97)}
+/* game card */
+.gm-title{font-size:28px}
+.gm-more{align-self:flex-start;padding:9px 14px;background:#FFD21F;color:#24043a;font-size:13px}
+.gm-card{transition:transform .18s cubic-bezier(.2,.9,.3,1.2)}
+.gm-card:active{transform:scale(.98)}
+/* Knock card: same flat glass language */
+.si-knock-card{border-radius:0;border:0}
+.si-knock-logo{border-radius:0;box-shadow:none}
+/* detail page */
+.fm-d-top{border-radius:0;margin:4px 0 0}
+.fm-score,.fm-take{border-radius:0;border:0}
+.fm-score{background:linear-gradient(145deg,rgba(176,38,255,.42),rgba(255,30,150,.38))}
+.fm-take{border-left:4px solid #FFD21F}
+.fm-back{border-radius:0;background:rgba(48,6,78,.6)}
+/* motion: cards rise in, detail slides up */
+@keyframes fmIn{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+.sheet-wrap.show .fm-card{animation:fmIn .38s cubic-bezier(.2,.8,.2,1) both;animation-delay:calc(var(--i,0) * 35ms + 120ms)}
+.sheet-wrap.show .gm-card{animation:fmIn .38s cubic-bezier(.2,.8,.2,1) both;animation-delay:60ms}
+.fm-detail:not([hidden]){animation:fmIn .28s cubic-bezier(.2,.8,.2,1) both}
+@media (prefers-reduced-motion:reduce){.sheet-wrap.show .fm-card,.sheet-wrap.show .gm-card,.fm-detail:not([hidden]){animation:none}.fm-card,.gm-card{transition:none}}
