@@ -517,3 +517,5 @@ button{font:inherit}
 .gm-card{background:transparent;min-height:0}
 .gm-img{position:static;width:42%;height:auto;aspect-ratio:2/3;object-position:center}
 .gm-txt{margin-left:0;background:rgba(72,12,110,.35)}
+/* Game card text panel: same purple-to-pink gradient as the Knock card, still see-through */
+.gm-txt{background:linear-gradient(145deg,rgba(176,38,255,.42),rgba(255,30,150,.38))}
