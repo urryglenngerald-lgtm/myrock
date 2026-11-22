@@ -1,0 +1,29 @@
+{
+ "weeks": [
+  {
+   "from": "2026-11-23",
+   "game": {
+    "id": "gta6",
+    "title": "Grand Theft Auto VI",
+    "img": "images/games/gta6.jpg",
+    "genre": "Open-world action",
+    "platform": "PS5 (also on Xbox Series X|S)",
+    "released": "19 November 2026",
+    "developer": "Rockstar Games",
+    "players": "1 player",
+    "age": "18+",
+    "score": 99,
+    "scoreLabel": "Metacritic, PS5",
+    "scoreNote": "critics' average out of 100, checked 22 Nov 2026",
+    "hook": "Thirteen years of waiting, and the reviews say it was worth every one.",
+    "article": [
+     "The biggest game launch in years finally landed on 19 November. GTA VI takes the series back to Vice City, a neon, Miami-style city in the fictional state of Leonida, and follows Jason and Lucia, a pair whose simple job goes wrong and drags them into a crime story that spreads across the whole state.",
+     "Critics went all in. It sits at 99 on Metacritic for PS5, level with The Legend of Zelda: Ocarina of Time for the highest score the site has ever recorded, and a long list of outlets gave it a perfect 10.",
+     "What you get is a huge open world to drive, rob and wander through: beaches, swamps, highways and a city that feels alive. It's single player, it targets 30 frames per second on every console, and on PS5 Pro it gets sharper image quality and ray-traced shadows.",
+     "Who it's for: anyone who likes crime stories, driving around with the radio on, and causing chaos between missions. Who it's not for: kids. This one is strictly for adults, with violence, strong language and mature themes throughout."
+    ],
+    "take": "Cancel your weekend plans. Actually, cancel December."
+   }
+  }
+ ]
+}

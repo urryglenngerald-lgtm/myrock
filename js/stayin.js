@@ -76,12 +76,41 @@
     var sh = wrap.querySelector(".sheet"); if (sh) sh.scrollTop = 0;
     var bk = detail.querySelector("[data-back]"); if (bk) bk.focus();
   }
+  /* ---------- game of the week ---------- */
+  var game = null, gBox = document.getElementById("stayinGame");
+  function gpic(g) { return /^images\/games\/[\w.-]+$/.test(g.img || "") ? g.img : ""; }
+  function renderGame(d) {
+    var w = pickWeek(d); game = w && w.game;
+    if (!game || !gBox) return;
+    gBox.innerHTML = '<h3 class="si-h">PS5 game of the week</h3>' +
+      '<button type="button" class="gm-card press" data-game aria-label="' + esc(game.title) + ', read more">' +
+      (gpic(game) ? '<img class="gm-img" src="' + gpic(game) + '" alt="" loading="lazy">' : '') +
+      '<span class="gm-txt"><span class="fm-genre">' + esc(game.genre) + '</span><span class="gm-title">' + esc(game.title) + '</span>' +
+      '<span class="gm-hook">' + esc(game.hook) + '</span><span class="gm-score"><b>' + esc(game.score) + '</b> ' + esc(game.scoreLabel) + '</span>' +
+      '<span class="gm-more">Read more ›</span></span></button>';
+  }
+  function showGame() {
+    var g = game; if (!g) return;
+    var row = function (k, v) { return v ? '<div class="fm-row"><span>' + k + '</span><b>' + esc(v) + '</b></div>' : ''; };
+    detail.innerHTML = '<div class="fm-d-top fm-scifi' + (gpic(g) ? ' fm-d-pic' : '') + '">' + (gpic(g) ? '<img class="fm-d-img" src="' + gpic(g) + '" alt="">' : '<span class="fm-glow"></span>') +
+      '<button type="button" class="fm-back press" data-back aria-label="Back">‹ Back</button>' +
+      '<span class="fm-d-genre">Game of the week</span><h3 class="fm-d-title">' + esc(g.title) + '</h3>' +
+      '<p class="fm-d-facts">' + esc(g.genre) + ' · ' + esc(g.age) + '</p></div><div class="fm-d-body">' +
+      '<div class="fm-score"><span class="fm-score-n">' + esc(g.score) + '</span><span class="fm-score-l">' + esc(g.scoreLabel) + '<small>' + esc(g.scoreNote) + '</small></span></div>' +
+      g.article.map(function (p) { return '<p class="fm-about">' + esc(p) + '</p>'; }).join("") +
+      '<p class="fm-take"><b>myRock says:</b> ' + esc(g.take) + '</p>' +
+      row("Released", g.released) + row("Developer", g.developer) + row("Platform", g.platform) + row("Players", g.players) + '</div>';
+    detail.hidden = false;
+    var sh = wrap.querySelector(".sheet"); if (sh) sh.scrollTop = 0;
+    var bk = detail.querySelector("[data-back]"); if (bk) bk.focus();
+  }
   function hideFilm() { detail.hidden = true; detail.innerHTML = ""; }
 
   function load() {
     if (loaded) return; loaded = true;
     wBox.innerHTML = '<div class="skeleton" style="height:220px;border-radius:22px"></div>';
     fetch("data/football.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).then(football).catch(function () {});
+    fetch("data/game.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).then(renderGame).catch(function () {});
     fetch("data/films.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).then(function (d) {
       watch = d; renderWatch();
     }).catch(function () { wBox.innerHTML = '<p class="si-sub">The watch list is taking a nap. Try again in a bit.</p>'; loaded = false; });
@@ -105,6 +134,7 @@
   wrap.addEventListener("click", function (e) {
     var fc = e.target.closest("[data-film]");
     if (fc) { showFilm(+fc.getAttribute("data-film")); return; }
+    if (e.target.closest("[data-game]")) { showGame(); return; }
     if (e.target.closest("[data-back]")) { hideFilm(); return; }
     if (e.target.closest("[data-knock]")) { close(); var t = document.querySelector('[data-tab="knock"]'); if (t) setTimeout(function () { t.click(); }, 280); return; }
     if (e.target.closest("[data-close]")) close();
