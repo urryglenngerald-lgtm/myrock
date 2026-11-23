@@ -43,20 +43,43 @@
     return cur;
   }
   function pic(f) { return /^images\/films\/[\w.-]+$/.test(f.img || "") ? f.img : ""; }
-  function tile(f, i) {
-    return '<button type="button" class="fm-card fm-' + esc(f.mood) + (pic(f) ? ' fm-pcard' : '') + ' press" style="--i:' + i + '" data-film="' + i + '" aria-label="' + esc(f.title) + ', ' + f.year + '">' +
-      (pic(f) ? '<span class="fm-art fm-has-pic" aria-hidden="true"><img class="fm-pic" src="' + pic(f) + '" alt="" loading="lazy"></span>' : '<span class="fm-art" aria-hidden="true"><span class="fm-glow"></span><span class="fm-year">' + f.year + '</span></span>') +
-      '<span class="fm-band"><span class="fm-title">' + esc(f.title) + '</span>' +
-      '<span class="fm-meta"><span class="fm-genre">' + esc(f.genre) + '</span><span class="fm-yr">' + f.year + '</span></span></span>' +
-      '<span class="fm-rate" aria-label="IMDb rating ' + Number(f.imdb).toFixed(1) + '">★ ' + Number(f.imdb).toFixed(1) + '</span></button>';
+  var MOODS = { crime: "Crime", thriller: "Thriller", classic: "Classics", comedy: "Comedy", scifi: "Sci-fi", action: "Action", animation: "Animation", drama: "Drama" };
+  var BM = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"/></svg>';
+  var curFilter = "all";
+  function savedFilms() { try { return JSON.parse(localStorage.getItem("myrock_films_saved") || "[]"); } catch (e) { return []; } }
+  function toggleFilm(id) {
+    var s = savedFilms(), k = s.indexOf(id);
+    if (k === -1) s.push(id); else s.splice(k, 1);
+    try { localStorage.setItem("myrock_films_saved", JSON.stringify(s)); } catch (e) {}
+    return k === -1;
+  }
+  function tile(f, i, n) {
+    var on = savedFilms().indexOf(f.id) !== -1;
+    return '<div class="fx-card" style="--i:' + n + '">' +
+      '<button type="button" class="fx-poster fm-' + esc(f.mood) + ' press" data-film="' + i + '" aria-label="' + esc(f.title) + ', ' + f.year + ', details">' +
+      (pic(f) ? '<img src="' + pic(f) + '" alt="" loading="lazy">' : '<span class="fm-art"><span class="fm-glow"></span></span>') +
+      '<span class="fx-rate" aria-label="IMDb rating ' + Number(f.imdb).toFixed(1) + '"><i>★</i> ' + Number(f.imdb).toFixed(1) + '</span></button>' +
+      '<button type="button" class="fx-save" data-fsave="' + esc(f.id) + '" aria-pressed="' + on + '" aria-label="Save ' + esc(f.title) + '">' + BM + '</button>' +
+      '<span class="fx-title">' + esc(f.title) + '</span><span class="fx-meta">' + f.year + ' · ' + esc(f.genre) + '</span></div>';
   }
   function renderWatch() {
     if (!watch) { wBox.innerHTML = ""; return; }
     var w = pickWeek(watch);
     if (!w) { wBox.innerHTML = ""; return; }
     films = w.films || [];
-    wBox.innerHTML = '<h3 class="si-h">This week\'s film picks</h3><p class="si-sub">' + esc(w.title) + '</p>' +
-      '<div class="fm-grid">' + films.map(tile).join("") + '</div>';
+    var moods = []; films.forEach(function (f) { if (moods.indexOf(f.mood) === -1) moods.push(f.mood); });
+    var sv = savedFilms();
+    var chips = [["all", "All films"]].concat(moods.map(function (m) { return [m, MOODS[m] || m]; }));
+    if (films.some(function (f) { return sv.indexOf(f.id) !== -1; })) chips.push(["saved", "Saved"]);
+    if (!chips.some(function (c) { return c[0] === curFilter; })) curFilter = "all";
+    var n = 0, cards = films.map(function (f, i) {
+      var show = curFilter === "all" || (curFilter === "saved" ? sv.indexOf(f.id) !== -1 : f.mood === curFilter);
+      return show ? tile(f, i, n++) : "";
+    }).join("");
+    wBox.innerHTML = '<h3 class="si-h">This week\'s film picks</h3><p class="fx-sub">' + films.length + ' great films. One hard choice.</p>' +
+      '<div class="fx-chips" role="tablist" aria-label="Filter films">' + chips.map(function (c) {
+        return '<button type="button" role="tab" class="fx-chip" data-ffilter="' + c[0] + '" aria-selected="' + (c[0] === curFilter) + '">' + c[1] + '</button>'; }).join("") + '</div>' +
+      '<div class="fx-grid">' + cards + '</div>';
   }
   function showFilm(i) {
     var f = films[i]; if (!f) return;
@@ -141,6 +164,11 @@
   wrap.addEventListener("click", function (e) {
     var j = e.target.closest("[data-jump]");
     if (j) { var t = document.getElementById(j.getAttribute("data-jump")); if (t) t.scrollIntoView({ behavior: "smooth", block: "start" }); return; }
+    var ff = e.target.closest("[data-ffilter]");
+    if (ff) { curFilter = ff.getAttribute("data-ffilter"); renderWatch(); return; }
+    var fs = e.target.closest("[data-fsave]");
+    if (fs) { var on = toggleFilm(fs.getAttribute("data-fsave")); fs.setAttribute("aria-pressed", on); if (navigator.vibrate) navigator.vibrate(10);
+      if (curFilter === "saved" || !document.querySelector('[data-ffilter="saved"]') === on) renderWatch(); return; }
     var fc = e.target.closest("[data-film]");
     if (fc) { showFilm(+fc.getAttribute("data-film")); return; }
     if (e.target.closest("[data-game]")) { showGame(); return; }

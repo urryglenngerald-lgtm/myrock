@@ -558,3 +558,39 @@ button{font:inherit}
 .sheet-wrap.show .gm-card{animation:fmIn .38s cubic-bezier(.2,.8,.2,1) both;animation-delay:60ms}
 .fm-detail:not([hidden]){animation:fmIn .28s cubic-bezier(.2,.8,.2,1) both}
 @media (prefers-reduced-motion:reduce){.sheet-wrap.show .fm-card,.sheet-wrap.show .gm-card,.fm-detail:not([hidden]){animation:none}.fm-card,.gm-card{transition:none}}
+/* ===== Film picks v3: clean poster grid, quiet dark sheet, pink for interaction ===== */
+.si-sheet{background:linear-gradient(180deg,#1d0b29 0%,#140819 100%)}
+.fx-sub{margin:-2px 0 12px;color:rgba(255,255,255,.62);font-size:15px}
+.fx-chips{display:flex;gap:8px;overflow-x:auto;padding:2px 0 14px;scrollbar-width:none}
+.fx-chips::-webkit-scrollbar{display:none}
+.fx-chip{flex:none;min-height:44px;padding:0 18px;border-radius:999px;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.07);color:#fff;font:inherit;font-weight:600;font-size:14.5px;cursor:pointer;transition:background .18s,transform .18s}
+.fx-chip[aria-selected="true"]{background:#FF2E82;border-color:#FF2E82;font-weight:800}
+.fx-chip:active{transform:scale(.96)}
+.fx-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 14px}
+.fx-card{position:relative;display:flex;flex-direction:column;min-width:0}
+.fx-poster{position:relative;display:block;width:100%;aspect-ratio:1/1;padding:0;border:0;border-radius:14px;overflow:hidden;background:#24102f;cursor:pointer;transition:transform .18s cubic-bezier(.2,.9,.3,1.2)}
+.fx-poster:active{transform:scale(.97)}
+.fx-poster img{width:100%;height:100%;object-fit:cover;object-position:center 18%;display:block}
+.fx-poster .fm-art{position:absolute;inset:0;aspect-ratio:auto}
+.fx-rate{position:absolute;top:8px;left:8px;display:flex;align-items:center;gap:4px;padding:5px 9px;border-radius:9px;background:rgba(15,6,20,.78);color:#fff;font-weight:800;font-size:13.5px;line-height:1}
+.fx-rate i{font-style:normal;color:#FFC83D}
+.fx-save{position:absolute;top:0;right:0;width:44px;height:44px;display:grid;place-items:center;border:0;background:none;color:#fff;cursor:pointer;filter:drop-shadow(0 1px 3px rgba(0,0,0,.7));transition:transform .2s cubic-bezier(.2,.9,.3,1.4)}
+.fx-save[aria-pressed="true"]{color:#FF2E82;transform:scale(1.12)}
+.fx-save[aria-pressed="true"] svg{fill:#FF2E82}
+.fx-title{margin-top:9px;font-weight:800;font-size:17px;line-height:1.15;color:#fff;letter-spacing:-.2px}
+.fx-meta{margin-top:3px;font-size:13.5px;color:rgba(255,255,255,.58)}
+.sheet-wrap.show .fx-card{animation:fmIn .38s cubic-bezier(.2,.8,.2,1) both;animation-delay:calc(var(--i,0) * 35ms + 80ms)}
+/* jump chips and section marks follow the same quiet language */
+.si-chip{background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.14);font-weight:600}
+.si-h::before{background:#FF2E82}
+@media (min-width:600px){.fx-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (prefers-reduced-motion:reduce){.sheet-wrap.show .fx-card{animation:none}.fx-poster,.fx-save,.fx-chip{transition:none}}
+/* game card follows the cleaner direction */
+.gm-card{border-radius:14px;border:1px solid rgba(255,255,255,.14);overflow:hidden}
+.gm-txt{background:rgba(255,255,255,.06)}
+.gm-title{font-family:inherit;font-weight:800;font-size:22px;text-transform:none;letter-spacing:-.3px}
+.gm-card .fm-genre{background:rgba(255,255,255,.12);color:#fff;border-radius:999px;padding:4px 10px}
+.gm-more{background:#FF2E82;color:#fff;border-radius:999px;padding:10px 16px}
+.gm-score b{color:#FFC83D}
+.si-knock-card{border-radius:14px;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.06)}
+.si-knock-logo{border-radius:12px}
