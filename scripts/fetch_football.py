@@ -16,8 +16,8 @@ res = {"updated": now.isoformat(timespec="minutes"), "source": "football-data.or
 
 key = os.environ.get("FOOTBALL_DATA_KEY", "").strip()
 if not key:
-    print("No FOOTBALL_DATA_KEY yet, writing an empty list.")
-    res["pending"] = True
+    print("No FOOTBALL_DATA_KEY: keeping the fixtures loaded by hand.")
+    raise SystemExit(0)
 else:
     url = ("https://api.football-data.org/v4/matches?competitions=%s&dateFrom=%s&dateTo=%s"
            % (",".join(c for c, _ in COMPS), (today - datetime.timedelta(days=1)).isoformat(), days[-1].isoformat()))

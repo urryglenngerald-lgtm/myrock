@@ -1,7 +1,7 @@
 name: Update Sunday pharmacies
 on:
   schedule:
-    - cron: "0 6 * * 1"   # every Monday morning, picks up any roster changes
+    - cron: "20 5 * * *"   # every morning, so a skipped run never leaves the roster stale
   workflow_dispatch: {}
 permissions:
   contents: write

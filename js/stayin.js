@@ -12,9 +12,10 @@
 
   /* ---------- football ---------- */
   function football(d) {
-    var ms = (d && d.matches) || [];
-    if (!ms.length) { fbBox.innerHTML = ""; return; }
     var today = new Date().toLocaleDateString("en-CA", { timeZone: "Europe/Malta" });
+    var tmr = new Date(Date.now() + 864e5).toLocaleDateString("en-CA", { timeZone: "Europe/Malta" });
+    var ms = ((d && d.matches) || []).filter(function (m) { var k = m.ko.slice(0, 10); return k === today || k === tmr; });
+    if (!ms.length) { fbBox.innerHTML = ""; return; }
     var groups = {};
     ms.forEach(function (m) { var k = m.ko.slice(0, 10); (groups[k] = groups[k] || []).push(m); });
     var html = '<h3 class="si-h">Football on TV</h3>';
