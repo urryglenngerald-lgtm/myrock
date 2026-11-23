@@ -594,3 +594,12 @@ button{font:inherit}
 .gm-score b{color:#FFC83D}
 .si-knock-card{border-radius:14px;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.06)}
 .si-knock-logo{border-radius:12px}
+
+/* Football this week: day chips + compact rows */
+.fbw{margin:0 0 12px;padding:14px 16px;border-radius:14px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.14)}
+.fbw-lg{margin:0 0 8px;font-size:11.5px;font-weight:800;letter-spacing:.8px;text-transform:uppercase;color:#FFD21F}
+.fbw-row{display:flex;align-items:baseline;gap:14px;padding:9px 0;border-top:1px solid rgba(255,255,255,.09)}
+.fbw-lg+.fbw-row{border-top:0}
+.fbw-t{flex:none;width:48px;font-weight:800;font-size:15px;color:#FF7AB0;font-variant-numeric:tabular-nums}
+.fbw-m{flex:1;min-width:0;font-size:16px;font-weight:600;line-height:1.3}
+.fbw-m em{font-style:normal;opacity:.55;font-weight:500;font-size:13px;margin:0 2px}

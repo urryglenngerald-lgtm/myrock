@@ -11,27 +11,33 @@
   function safe(u) { return /^https:\/\/(www\.imdb\.com|image\.tmdb\.org)\//.test(u || "") ? u : ""; }
 
   /* ---------- football ---------- */
+  var fbData = null, fbDay = null;
   function football(d) {
+    if (d) fbData = d;
     var today = new Date().toLocaleDateString("en-CA", { timeZone: "Europe/Malta" });
-    var tmr = new Date(Date.now() + 864e5).toLocaleDateString("en-CA", { timeZone: "Europe/Malta" });
-    var ms = ((d && d.matches) || []).filter(function (m) { var k = m.ko.slice(0, 10); return k === today || k === tmr; });
+    var ms = ((fbData && fbData.matches) || []).filter(function (m) { return m.ko.slice(0, 10) >= today; });
     if (!ms.length) { fbBox.innerHTML = ""; return; }
-    var groups = {};
-    ms.forEach(function (m) { var k = m.ko.slice(0, 10); (groups[k] = groups[k] || []).push(m); });
-    var html = '<h3 class="si-h">Football on TV</h3>';
-    Object.keys(groups).sort().forEach(function (k) {
-      html += '<p class="si-sub">' + (k === today ? "Tonight" : "Tomorrow") + '</p><div class="fb-grid">';
-      groups[k].forEach(function (m) {
-        var t = m.ko.slice(11, 16);
-        var right = m.state === "in" ? '<span class="fb-live">LIVE ' + esc(m.score) + '</span>' :
-          m.state === "post" ? '<span class="fb-ft">FT ' + esc(m.score) + '</span>' :
-          m.state === "off" ? '<span class="fb-ft">Off</span>' : '<span class="fb-time">' + t + '</span>';
-        html += '<div class="fb-card"><div class="fb-top"><span class="fd-chip">' + esc(m.league) + '</span>' + right + '</div>' +
-          '<div class="fb-teams"><span>' + esc(m.home) + '</span><em>v</em><span>' + esc(m.away) + '</span></div></div>';
+    var days = []; ms.forEach(function (m) { var k = m.ko.slice(0, 10); if (days.indexOf(k) === -1) days.push(k); });
+    days.sort();
+    if (days.indexOf(fbDay) === -1) fbDay = days[0];
+    var html = '<h3 class="si-h">Football this week</h3><p class="fx-sub">Kick-off times in Malta time.</p>' +
+      '<div class="fx-chips" role="tablist" aria-label="Pick a day">' + days.map(function (k) {
+        var dt = new Date(k + "T12:00:00");
+        var lab = k === today ? "Today" : dt.toLocaleDateString("en-GB", { weekday: "short", day: "numeric", month: "short" });
+        return '<button type="button" role="tab" class="fx-chip" data-fday="' + k + '" aria-selected="' + (k === fbDay) + '">' + lab + '</button>'; }).join("") + '</div>';
+    var groups = [], seen = {};
+    ms.forEach(function (m) { if (m.ko.slice(0, 10) !== fbDay) return; if (!seen[m.league]) { seen[m.league] = []; groups.push(m.league); } seen[m.league].push(m); });
+    groups.forEach(function (lg) {
+      html += '<div class="fbw"><p class="fbw-lg">' + esc(lg) + '</p>';
+      seen[lg].forEach(function (m) {
+        var right = m.state === "off" ? "Off" : m.ko.slice(11, 16);
+        html += '<div class="fbw-row"><span class="fbw-t">' + esc(right) + '</span><span class="fbw-m">' + esc(m.home) + ' <em>v</em> ' + esc(m.away) + '</span></div>';
       });
       html += '</div>';
     });
     fbBox.innerHTML = html;
+    var sel = fbBox.querySelector('.fx-chip[aria-selected="true"]'), row = fbBox.querySelector(".fx-chips");
+    if (sel && row) row.scrollLeft = Math.max(0, sel.offsetLeft - row.offsetLeft - 16);
   }
 
   /* ---------- weekly film picks ---------- */
@@ -165,6 +171,8 @@
   wrap.addEventListener("click", function (e) {
     var j = e.target.closest("[data-jump]");
     if (j) { var t = document.getElementById(j.getAttribute("data-jump")); if (t) t.scrollIntoView({ behavior: "smooth", block: "start" }); return; }
+    var fd = e.target.closest("[data-fday]");
+    if (fd) { fbDay = fd.getAttribute("data-fday"); football(); return; }
     var ff = e.target.closest("[data-ffilter]");
     if (ff) { curFilter = ff.getAttribute("data-ffilter"); renderWatch(); return; }
     var fs = e.target.closest("[data-fsave]");
