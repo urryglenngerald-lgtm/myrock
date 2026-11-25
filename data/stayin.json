@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-24",
- "week": "2026-11-15",
+ "updated": "2026-11-25",
+ "week": "2026-11-22",
  "tmdb": false,
  "platforms": [
   {
@@ -9,144 +9,144 @@
    "label": "Top 10 in Malta this week",
    "items": [
     {
-     "title": "Black Doves: Season 2",
+     "title": "The Body: Season 1",
      "kind": "tv",
      "rank": 1,
      "weeks": 2,
-     "imdb": "https://www.imdb.com/find/?q=Black%20Doves"
-    },
-    {
-     "title": "Taken: Natalee Holloway: Season 1",
-     "kind": "tv",
-     "rank": 2,
-     "weeks": 2,
-     "imdb": "https://www.imdb.com/find/?q=Taken%3A%20Natalee%20Holloway"
-    },
-    {
-     "title": "Lupin: Part 4",
-     "kind": "tv",
-     "rank": 3,
-     "weeks": 4,
-     "imdb": "https://www.imdb.com/find/?q=Lupin"
+     "imdb": "https://www.imdb.com/find/?q=The%20Body"
     },
     {
      "title": "The Empress: Season 3",
      "kind": "tv",
+     "rank": 2,
+     "weeks": 2,
+     "imdb": "https://www.imdb.com/find/?q=The%20Empress"
+    },
+    {
+     "title": "Black Doves: Season 2",
+     "kind": "tv",
+     "rank": 3,
+     "weeks": 3,
+     "imdb": "https://www.imdb.com/find/?q=Black%20Doves"
+    },
+    {
+     "title": "Murder in Galicia: Limited Series",
+     "kind": "tv",
      "rank": 4,
      "weeks": 1,
-     "imdb": "https://www.imdb.com/find/?q=The%20Empress"
+     "imdb": "https://www.imdb.com/find/?q=Murder%20in%20Galicia"
+    },
+    {
+     "title": "The Law of Beasts: Season 1",
+     "kind": "tv",
+     "rank": 5,
+     "weeks": 1,
+     "imdb": "https://www.imdb.com/find/?q=The%20Law%20of%20Beasts"
+    },
+    {
+     "title": "Cunk on Cinema: Season 1",
+     "kind": "tv",
+     "rank": 6,
+     "weeks": 1,
+     "imdb": "https://www.imdb.com/find/?q=Cunk%20on%20Cinema"
+    },
+    {
+     "title": "Alicia's Law: Season 1",
+     "kind": "tv",
+     "rank": 7,
+     "weeks": 1,
+     "imdb": "https://www.imdb.com/find/?q=Alicia%27s%20Law"
+    },
+    {
+     "title": "Lupin: Part 4",
+     "kind": "tv",
+     "rank": 8,
+     "weeks": 5,
+     "imdb": "https://www.imdb.com/find/?q=Lupin"
+    },
+    {
+     "title": "ChiaroScuro: Season 1",
+     "kind": "tv",
+     "rank": 9,
+     "weeks": 1,
+     "imdb": "https://www.imdb.com/find/?q=ChiaroScuro"
     },
     {
      "title": "Black Doves: Season 1",
      "kind": "tv",
-     "rank": 5,
-     "weeks": 6,
+     "rank": 10,
+     "weeks": 7,
      "imdb": "https://www.imdb.com/find/?q=Black%20Doves"
     },
     {
-     "title": "The Body: Season 1",
-     "kind": "tv",
-     "rank": 6,
-     "weeks": 1,
-     "imdb": "https://www.imdb.com/find/?q=The%20Body"
-    },
-    {
-     "title": "A Couple of Lies: Limited Series",
-     "kind": "tv",
-     "rank": 7,
-     "weeks": 3,
-     "imdb": "https://www.imdb.com/find/?q=A%20Couple%20of%20Lies"
-    },
-    {
-     "title": "Doozie's Doghouse: Season 1",
-     "kind": "tv",
-     "rank": 8,
-     "weeks": 1,
-     "imdb": "https://www.imdb.com/find/?q=Doozie%27s%20Doghouse"
-    },
-    {
-     "title": "Anaesthesia: Season 1",
-     "kind": "tv",
-     "rank": 9,
-     "weeks": 1,
-     "imdb": "https://www.imdb.com/find/?q=Anaesthesia"
-    },
-    {
-     "title": "Nobody Wants This: Season 3",
-     "kind": "tv",
-     "rank": 10,
-     "weeks": 4,
-     "imdb": "https://www.imdb.com/find/?q=Nobody%20Wants%20This"
-    },
-    {
-     "title": "A Dog's Perfect Christmas",
+     "title": "Guarding Stars",
      "kind": "movie",
      "rank": 1,
-     "weeks": 2,
-     "imdb": "https://www.imdb.com/find/?q=A%20Dog%27s%20Perfect%20Christmas"
+     "weeks": 1,
+     "imdb": "https://www.imdb.com/find/?q=Guarding%20Stars"
+    },
+    {
+     "title": "Heartland",
+     "kind": "movie",
+     "rank": 2,
+     "weeks": 1,
+     "imdb": "https://www.imdb.com/find/?q=Heartland"
+    },
+    {
+     "title": "Drop",
+     "kind": "movie",
+     "rank": 3,
+     "weeks": 1,
+     "imdb": "https://www.imdb.com/find/?q=Drop"
+    },
+    {
+     "title": "Dr. Seuss' The Grinch",
+     "kind": "movie",
+     "rank": 4,
+     "weeks": 22,
+     "imdb": "https://www.imdb.com/find/?q=Dr.%20Seuss%27%20The%20Grinch"
     },
     {
      "title": "The Christmas Switch",
      "kind": "movie",
-     "rank": 2,
-     "weeks": 1,
+     "rank": 5,
+     "weeks": 2,
      "imdb": "https://www.imdb.com/find/?q=The%20Christmas%20Switch"
     },
     {
-     "title": "The Good Lawyer",
+     "title": "Russell Brand: Open Secret",
      "kind": "movie",
-     "rank": 3,
+     "rank": 6,
      "weeks": 1,
-     "imdb": "https://www.imdb.com/find/?q=The%20Good%20Lawyer"
-    },
-    {
-     "title": "Return to Christmas Creek",
-     "kind": "movie",
-     "rank": 4,
-     "weeks": 1,
-     "imdb": "https://www.imdb.com/find/?q=Return%20to%20Christmas%20Creek"
+     "imdb": "https://www.imdb.com/find/?q=Russell%20Brand%3A%20Open%20Secret"
     },
     {
      "title": "Never Surrender",
      "kind": "movie",
-     "rank": 5,
-     "weeks": 1,
+     "rank": 7,
+     "weeks": 2,
      "imdb": "https://www.imdb.com/find/?q=Never%20Surrender"
+    },
+    {
+     "title": "Steps",
+     "kind": "movie",
+     "rank": 8,
+     "weeks": 1,
+     "imdb": "https://www.imdb.com/find/?q=Steps"
     },
     {
      "title": "The Unthinkable Daughter",
      "kind": "movie",
-     "rank": 6,
-     "weeks": 1,
-     "imdb": "https://www.imdb.com/find/?q=The%20Unthinkable%20Daughter"
-    },
-    {
-     "title": "Christmas in Love",
-     "kind": "movie",
-     "rank": 7,
+     "rank": 9,
      "weeks": 2,
-     "imdb": "https://www.imdb.com/find/?q=Christmas%20in%20Love"
+     "imdb": "https://www.imdb.com/find/?q=The%20Unthinkable%20Daughter"
     },
     {
      "title": "How the Grinch Stole Christmas",
      "kind": "movie",
-     "rank": 8,
-     "weeks": 12,
-     "imdb": "https://www.imdb.com/find/?q=How%20the%20Grinch%20Stole%20Christmas"
-    },
-    {
-     "title": "All the Pretty Horses",
-     "kind": "movie",
-     "rank": 9,
-     "weeks": 1,
-     "imdb": "https://www.imdb.com/find/?q=All%20the%20Pretty%20Horses"
-    },
-    {
-     "title": "War",
-     "kind": "movie",
      "rank": 10,
-     "weeks": 4,
-     "imdb": "https://www.imdb.com/find/?q=War"
+     "weeks": 13,
+     "imdb": "https://www.imdb.com/find/?q=How%20the%20Grinch%20Stole%20Christmas"
     }
    ]
   }
