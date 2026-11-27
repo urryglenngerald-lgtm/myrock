@@ -613,7 +613,7 @@ button{font:inherit}
 .ge-txt{margin:0;font-size:15.5px;line-height:1.5;color:rgba(255,255,255,.9)}
 .ge-soon{margin:0;font-weight:800;font-size:14px;color:#FFD21F}
 .ge-btn{align-self:flex-start;display:inline-flex;align-items:center;min-height:48px;padding:0 20px;border-radius:999px;background:#FF2E82;color:#fff;font-weight:800;font-size:15px;text-decoration:none;box-shadow:0 0 18px rgba(255,46,130,.55)}
-@media (min-width:600px){.ge{display:flex;align-items:stretch}.ge-img{width:46%;aspect-ratio:auto}.ge-body{flex:1;justify-content:center}}
+@media (min-width:600px){.ge{position:relative;display:flex;flex-direction:column;justify-content:flex-end;align-items:stretch;min-height:clamp(640px,96vw,900px)}.ge-img{position:absolute;inset:0;width:100%;height:100%;aspect-ratio:auto;object-fit:cover;object-position:50% 35%}.ge-body{position:relative;width:100%;padding:90px 32px 30px;background:linear-gradient(to top,rgba(20,6,15,.97) 62%,rgba(20,6,15,0))}}
 
 /* Knock switched off: 3-tab bar; Gerald Eats lives on Discover */
 .no-knock .tabbar{grid-template-columns:repeat(3,minmax(0,1fr))}
