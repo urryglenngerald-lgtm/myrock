@@ -15,6 +15,9 @@ window.MYROCK_CONFIG = {
     instagram: ""
   },
 
+  // Knock (the food billboard). false = hidden everywhere, code kept for later. Set to true to bring it back.
+  knock: false,
+
   // Where "Get on Knock" sends restaurants. Empty = uses adEmail, or shows "opens soon".
   knockEmail: "geraldsmediahouse@gmail.com",
 

@@ -614,3 +614,8 @@ button{font:inherit}
 .ge-soon{margin:0;font-weight:800;font-size:14px;color:#FFD21F}
 .ge-btn{align-self:flex-start;display:inline-flex;align-items:center;min-height:48px;padding:0 20px;border-radius:999px;background:#FF2E82;color:#fff;font-weight:800;font-size:15px;text-decoration:none;box-shadow:0 0 18px rgba(255,46,130,.55)}
 @media (min-width:600px){.ge{display:flex;align-items:stretch}.ge-img{width:46%;aspect-ratio:auto}.ge-body{flex:1;justify-content:center}}
+
+/* Knock switched off: 3-tab bar; Gerald Eats lives on Discover */
+.no-knock .tabbar{grid-template-columns:repeat(3,minmax(0,1fr))}
+.no-knock .tab-ind{width:calc((100% - 12px)/3)}
+#geraldEats{scroll-margin-top:16px}

@@ -275,7 +275,12 @@
   }
 
   /* ---------- tabs ---------- */
-  var TAB_INDEX = { discover: 0, knock: 1, saved: 2, useful: 3 };
+  var KNOCK_ON = (window.MYROCK_CONFIG || {}).knock !== false;
+  var TAB_INDEX = KNOCK_ON ? { discover: 0, knock: 1, saved: 2, useful: 3 } : { discover: 0, saved: 1, useful: 2 };
+  if (!KNOCK_ON) {
+    var kb = document.querySelector('.tab[data-tab="knock"]'); if (kb) kb.remove();
+    document.documentElement.classList.add("no-knock");
+  }
   var VIEW_FOR = { discover: "view-discover", useful: "view-discover", knock: "view-knock", saved: "view-saved" };
   function setTab(tab) {
     if (!(tab in TAB_INDEX)) tab = "discover";
@@ -370,7 +375,11 @@
     if (CFG.adEmail) ad.href = "mailto:" + CFG.adEmail + "?subject=" + encodeURIComponent("Advertise on myRock");
     else ad.addEventListener("click", function (e) { e.preventDefault(); toast("Advertising opens soon"); });
 
-    $("knockTile").addEventListener("click", function (e) { e.preventDefault(); setTab("knock"); });
+    $("knockTile").addEventListener("click", function (e) {
+      e.preventDefault();
+      if (KNOCK_ON) { setTab("knock"); return; }
+      var g = $("geraldEats"); if (g) g.scrollIntoView({ behavior: reduceMotion ? "auto" : "smooth", block: "start" });
+    });
 
     var s = CFG.socials || {}, html = "";
     if (s.facebook) html += '<a class="glass press" href="' + esc(safeUrl(s.facebook)) + '" target="_blank" rel="noopener noreferrer">Facebook ' + ICON.ext + "</a>";
@@ -459,9 +468,11 @@
       setWhen(mode);
     });
 
-    if (window.KNOCK) window.KNOCK.init(demo);
-    if (location.hash === "#knock") setTab("knock");
-    window.addEventListener("hashchange", function () { if (location.hash === "#knock") setTab("knock"); });
+    if (window.KNOCK && KNOCK_ON) window.KNOCK.init(demo);
+    if (KNOCK_ON) {
+      if (location.hash === "#knock") setTab("knock");
+      window.addEventListener("hashchange", function () { if (location.hash === "#knock") setTab("knock"); });
+    }
 
     loadWeather();
     setInterval(loadWeather, 30 * 60 * 1000);
