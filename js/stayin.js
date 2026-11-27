@@ -1,6 +1,7 @@
 // Staying in: tonight's football, what's popular on each streaming platform in Malta (opens IMDb), and Knock.
 (function () {
   var btn = document.getElementById("stayinBtn");
+  if ((window.MYROCK_CONFIG || {}).stayin === false) { if (btn) btn.remove(); return; }
   var wrap = document.getElementById("stayinSheet");
   if (!btn || !wrap) return;
   var fbBox = document.getElementById("stayinFootball");

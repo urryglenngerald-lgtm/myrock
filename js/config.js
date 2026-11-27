@@ -15,6 +15,9 @@ window.MYROCK_CONFIG = {
     instagram: ""
   },
 
+  // Staying in (films, PS5 game, football). false = hidden, code kept. Set to true to bring it back.
+  stayin: false,
+
   // Knock (the food billboard). false = hidden everywhere, code kept for later. Set to true to bring it back.
   knock: false,
 
