@@ -1,0 +1,39 @@
+name: Events gate
+# Checks every change to the events. Change requests (pull requests) that fail can't go in.
+# A direct push to main that fails is undone automatically.
+on:
+  pull_request:
+    paths: ["data/events.json", "images/posters/**"]
+  push:
+    branches: [main]
+    paths: ["data/events.json", "images/posters/**"]
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow
+      - name: Get the events before this change
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then BASE="${{ github.event.pull_request.base.sha }}"; else BASE="${{ github.event.before }}"; fi
+          git show "$BASE:data/events.json" > /tmp/base_events.json 2>/dev/null || echo "[]" > /tmp/base_events.json
+      - name: Check
+        id: check
+        run: python scripts/check_events.py /tmp/base_events.json
+        continue-on-error: ${{ github.event_name == 'push' }}
+      - name: Undo a bad direct push
+        if: github.event_name == 'push' && steps.check.outcome == 'failure'
+        run: |
+          git config user.name "myRock events gate"
+          git config user.email "actions@users.noreply.github.com"
+          git revert --no-edit ${{ github.event.before }}..${{ github.sha }}
+          git push
+          echo "::error::Events change refused and undone. See the Check step for the reasons."
+          exit 1
