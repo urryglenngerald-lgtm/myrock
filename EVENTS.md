@@ -6,7 +6,7 @@ Events live in `data/events.json` (one list). Posters live in `images/posters/`.
 
 1. **Max** finds the event and checks it on the organiser's own page or ticket page.
 2. **Emma** adds it as a change request (pull request) on a new branch: the event in `data/events.json` and its poster in `images/posters/`. Never push straight to `main`.
-3. The **Events gate** checks it automatically. If it fails, the reasons are listed in the check. Fix them and push again to the same branch.
+3. The **Events gate** checks it automatically. Emma's tool runs the same rules before opening the change request, so most problems come back to her straight away. If the gate still fails, fix it and send a replacement (in Blackbots: `myrock_propose` with `replaces`).
 4. **Glenn** approves (merges) the change request. Once merged, the site updates within a minute or two.
 
 One change request per batch (for example, the week's events) is best.
